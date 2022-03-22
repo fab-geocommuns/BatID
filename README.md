@@ -12,8 +12,8 @@ Vous pouvez aussi retrouver les deux premières newsletter de nos avancées,
 ## Sommaire
 - [Contexte](#Contexte)
     - [Recherche Utilisateurs](#Recherche-Utilisateurs)
-    - [Démarche - Etat d'esprit](#Démarche---Etat-d'esprit) 
-    - [Démarche - Comment procéder ? ](#Démarche---Comment-procéder-?)
+    - [Démarche - Etat d'esprit](#démarche---etat-desprit) 
+    - [Démarche - Comment procéder ? ](#démarche---comment-procéder-)
 - [Vers une Definition du bâtiment](#Vers-une-Definition-du-bâtiment)
 - [Vers une intégration dans les processus - À venir](#Vers-une-intégration-dans-les-processus---À-venir)
 - [Vers un modèle de données - À venir](#Vers-un-modèle-de-données---À-venir)
