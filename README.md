@@ -68,6 +68,7 @@ Afin d'aboutir à une définition du bâtiment satisfaisante, il est nécessaire
 - Une expérimentation terrain avec la métropole de Toulouse permettant de confronter ces réflexions à la réalité d’un territoire.
 
 Notre démarche se veut ouverte et contributive, ici et sur les forums des [géocommuns](https://forum.geocommuns.fr/) et de [team open data](https://teamopendata.org/t/identifiant-unique-batiment/2899).
+
 Suivez ce [`lien`](BUILDING_DEFINITIONS.md) pour vous embarquer dans la lecture des nombreuses définitions du bâtiment proposées et discutées lors des ateliers.
 Dans le cadre de l’expérimentation avec Toulouse Métropole, nous proposerons des premiers éléments de définition que nous aurons testé, afin que cela puisse alimenter la réflexion. Celle-ci n’est qu’un début et pourra évoluer dans le temps bien sûr !
 
