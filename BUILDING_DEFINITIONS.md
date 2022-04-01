@@ -52,5 +52,8 @@ Un bâtiment est un édifice destiné à isoler et à protéger un espace afin d
 - [Open Street Map](https://wiki.openstreetmap.org/wiki/Key:building)
 > Structure créée par l’homme, dotée d'un toit, qui se dresse de manière plus ou moins permanente à un endroit donné.
 
-- [RegBL: Registre Suisse des bâtiment et Logement](https://www.fedlex.admin.ch/eli/cc/2017/376/fr#art_2)
+- [RegBL: Registre Suisse des bâtiment et logements](https://www.fedlex.admin.ch/eli/cc/2017/376/fr#art_2)
 > Construction immobilière durable couverte, bien ancrée dans le sol, pouvant accueillir des personnes et utilisée pour l’habitat, le travail, la formation, la culture, le sport ou pour toute autre activité humaine; dans le cas de maisons jumelées, en groupe ou en rangée, chaque construction ayant son propre accès depuis l’extérieur et séparée des autres par un mur porteur de séparation vertical allant du rez-de-chaussée au toit est également considérée comme un bâtiment.
+
+- [Registre Autrichien des batiments et logements](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003223)
+> Construction dotée d'un toit et d'au moins deux murs, dans laquelle des personnes peuvent pénétrer et qui est destinée à protéger les personnes, les animaux ou les biens, et qui est séparée d'autres constructions de ce type par une construction indépendante et, dans le cas d'une construction fermée, par un mur coupe-feu allant du toit au sous-sol. Lorsque de telles constructions sont séparées par leurs propres systèmes de desserte (accès et cage d'escalier distincts) et d'alimentation et d'évacuation, chacune de ces parties constitue un bâtiment (immeubles d'habitation, maisons jumelées, groupées ou mitoyennes).
