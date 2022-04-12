@@ -140,3 +140,27 @@ PRIMARY key (id_bat, id_parcelle)
 
 
 
+-- Filiation batiment
+--------------------
+
+-- create some status type
+CREATE TYPE filiation_type AS ENUM (
+	'fusion', 'scisssion', 'correction');  -- To revise
+
+-- table
+CREATE TABLE filiation_batiment (
+	PRIMARY KEY (id_parent, id_enfant),
+	id_parent text REFERENCES batiment (id_bat),
+	id_enfant text REFERENCES batiment (id_bat),
+	type_filiation filiation_type,
+	dt_filiation date
+);
+-- table documentation
+COMMENT ON TABLE filiation_batiment IS 'Table de filiation de la table batiment';
+
+COMMENT ON COLUMN filiation_batiment.id_parent IS 'id du batment parent. clef étrangère de la table des batiments';
+COMMENT ON COLUMN filiation_batiment.id_enfant IS 'id du batiment enfant. clef étrangère de la table des batiments';
+COMMENT ON COLUMN filiation_batiment.type_filiation IS 'type de filiation des batiments : fusion / scission / correction. Il s agit de de correction s il s agissait d une erreure d initialisation dans la base. Sinon, il s agit de préciser la transformation physique: fusion / scission';
+COMMENT ON COLUMN filiation_batiment.dt_filiation IS 'Date de la filiation';
+
+
