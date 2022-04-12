@@ -83,7 +83,9 @@ Les premières éventuelles pistes de réflexions sont :
 - toute autre piste pertinente …
 
 
-## Vers un modèle de données - À venir
+## Vers un modèle de données
+
+Voir [la documentation dédiée](DATA_MODEL.md)
 
 ## Vers un découpage du parc - À venir
 
