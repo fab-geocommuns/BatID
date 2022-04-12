@@ -128,3 +128,15 @@ COMMENT ON COLUMN batiment.id_bdnb IS 'clef étrangère de l id batiment bdnb du
 COMMENT ON COLUMN batiment.geombat IS 'Géometrie du batiment';
 
 
+
+-- Relation Batiment Parcelle
+--------------------
+
+CREATE TABLE rel_batiment_parcelle (
+id_parcelle text references parcelle (id_parcelle),
+id_bat text REFERENCES batiment (id_bat),
+PRIMARY key (id_bat, id_parcelle)
+);
+
+
+
