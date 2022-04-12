@@ -75,3 +75,56 @@ COMMENT ON COLUMN enveloppe_batiment.id_enveloppe IS 'clef primaire.';
 COMMENT ON COLUMN enveloppe_batiment.source IS 'Base source, par exemple, BDTOPObatiment / BDNB / LiDAR etc.';
 COMMENT ON COLUMN enveloppe_batiment.geomenv IS 'Géometrie de l enveloppe du batiment.';
 
+
+
+-- Batiment
+--------------------
+
+-- create some status type
+CREATE TYPE statut_batiment AS ENUM (
+	'en_projet', 'annule', 'en_construction', 'existant', 'demoli');  -- To revise
+
+CREATE TYPE fiabilite_batiment AS ENUM (
+	'fiable', 'moyennement fiable', 'probleme');  -- To revise
+
+-- table creation
+CREATE TABLE batiment(
+	id_bat text PRIMARY KEY,
+	description text NULL,
+	validation bool NULL,
+	fiable fiabilite_batiment,
+	id_enveloppe text REFERENCES enveloppe_batiment(id_enveloppe),
+	entree_principale text,
+	code_iris text,
+	code_commune text,
+	code_dpt text,
+	statut statut_batiment,
+	localisation geometry(point, 2154),
+	DT_DEB date,
+	DT_FIN date,
+	id_tup text REFERENCES tup (id_tup),
+	id_bdnb text,
+	geombat geometry(multipolygon, 2154) NULL
+);
+
+-- table documentation
+COMMENT ON TABLE batiment IS 'Batiment au sens de la définition du référentiel national des batiments.';
+
+COMMENT ON COLUMN batiment.id_bat IS 'clef primaire';
+COMMENT ON COLUMN batiment.description IS 'Description du batiment, nom commmun. La tour effeil ?';
+COMMENT ON COLUMN batiment.validation IS 'Booléen. 1 si batiment proposé a été validé. 0 sinon.';
+COMMENT ON COLUMN batiment.fiable IS 'degré de fiablité du batiment issu du croisement initial';
+COMMENT ON COLUMN batiment.id_enveloppe IS 'clef étrangère de la table des enveloppes';
+COMMENT ON COLUMN batiment.entree_principale IS 'Entrée principale du batiment. Clef étrangère de la table des entrées.';
+COMMENT ON COLUMN batiment.code_iris IS 'Code IRIS INSEE';
+COMMENT ON COLUMN batiment.code_commune IS 'Identifiant commune INSEE';
+COMMENT ON COLUMN batiment.code_dpt IS 'Code département';
+COMMENT ON COLUMN batiment.statut IS 'Statut du batiment relativement à la liste des champs possible';
+COMMENT ON COLUMN batiment.localisation IS 'Localisant du batiment. Par défaut, il s agit du point à l inteieur du batiment, le plus proche du centroide de la géométrie du batiment';
+COMMENT ON COLUMN batiment.DT_DEB IS '';
+COMMENT ON COLUMN batiment.DT_FIN IS '';
+COMMENT ON COLUMN batiment.id_tup IS 'clef étrangère de la table des TUPs';
+COMMENT ON COLUMN batiment.id_bdnb IS 'clef étrangère de l id batiment bdnb du CSTB';
+COMMENT ON COLUMN batiment.geombat IS 'Géometrie du batiment';
+
+
