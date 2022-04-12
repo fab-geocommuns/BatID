@@ -207,3 +207,24 @@ COMMENT ON COLUMN entree.localisation IS 'Localisant de l entrée.';
 -- add constrain on batiment.entree_principale in being a foreign key from entree table
 ALTER TABLE batiment ADD CONSTRAINT entree_principale FOREIGN KEY (entree_principale) REFERENCES entree (id_entree) MATCH FULL;
 
+
+
+-- Local
+--------------------
+
+--table
+CREATE TABLE local(
+	id_local text PRIMARY KEY,
+	id_bat text REFERENCES batiment (id_bat),
+	id_parcelle text REFERENCES parcelle (id_parcelle),
+	id_tup text REFERENCES tup (id_tup)
+);
+
+--table documentation
+COMMENT ON TABLE local IS 'Locaux au sens fichiers fonciers.';
+
+COMMENT ON COLUMN local.id_local IS 'Clef primaire.';
+COMMENT ON COLUMN local.id_bat IS 'Clef étrangère de la table des batiments.';
+COMMENT ON COLUMN local.id_parcelle IS 'Clef étrangère de la table des parcelles.';
+COMMENT ON COLUMN local.id_tup IS 'Clef étrangère de la table des TUPs';
+
