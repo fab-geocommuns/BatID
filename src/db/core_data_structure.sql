@@ -183,3 +183,27 @@ CREATE TABLE addresse(
 );
 --table documentation
 
+
+
+-- Entree
+--------------------
+
+--table
+CREATE TABLE entree(
+	id_entree text PRIMARY KEY,
+	id_bat text REFERENCES batiment (id_bat),
+	id_adresse text REFERENCES addresse (id_adresse),
+	localisation geometry(point, 2154) NOT NULL
+);
+
+--table documentation
+COMMENT ON TABLE entree IS 'Entrées de batiment.';
+
+COMMENT ON COLUMN entree.id_entree IS 'Clef primaire.';
+COMMENT ON COLUMN entree.id_bat IS 'Clef étrangère de la table des batiments.';
+COMMENT ON COLUMN entree.id_adresse IS 'Clef étrangère de la table des addresses.';
+COMMENT ON COLUMN entree.localisation IS 'Localisant de l entrée.';
+
+-- add constrain on batiment.entree_principale in being a foreign key from entree table
+ALTER TABLE batiment ADD CONSTRAINT entree_principale FOREIGN KEY (entree_principale) REFERENCES entree (id_entree) MATCH FULL;
+
