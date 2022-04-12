@@ -228,3 +228,61 @@ COMMENT ON COLUMN local.id_bat IS 'Clef étrangère de la table des batiments.';
 COMMENT ON COLUMN local.id_parcelle IS 'Clef étrangère de la table des parcelles.';
 COMMENT ON COLUMN local.id_tup IS 'Clef étrangère de la table des TUPs';
 
+
+
+-- ADS: Aurorisations du Droits des Sols
+--------------------
+
+-- create some status type
+CREATE TYPE ads_type AS ENUM (
+	'permis_construire', 'demolition', 'permis_amenager',
+	'dact', 'doc');  -- To revise
+
+--table
+CREATE TABLE ads(
+	id_ads text PRIMARY KEY,
+	type_ads ads_type,
+	DT_DEB date,
+	id_ads_metier text
+);
+
+--table documentation
+COMMENT ON TABLE ads IS 'Aurorisations du Droits des Sols';
+
+COMMENT ON COLUMN ads.id_ads IS 'Clef primaire.';
+COMMENT ON COLUMN ads.type_ads IS 'type d autorisation du droits des sols';
+COMMENT ON COLUMN ads.DT_DEB IS '';
+COMMENT ON COLUMN ads.id_ads_metier IS 'id de l ads dans les processus métier';
+
+
+
+-- rel_ads_parcelles
+--------------------
+
+CREATE TABLE rel_ads_parcelles (
+	id_ads text REFERENCES ads (id_ads),
+	id_parcelle text references parcelle (id_parcelle),
+	PRIMARY key (id_ads, id_parcelle)
+);
+
+
+
+-- rel_ads_batiments
+--------------------
+
+CREATE TABLE rel_ads_batiments (
+	id_ads text REFERENCES ads (id_ads),
+	id_bat text references batiment (id_bat),
+	PRIMARY key (id_ads, id_bat)
+);
+
+
+
+-- rel_ads_adresse
+--------------------
+
+CREATE TABLE rel_ads_adresse (
+	id_ads text REFERENCES ads (id_ads),
+	id_adresse text references addresse (id_adresse),
+	PRIMARY key (id_ads, id_adresse)
+);
