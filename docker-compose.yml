@@ -10,7 +10,7 @@ services:
     environment:
       - POSTGRES_USER=dummy_pg_user
       - POSTGRES_PASSWORD=dummy_pg_pwd
-      - POSTGRES_DB=dummy_pg_db
+      - POSTGRES_DB=batid_db
 
 volumes:
   postgres_data:
