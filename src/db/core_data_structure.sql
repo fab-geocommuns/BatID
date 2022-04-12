@@ -57,3 +57,21 @@ COMMENT ON COLUMN parcelle.code_parcelle IS 'Identifiant de parcelle';
 COMMENT ON COLUMN parcelle.id_tup IS 'clef étrangère de la table des TUPs';
 
 
+
+-- Enveloppe batiment
+--------------------
+
+--table
+CREATE TABLE enveloppe_batiment(
+	id_enveloppe text PRIMARY KEY,
+	source text,
+	geomenv geometry(multipolygon, 2154) NOT NULL
+);
+
+--table documentation
+COMMENT ON TABLE enveloppe_batiment IS 'Table des enveloppes de batiment'; --to revise
+
+COMMENT ON COLUMN enveloppe_batiment.id_enveloppe IS 'clef primaire.';
+COMMENT ON COLUMN enveloppe_batiment.source IS 'Base source, par exemple, BDTOPObatiment / BDNB / LiDAR etc.';
+COMMENT ON COLUMN enveloppe_batiment.geomenv IS 'Géometrie de l enveloppe du batiment.';
+
