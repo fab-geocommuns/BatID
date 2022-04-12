@@ -1,0 +1,7 @@
+SQLAlchemy>=1.3.12
+geoalchemy2
+dotenv
+
+# in order to export xls dictionnary descrbing db structure
+pandas
+openpyxl
