@@ -164,3 +164,22 @@ COMMENT ON COLUMN filiation_batiment.type_filiation IS 'type de filiation des ba
 COMMENT ON COLUMN filiation_batiment.dt_filiation IS 'Date de la filiation';
 
 
+
+-- Adresse
+--------------------
+
+--table
+CREATE TABLE addresse(
+	id_adresse text PRIMARY KEY,
+	source text,
+	ban_id text,
+	numero text,
+	suffixe text,
+	nom_voie text,
+	code_post text,
+	nom_commune text,
+	code_commune_insee text,
+	nom_complementaire text
+);
+--table documentation
+
