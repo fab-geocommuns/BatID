@@ -97,6 +97,7 @@ CREATE TABLE batiment(
 	entree_principale text,
 	code_iris text,
 	code_commune text,
+	code_epci text,
 	code_dpt text,
 	statut statut_batiment,
 	localisation geometry(point, 2154),
@@ -118,6 +119,7 @@ COMMENT ON COLUMN batiment.id_enveloppe IS 'clef étrangère de la table des env
 COMMENT ON COLUMN batiment.entree_principale IS 'Entrée principale du batiment. Clef étrangère de la table des entrées.';
 COMMENT ON COLUMN batiment.code_iris IS 'Code IRIS INSEE';
 COMMENT ON COLUMN batiment.code_commune IS 'Identifiant commune INSEE';
+COMMENT ON COLUMN batiment.code_epci IS 'Identifiant EPCI (établissements publics de coopération intercommunale) INSEE';
 COMMENT ON COLUMN batiment.code_dpt IS 'Code département';
 COMMENT ON COLUMN batiment.statut IS 'Statut du batiment relativement à la liste des champs possible';
 COMMENT ON COLUMN batiment.localisation IS 'Localisant du batiment. Par défaut, il s agit du point à l inteieur du batiment, le plus proche du centroide de la géométrie du batiment';
