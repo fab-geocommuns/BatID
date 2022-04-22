@@ -57,3 +57,12 @@ Un bâtiment est un édifice destiné à isoler et à protéger un espace afin d
 
 - [Registre Autrichien des batiments et logements](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003223)
 > Construction dotée d'un toit et d'au moins deux murs, dans laquelle des personnes peuvent pénétrer et qui est destinée à protéger les personnes, les animaux ou les biens, et qui est séparée d'autres constructions de ce type par une construction indépendante et, dans le cas d'une construction fermée, par un mur coupe-feu allant du toit au sous-sol. Lorsque de telles constructions sont séparées par leurs propres systèmes de desserte (accès et cage d'escalier distincts) et d'alimentation et d'évacuation, chacune de ces parties constitue un bâtiment (immeubles d'habitation, maisons jumelées, groupées ou mitoyennes).
+
+#### Quelques exemples issus de PLU (Plan Local d'Urbanisme)
+
+- [PLU de l'Eurométropole de Strasbourg](https://www.strasbourg.eu/documents/976405/1570260/0/d0e8fe92-94a2-610f-5e82-1425bcd10f6c)
+> Désigne toute construction durable, couverte et/ou close, qui sert d’abri aux hommes, aux animaux
+ou aux objets.
+
+- [PLU Marseille](https://www.ampmetropole.fr/sites/default/files/plu/PLUi_CT1_L_Reglement.pdf)
+> Un bâtiment est une construction couverte et close.
