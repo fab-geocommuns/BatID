@@ -2,9 +2,9 @@
 
 Le modèle de données est en cours de construction. Il est mis en avant ici afin d'alimenter les discussions.
 
-Sans plus attendre, ci-dessous, le modèle entitée relation et quelques éléments de contexte. 
+Sans plus attendre, ci-dessous, le diagramme entitée relation et quelques éléments de contexte. 
 
-![image](https://user-images.githubusercontent.com/55736935/162919961-378bbbe2-3da5-47de-96b3-2e9245f94efd.png)
+![image](./docs/static/ER_diagram.png)
 
 - Le modèle de donnée bâtiment est intrinsèquement lié à la définition qui emergera pour cet objet. A ce stade, le prisme adopté ici, au dela de la notion commune autour de l'objet est qu'un batiment possède une entrée exclusive, ce qui se transcris dans le modèle par le concept d'entrée principale. 
 
