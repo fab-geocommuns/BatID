@@ -2,7 +2,7 @@
 
 Le modèle de données est en cours de construction. Il est mis en avant ici afin d'alimenter les discussions.
 
-Sans plus attendre, ci-dessous, le modèle entitée relation et quelques éléments de contexte. 
+Sans plus attendre, ci-dessous, le diagramme entitée relation et quelques éléments de contexte. 
 
 ![image](./docs/static/ER_diagram.png)
 
