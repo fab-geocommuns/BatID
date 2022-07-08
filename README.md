@@ -62,8 +62,8 @@ Pour les acteurs de terrains, ce référentiel doit être une opportunité plut�
 ## Vers une Definition du bâtiment 
 
 Afin d'aboutir à une définition du bâtiment satisfaisante, il est nécessaire de concerter largement. Pour cela, nous menons des approches multiples que l’équipe Bat-ID est chargée de coordonner pour en assurer le lien entre elles.
-- Sur la définition du bâtiment : Une approche multi-acteurs est engagée: l’équipe Bat-ID mènent des ateliers de co-création de définitions auprès de plusieurs organisations productrices de données, dont les résultats seront partagées ici pour alimenter une réflexion commune.
-- Un groupe de travail sous l'égide du Conseil National de l'information géolocalisée [CNIG](http://cnig.gouv.fr/) - site en cours de refonte) qui vise à faire remonter toutes ces réflexions au niveau institutionnel et à aboutir à un standard commun.
+- Sur la définition du bâtiment : Une approche multi-acteurs est engagée: l’équipe Bat-ID mènent des ateliers de co-création de définitions auprès de plusieurs organisations productrices de données, dont les résultats sont disponibles [ici](docs/Synthèse-Ateliers-de-Définition-Bat-ID.pdf).
+- Un [groupe de travail](http://cnig.gouv.fr/?page_id=26261) sous l'égide du Conseil National de l'information géolocalisée [CNIG](http://cnig.gouv.fr/) qui vise à faire remonter toutes ces réflexions au niveau institutionnel et à aboutir à un standard commun.
 - Une expérimentation terrain avec la métropole de Toulouse permettant de confronter ces réflexions à la réalité d’un territoire.
 
 Notre démarche se veut ouverte et contributive, ici et sur les forums des [géocommuns](https://forum.geocommuns.fr/) et de [team open data](https://teamopendata.org/t/identifiant-unique-batiment/2899).
