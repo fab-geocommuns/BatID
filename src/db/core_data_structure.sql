@@ -32,7 +32,7 @@ SET SEARCH_PATH TO rnb,public;
 
 --table
 CREATE TABLE tup(
-	id_tup text PRIMARY KEY,
+	id_tup serial PRIMARY KEY,
 	code_tup text,
 	geomtup geometry(multipolygon, 2154)
 );
@@ -50,9 +50,9 @@ COMMENT ON COLUMN tup.geomtup IS 'Géometrie de la TUP.';
 --------------------
 
 CREATE TABLE parcelle(
-	id_parcelle text PRIMARY KEY,
+	id_parcelle serial PRIMARY KEY,
 	code_parcelle text,
-	id_tup text REFERENCES tup (id_tup)
+	id_tup integer REFERENCES tup (id_tup)
 );
 
 COMMENT ON TABLE parcelle IS 'Parcelles au sens du cadastre';
@@ -68,8 +68,9 @@ COMMENT ON COLUMN parcelle.id_tup IS 'clef étrangère de la table des TUPs';
 
 --table
 CREATE TABLE enveloppe_batiment(
-	id_enveloppe text PRIMARY KEY,
+	id_enveloppe serial PRIMARY KEY,
 	source text,
+	id_source text,
 	geomenv geometry(multipolygon, 2154) NOT NULL
 );
 
@@ -94,7 +95,7 @@ CREATE TYPE fiabilite_batiment AS ENUM (
 
 -- table creation
 CREATE TABLE batiment(
-	id_bat text PRIMARY KEY,
+	id_bat serial PRIMARY KEY,
 	description text NULL,
 	validation bool NULL,
 	fiable fiabilite_batiment,
@@ -177,7 +178,7 @@ COMMENT ON COLUMN filiation_batiment.dt_filiation IS 'Date de la filiation';
 
 --table
 CREATE TABLE addresse(
-	id_adresse text PRIMARY KEY,
+	id_adresse serial PRIMARY KEY,
 	source text,
 	ban_id text,
 	numero text,
@@ -197,7 +198,7 @@ CREATE TABLE addresse(
 
 --table
 CREATE TABLE entree(
-	id_entree text PRIMARY KEY,
+	id_entree serial PRIMARY KEY,
 	id_bat text REFERENCES batiment (id_bat),
 	id_adresse text REFERENCES addresse (id_adresse),
 	localisation geometry(point, 2154) NOT NULL
@@ -221,7 +222,7 @@ ALTER TABLE batiment ADD CONSTRAINT entree_principale FOREIGN KEY (entree_princi
 
 --table
 CREATE TABLE local(
-	id_local text PRIMARY KEY,
+	id_local serial PRIMARY KEY,
 	id_bat text REFERENCES batiment (id_bat),
 	id_parcelle text REFERENCES parcelle (id_parcelle),
 	id_tup text REFERENCES tup (id_tup)
@@ -247,7 +248,7 @@ CREATE TYPE ads_type AS ENUM (
 
 --table
 CREATE TABLE ads(
-	id_ads text PRIMARY KEY,
+	id_ads serial PRIMARY KEY,
 	type_ads ads_type,
 	DT_DEB date,
 	id_ads_metier text
