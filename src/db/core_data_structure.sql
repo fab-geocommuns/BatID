@@ -140,8 +140,8 @@ COMMENT ON COLUMN batiment.geombat IS 'Géometrie du batiment';
 --------------------
 
 CREATE TABLE rel_batiment_parcelle (
-id_parcelle text references parcelle (id_parcelle),
-id_bat text REFERENCES batiment (id_bat),
+id_parcelle integer references parcelle (id_parcelle),
+id_bat integer REFERENCES batiment (id_bat),
 PRIMARY key (id_bat, id_parcelle)
 );
 
@@ -157,8 +157,8 @@ CREATE TYPE filiation_type AS ENUM (
 -- table
 CREATE TABLE filiation_batiment (
 	PRIMARY KEY (id_parent, id_enfant),
-	id_parent text REFERENCES batiment (id_bat),
-	id_enfant text REFERENCES batiment (id_bat),
+	id_parent integer REFERENCES batiment (id_bat),
+	id_enfant integer REFERENCES batiment (id_bat),
 	type_filiation filiation_type,
 	dt_filiation date
 );
@@ -198,8 +198,8 @@ CREATE TABLE addresse(
 --table
 CREATE TABLE entree(
 	id_entree serial PRIMARY KEY,
-	id_bat text REFERENCES batiment (id_bat),
-	id_adresse text REFERENCES addresse (id_adresse),
+	id_bat integer REFERENCES batiment (id_bat),
+	id_adresse integer REFERENCES addresse (id_adresse),
 	localisation geometry(point, 2154) NOT NULL
 );
 
