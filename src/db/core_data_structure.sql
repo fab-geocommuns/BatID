@@ -71,7 +71,8 @@ CREATE TABLE enveloppe_batiment(
 	id_enveloppe serial PRIMARY KEY,
 	source text,
 	id_source text,
-	geomenv geometry(multipolygon, 2154) NOT NULL
+	geomenv geometry(multipolygon, 2154) NOT NULL,
+	surface_m2 integer
 );
 
 --table documentation
