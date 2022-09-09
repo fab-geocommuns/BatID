@@ -218,9 +218,9 @@ COMMENT ON COLUMN entree.localisation IS 'Localisant de l entrée.';
 --table
 CREATE TABLE local(
 	id_local serial PRIMARY KEY,
-	id_bat text REFERENCES batiment (id_bat),
-	id_parcelle text REFERENCES parcelle (id_parcelle),
-	id_tup text REFERENCES tup (id_tup)
+	id_bat integer REFERENCES batiment (id_bat),
+	id_parcelle integer REFERENCES parcelle (id_parcelle),
+	id_tup integer REFERENCES tup (id_tup)
 );
 
 --table documentation
@@ -263,8 +263,8 @@ COMMENT ON COLUMN ads.id_ads_metier IS 'id de l ads dans les processus métier';
 --------------------
 
 CREATE TABLE rel_ads_parcelles (
-	id_ads text REFERENCES ads (id_ads),
-	id_parcelle text references parcelle (id_parcelle),
+	id_ads integer REFERENCES ads (id_ads),
+	id_parcelle integer references parcelle (id_parcelle),
 	PRIMARY key (id_ads, id_parcelle)
 );
 
@@ -274,8 +274,8 @@ CREATE TABLE rel_ads_parcelles (
 --------------------
 
 CREATE TABLE rel_ads_batiments (
-	id_ads text REFERENCES ads (id_ads),
-	id_bat text references batiment (id_bat),
+	id_ads integer REFERENCES ads (id_ads),
+	id_bat integer references batiment (id_bat),
 	PRIMARY key (id_ads, id_bat)
 );
 
@@ -285,7 +285,7 @@ CREATE TABLE rel_ads_batiments (
 --------------------
 
 CREATE TABLE rel_ads_adresse (
-	id_ads text REFERENCES ads (id_ads),
-	id_adresse text references addresse (id_adresse),
+	id_ads integer REFERENCES ads (id_ads),
+	id_adresse integer references addresse (id_adresse),
 	PRIMARY key (id_ads, id_adresse)
 );
