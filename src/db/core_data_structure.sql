@@ -89,7 +89,7 @@ COMMENT ON COLUMN enveloppe_batiment.geomenv IS 'Géometrie de l enveloppe du ba
 
 -- create some status type
 CREATE TYPE statut_batiment AS ENUM (
-	'en_projet', 'annule', 'en_construction', 'existant', 'demoli');  -- To revise
+	'temporaire', 'en_projet', 'annule', 'en_construction', 'construit', 'demoli');  -- To revise
 
 CREATE TYPE fiabilite_batiment AS ENUM (
 	'fiable', 'moyennement fiable', 'probleme');  -- To revise
