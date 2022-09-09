@@ -32,7 +32,7 @@ SET SEARCH_PATH TO rnb,public;
 
 --table
 CREATE TABLE tup(
-	id_tup text PRIMARY KEY,
+	id_tup serial PRIMARY KEY,
 	code_tup text,
 	geomtup geometry(multipolygon, 2154)
 );
@@ -50,9 +50,9 @@ COMMENT ON COLUMN tup.geomtup IS 'Géometrie de la TUP.';
 --------------------
 
 CREATE TABLE parcelle(
-	id_parcelle text PRIMARY KEY,
+	id_parcelle serial PRIMARY KEY,
 	code_parcelle text,
-	id_tup text REFERENCES tup (id_tup)
+	id_tup integer REFERENCES tup (id_tup)
 );
 
 COMMENT ON TABLE parcelle IS 'Parcelles au sens du cadastre';
@@ -68,9 +68,11 @@ COMMENT ON COLUMN parcelle.id_tup IS 'clef étrangère de la table des TUPs';
 
 --table
 CREATE TABLE enveloppe_batiment(
-	id_enveloppe text PRIMARY KEY,
+	id_enveloppe serial PRIMARY KEY,
 	source text,
-	geomenv geometry(multipolygon, 2154) NOT NULL
+	id_source text,
+	geomenv geometry(multipolygon, 2154) NOT NULL,
+	surface_m2 integer
 );
 
 --table documentation
@@ -87,19 +89,18 @@ COMMENT ON COLUMN enveloppe_batiment.geomenv IS 'Géometrie de l enveloppe du ba
 
 -- create some status type
 CREATE TYPE statut_batiment AS ENUM (
-	'en_projet', 'annule', 'en_construction', 'existant', 'demoli');  -- To revise
+	'temporaire', 'en_projet', 'annule', 'en_construction', 'construit', 'demoli');  -- To revise
 
 CREATE TYPE fiabilite_batiment AS ENUM (
 	'fiable', 'moyennement fiable', 'probleme');  -- To revise
 
 -- table creation
 CREATE TABLE batiment(
-	id_bat text PRIMARY KEY,
+	id_bat serial PRIMARY KEY,
 	description text NULL,
 	validation bool NULL,
 	fiable fiabilite_batiment,
-	id_enveloppe text REFERENCES enveloppe_batiment(id_enveloppe),
-	entree_principale text,
+	id_enveloppe integer REFERENCES enveloppe_batiment(id_enveloppe),
 	code_iris text,
 	code_commune text,
 	code_epci text,
@@ -108,7 +109,7 @@ CREATE TABLE batiment(
 	localisation geometry(point, 2154),
 	DT_DEB date,
 	DT_FIN date,
-	id_tup text REFERENCES tup (id_tup),
+	id_tup integer REFERENCES tup (id_tup),
 	id_bdnb text,
 	geombat geometry(multipolygon, 2154) NULL
 );
@@ -121,7 +122,6 @@ COMMENT ON COLUMN batiment.description IS 'Description du batiment, nom commmun.
 COMMENT ON COLUMN batiment.validation IS 'Booléen. 1 si batiment proposé a été validé. 0 sinon.';
 COMMENT ON COLUMN batiment.fiable IS 'degré de fiablité du batiment issu du croisement initial';
 COMMENT ON COLUMN batiment.id_enveloppe IS 'clef étrangère de la table des enveloppes';
-COMMENT ON COLUMN batiment.entree_principale IS 'Entrée principale du batiment. Clef étrangère de la table des entrées.';
 COMMENT ON COLUMN batiment.code_iris IS 'Code IRIS INSEE';
 COMMENT ON COLUMN batiment.code_commune IS 'Identifiant commune INSEE';
 COMMENT ON COLUMN batiment.code_epci IS 'Identifiant EPCI (établissements publics de coopération intercommunale) INSEE';
@@ -140,8 +140,8 @@ COMMENT ON COLUMN batiment.geombat IS 'Géometrie du batiment';
 --------------------
 
 CREATE TABLE rel_batiment_parcelle (
-id_parcelle text references parcelle (id_parcelle),
-id_bat text REFERENCES batiment (id_bat),
+id_parcelle integer references parcelle (id_parcelle),
+id_bat integer REFERENCES batiment (id_bat),
 PRIMARY key (id_bat, id_parcelle)
 );
 
@@ -157,8 +157,8 @@ CREATE TYPE filiation_type AS ENUM (
 -- table
 CREATE TABLE filiation_batiment (
 	PRIMARY KEY (id_parent, id_enfant),
-	id_parent text REFERENCES batiment (id_bat),
-	id_enfant text REFERENCES batiment (id_bat),
+	id_parent integer REFERENCES batiment (id_bat),
+	id_enfant integer REFERENCES batiment (id_bat),
 	type_filiation filiation_type,
 	dt_filiation date
 );
@@ -177,7 +177,7 @@ COMMENT ON COLUMN filiation_batiment.dt_filiation IS 'Date de la filiation';
 
 --table
 CREATE TABLE addresse(
-	id_adresse text PRIMARY KEY,
+	id_adresse serial PRIMARY KEY,
 	source text,
 	ban_id text,
 	numero text,
@@ -197,9 +197,9 @@ CREATE TABLE addresse(
 
 --table
 CREATE TABLE entree(
-	id_entree text PRIMARY KEY,
-	id_bat text REFERENCES batiment (id_bat),
-	id_adresse text REFERENCES addresse (id_adresse),
+	id_entree serial PRIMARY KEY,
+	id_bat integer REFERENCES batiment (id_bat),
+	id_adresse integer REFERENCES addresse (id_adresse),
 	localisation geometry(point, 2154) NOT NULL
 );
 
@@ -211,20 +211,16 @@ COMMENT ON COLUMN entree.id_bat IS 'Clef étrangère de la table des batiments.'
 COMMENT ON COLUMN entree.id_adresse IS 'Clef étrangère de la table des addresses.';
 COMMENT ON COLUMN entree.localisation IS 'Localisant de l entrée.';
 
--- add constrain on batiment.entree_principale in being a foreign key from entree table
-ALTER TABLE batiment ADD CONSTRAINT entree_principale FOREIGN KEY (entree_principale) REFERENCES entree (id_entree) MATCH FULL;
-
-
 
 -- Local
 --------------------
 
 --table
 CREATE TABLE local(
-	id_local text PRIMARY KEY,
-	id_bat text REFERENCES batiment (id_bat),
-	id_parcelle text REFERENCES parcelle (id_parcelle),
-	id_tup text REFERENCES tup (id_tup)
+	id_local serial PRIMARY KEY,
+	id_bat integer REFERENCES batiment (id_bat),
+	id_parcelle integer REFERENCES parcelle (id_parcelle),
+	id_tup integer REFERENCES tup (id_tup)
 );
 
 --table documentation
@@ -247,7 +243,7 @@ CREATE TYPE ads_type AS ENUM (
 
 --table
 CREATE TABLE ads(
-	id_ads text PRIMARY KEY,
+	id_ads serial PRIMARY KEY,
 	type_ads ads_type,
 	DT_DEB date,
 	id_ads_metier text
@@ -267,8 +263,8 @@ COMMENT ON COLUMN ads.id_ads_metier IS 'id de l ads dans les processus métier';
 --------------------
 
 CREATE TABLE rel_ads_parcelles (
-	id_ads text REFERENCES ads (id_ads),
-	id_parcelle text references parcelle (id_parcelle),
+	id_ads integer REFERENCES ads (id_ads),
+	id_parcelle integer references parcelle (id_parcelle),
 	PRIMARY key (id_ads, id_parcelle)
 );
 
@@ -278,8 +274,8 @@ CREATE TABLE rel_ads_parcelles (
 --------------------
 
 CREATE TABLE rel_ads_batiments (
-	id_ads text REFERENCES ads (id_ads),
-	id_bat text references batiment (id_bat),
+	id_ads integer REFERENCES ads (id_ads),
+	id_bat integer references batiment (id_bat),
 	PRIMARY key (id_ads, id_bat)
 );
 
@@ -289,7 +285,7 @@ CREATE TABLE rel_ads_batiments (
 --------------------
 
 CREATE TABLE rel_ads_adresse (
-	id_ads text REFERENCES ads (id_ads),
-	id_adresse text references addresse (id_adresse),
+	id_ads integer REFERENCES ads (id_ads),
+	id_adresse integer references addresse (id_adresse),
 	PRIMARY key (id_ads, id_adresse)
 );
