@@ -100,7 +100,7 @@ CREATE TABLE batiment(
 	description text NULL,
 	validation bool NULL,
 	fiable fiabilite_batiment,
-	id_enveloppe text REFERENCES enveloppe_batiment(id_enveloppe),
+	id_enveloppe integer REFERENCES enveloppe_batiment(id_enveloppe),
 	code_iris text,
 	code_commune text,
 	code_epci text,
@@ -109,7 +109,7 @@ CREATE TABLE batiment(
 	localisation geometry(point, 2154),
 	DT_DEB date,
 	DT_FIN date,
-	id_tup text REFERENCES tup (id_tup),
+	id_tup integer REFERENCES tup (id_tup),
 	id_bdnb text,
 	geombat geometry(multipolygon, 2154) NULL
 );
@@ -122,7 +122,6 @@ COMMENT ON COLUMN batiment.description IS 'Description du batiment, nom commmun.
 COMMENT ON COLUMN batiment.validation IS 'Booléen. 1 si batiment proposé a été validé. 0 sinon.';
 COMMENT ON COLUMN batiment.fiable IS 'degré de fiablité du batiment issu du croisement initial';
 COMMENT ON COLUMN batiment.id_enveloppe IS 'clef étrangère de la table des enveloppes';
-COMMENT ON COLUMN batiment.entree_principale IS 'Entrée principale du batiment. Clef étrangère de la table des entrées.';
 COMMENT ON COLUMN batiment.code_iris IS 'Code IRIS INSEE';
 COMMENT ON COLUMN batiment.code_commune IS 'Identifiant commune INSEE';
 COMMENT ON COLUMN batiment.code_epci IS 'Identifiant EPCI (établissements publics de coopération intercommunale) INSEE';
