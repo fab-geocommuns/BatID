@@ -211,10 +211,6 @@ COMMENT ON COLUMN entree.id_bat IS 'Clef étrangère de la table des batiments.'
 COMMENT ON COLUMN entree.id_adresse IS 'Clef étrangère de la table des addresses.';
 COMMENT ON COLUMN entree.localisation IS 'Localisant de l entrée.';
 
--- add constrain on batiment.entree_principale in being a foreign key from entree table
-ALTER TABLE batiment ADD CONSTRAINT entree_principale FOREIGN KEY (entree_principale) REFERENCES entree (id_entree) MATCH FULL;
-
-
 
 -- Local
 --------------------
