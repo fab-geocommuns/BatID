@@ -6,7 +6,7 @@ Sans plus attendre, ci-dessous, le diagramme entitée relation et quelques élé
 
 ![image](./docs/static/ER_diagram.png)
 
-- Le modèle de donnée bâtiment est intrinsèquement lié à la définition qui emergera pour cet objet. A ce stade, le prisme adopté ici, au dela de la notion commune autour de l'objet est qu'un batiment possède une entrée exclusive, ce qui se transcris dans le modèle par le concept d'entrée principale. 
+- Le modèle de donnée bâtiment est intrinsèquement lié à la définition qui emergera pour cet objet. A ce stade, le prisme adopté ici, au dela de la notion commune autour de l'objet est qu'un batiment possède a minima une entrée exclusive. 
 
 - Le lien entre le concept d'adresse et de batiment, se fait justement par le biais du concept d'entrée. 
 
