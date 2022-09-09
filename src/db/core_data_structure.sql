@@ -101,7 +101,6 @@ CREATE TABLE batiment(
 	validation bool NULL,
 	fiable fiabilite_batiment,
 	id_enveloppe text REFERENCES enveloppe_batiment(id_enveloppe),
-	entree_principale text,
 	code_iris text,
 	code_commune text,
 	code_epci text,
