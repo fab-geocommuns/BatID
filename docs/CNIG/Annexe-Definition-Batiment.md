@@ -314,3 +314,15 @@ Une annexe contiguë est saisie avec le bâtiment principal si l’on peut cir
 ![](./static/images/image8.png)
 
 Si la partie A ne possède pas d’accès depuis l'extérieur et est accessible depuis la partie B, cet ensemble forme bien un unique bâtiment. Par exemple, une extension ou aménagement d’un bâtiment existant (ex. véranda), qui n’implique pas la création d’un nouveau bâtiment.
+
+#### Bâtiment/ Immeuble ayant plusieurs logements (et parfois plusieurs entrées )
+
+![](./static/images/image7.png)
+
+Dans l’illustration ci-dessus, il s’agit d’une immeuble donnant accès à plusieurs logements en son sein, il constitue donc bien un seul bâtiment.  
+
+![](./static/images/image22.png)
+
+Dans le cas de l’immeuble ci-dessus, il est à considérer comme un seul bâtiment si les espaces communs permettent de passer d’une entrée à l’autre (il n’existe ainsi donc pas de séparation non franchissable de l’un à l’autre, c’est bien un unique bâtiment).
+
+
