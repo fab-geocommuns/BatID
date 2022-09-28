@@ -387,4 +387,25 @@ Dans le cas de bâtiments reliés par une construction souterraine (par exemple 
 
 Idem, dans le cas d’une barre d’immeuble avec plusieurs cages d’escalier non communicantes en dehors des cages et garages souterrains, on a bien autant de bâtiments que de cages d’escaliers (accès distinct depuis l’extérieur). Cet aspect est notamment primordial pour les interventions des services d’urgences qui doivent pouvoir identifier rapidement le point d’accès à un lieu d’intervention dans l’immeuble.
 
+#### Bâtiments découpés par des limites géographiques (Communes, cadastre, etc) 
+
+![](./static/images/frontiere.png)
+
+De façon générale, les limites géographiques ne sont pas un critère pour délimiter, découper les bâtiments. Un bâtiment peut être situé à la frontière de deux communes, il est tout de même à considérer comme un seul bâtiment.
+
+Bien qu’un bâtiment puisse être segmenté par une frontière géographique, celle-ci ne doit pas venir bousculer la définition, les mêmes règles de dénombrement/détrompage s’appliquent. 
+
+La seule question ici, qui est plutôt d'ordre de la modélisation de la donnée bâtimentaire, pourrait résider dans l’appartenance du bâtiment à une zone géographique. Sa commune de rattachement pourrait être celle des démarches d’urbanisme, où de l’adresse utilisée pour l’imposition. Bien qu’important, cela reste des cas marginaux, à traîter au moment opportun.
+
+Quid de la délimitation internationale et le besoin de cohérence dans le dénombrement du bâti à cette échelle ? C’est un cas extrêmement particulier dont la réflexion sera menée en temps voulu, et mis de côté pour l’instant. 
+
+## Ressources
+
+- [Annexe à la saisie des batiment Suisse](https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/publications.assetdetail.13147437.html) 
+- [European directive INSPIRE](https://inspire.ec.europa.eu/id/document/tg/bu)
+- [https://wiki.openstreetmap.org/wiki/FR:Page_principale](https://wiki.openstreetmap.org/wiki/FR:Page_principale)  // [https://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques](https://wiki.openstreetmap.org/wiki/FR:%C3%89l%C3%A9ments_cartographiques) 
+
+
+
+
 
