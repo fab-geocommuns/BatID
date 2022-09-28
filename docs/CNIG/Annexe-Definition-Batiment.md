@@ -198,3 +198,22 @@ Liste non exhaustive de constructions n’étant pas un bâtiment à intégrer a
 <em>Tunnels, galeries </em>
   </tr>
   </table>
+
+
+#### Comment traiter les bâtiments provisoires ?
+
+![](/Users/felixveith/Repo/BatID/docs/CNIG/static/images/image4.png)
+
+Chaque contributeur au référentiel peut évaluer le caractère permanent ou non d’une construction. Par exemple, une construction provisoire érigée pour une durée excédant une durée réglementaire (qui peut varier selon les cas) et qui est solidement fixés au sol, est considérée comme un bâtiment.
+<table>
+<tr>
+   <td> <img src="static/images/yourte.png" alt="img" width = 300px height = 300px />
+   </td>
+   <td> <img src="static/images/mobil-home.png" alt="img" width = 300px height = 300px />
+   </td>
+</tr>
+</table>
+
+A l’inverse, une yourte ou un mobil-home qui est installée pour une durée saisonnière (ex. l’été) n’est pas considérée comme un bâtiment devant être inclus dans le référentiel.
+
+Les règles de distinction à appliquer sont les mêmes que pour les bâtiments individualisés. 
