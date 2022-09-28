@@ -202,7 +202,7 @@ Liste non exhaustive de constructions n’étant pas un bâtiment à intégrer a
 
 #### Comment traiter les bâtiments provisoires ?
 
-![](/Users/felixveith/Repo/BatID/docs/CNIG/static/images/image4.png)
+![](./static/images/image4.png)
 
 Chaque contributeur au référentiel peut évaluer le caractère permanent ou non d’une construction. Par exemple, une construction provisoire érigée pour une durée excédant une durée réglementaire (qui peut varier selon les cas) et qui est solidement fixés au sol, est considérée comme un bâtiment.
 <table>
@@ -228,7 +228,53 @@ Cette liste n’est pas exhaustive et à vocation à être complétée au fil de
 
 ##### Maison individuelle
 
-![](/Users/felixveith/Repo/BatID/docs/CNIG/static/images/image14.png)
+![](./static/images/image14.png)
 
 Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
 
+#### Bâtiment administratif, commercial, entrepôt, industriel
+
+![](./static/images/image25.png)
+
+Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et n’est pas divisé par une séparation infranchissable, ou ne possède pas plusieurs accès depuis l’extérieur.	
+
+Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
+
+<table>
+  <tr>
+       <td> <img src="static/images/image33.png" alt="img" width = 180px height = 180px/>   
+     <em>
+Les bâtiments industriels accueillant du public (ex. centre commercial, commerces, supermarchés) </em>
+   </td>
+   <td> <img src="static/images/image24.png" alt="img" width = 180px height = 180px />
+<em>Les bâtiments industriels de stockage (entrepôt, hangar, parking couvert) </em>
+   </td>
+   <td> <img src="static/images/image6.png" alt="img" width = 180px height = 180px />
+<em>Les bâtiments de bureaux</em>
+   </td>
+   <td> <img src="static/images/image20.png" alt="img" width = 180px height = 180px />
+<em> Les bâtiments à usage récréatif ou culturel</em>
+  </tr>
+  <tr>
+       <td> <img src="static/images/image40.png" alt="img" width = 180px height = 180px/>   
+     <em> Les musées ou bibliothèques </em>
+   </td>
+   <td> <img src="static/images/image35.png" alt="img" width = 180px height = 180px />
+<em>Les écoles, universités ou bâtiments dédiés à la recherche </em>
+   </td>
+   <td> <img src="static/images/image23.png" alt="img" width = 180px height = 180px />
+<em>Les hôpitaux et établissements de santé
+
+ </em>
+   </td>
+   <td> <img src="static/images/image30.png" alt="img" width = 180px height = 180px />
+<em>Les salles de sport, gymnases et complexes sportifs</em>
+  </tr>
+ </td>
+   <td> <img src="static/images/image21.png" alt="img" width = 180px height = 180px />
+<em> Les édifices culturels et religieux (ex. église, cathédrale, synagogue, mosquée, chapelle)</em>
+       <td> <img src="static/images/image38.png" alt="img" width = 180px height = 180px/>   
+     <em> Les bâtiments d’exploitation des terrains de camping</em>
+   </td>
+
+  </table>
