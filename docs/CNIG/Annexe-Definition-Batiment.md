@@ -120,3 +120,64 @@ Un bâtiment peut rassembler un ou plusieurs locaux. Cette précision a pour obj
 Ce lien local-bâtiment sera notamment précisé dans le modèle de données.
 
 Un local s’entend ici au sens retenu des processus administratifs de la direction générale des finances publiques tel que désigné par son invariant fiscal.
+
+
+### D. Distinction entre les bâtiments et d’autres types de constructions
+
+Cette section vise à déterminer les types de constructions et autres objets ne correspondant pas formellement à la définition des bâtiments proposée par le groupe de travail du CNIG.
+
+Cette liste, non exhaustive, permet aux utilisateurs du RNB de classifier certaines structures dans une catégorie “autres constructions”.
+
+<table>
+  <tr>
+       <td> <img src="static/images/image11.png" alt="img" width = 180px height = 180px/>   
+     <em> Piscine, y compris les piscines couvertes</em>
+   </td>
+   <td> <img src="static/images/image1.png" alt="img" width = 180px height = 180px />
+<em>Barrières, clôtures </em>
+   </td>
+   <td> <img src="static/images/image37.png" alt="img" width = 180px height = 180px />
+<em>Simple toit ouvert </em>
+   </td>
+   <td> <img src="static/images/image16.png" alt="img" width = 180px height = 180px />
+<em>Kiosque, Arche, Monuments </em>
+  </tr>
+    <tr>
+       <td> <img src="static/images/image13.png" alt="img" width = 180px height = 180px  />   
+     <em>Ruine</em>
+   </td>
+   <td> <img src="static/images/image36.png" alt="img" width = 180px height = 180px />
+<em>Cabine de plage de moins de 5 m2 </em>
+   </td>
+   <td> <img src="static/images/image34.png" alt="img" width = 180px height = 180px />
+<em>Abri de jardin de moins de 5 m2
+ </em>
+   </td>
+   <td> <img src="static/images/image27.png" alt="img" width = 180px height = 180px />
+<em>Abri animalier  </em>
+  </tr>
+    <tr>
+       <td> <img src="static/images/image17.png" alt="img" width = 180px height = 180px  />   
+     <em> Conteneur de chantier</em>
+   </td>
+   <td> <img src="static/images/image3.png" alt="img" width = 180px height = 180px />
+<em>Tente </em>
+   </td>
+   <td> <img src="static/images/image10.png" alt="img" width = 180px height = 180px />
+<em>Arrêt de transport public </em>
+   </td>
+   <td> <img src="static/images/image5.png" alt="img" width = 180px height = 180px />
+<em>Local/abri d’attente </em>
+  </tr>
+  <tr>
+       <td> <img src="static/images/image31.png" alt="img" width = 180px height = 180px  />   
+     <em>Abri pour deux roues </em>
+   </td>
+   <td> <img src="static/images/image18.png" alt="img" width = 180px height = 180px />
+<em>Boîtiers de distribution électrique & transformateurs </em>
+   </td>
+
+  </tr>
+
+  </table>
+
