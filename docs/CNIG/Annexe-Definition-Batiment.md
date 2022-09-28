@@ -278,3 +278,28 @@ Les bâtiments industriels accueillant du public (ex. centre commercial, commerc
    </td>
 
   </table>
+
+#### Bâtiment abritant des activités humaines uniquement (sans abriter des humains)
+
+Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
+<table>
+  <tr>
+<td> <img src="static/images/image28.png" alt="img" width = 180px height = 180px/>   
+     <em>
+
+Les bâtiments d’exploitation agricole (ex. étable, serre, grange, écurie, ferme…) </em>
+   </td>
+   <td> <img src="static/images/eolienne.png" alt="img" width = 180px height = 180px />
+<em>
+
+Les grandes éoliennes </em>
+   </td>
+   <td> <img src="static/images/reservoir.png" alt="img" width = 180px height = 180px />
+<em>
+
+Les réservoirs & silos agricoles</em>
+   </td>
+
+  </tr>
+</table>
+
