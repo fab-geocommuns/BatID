@@ -160,7 +160,9 @@ Cette liste, non exhaustive, permet aux utilisateurs du RNB de classifier certai
      <em> Piscine, y compris les piscines couvertes</em>
    </td>
    <td> <img src="static/images/image1.png" alt="img" width = 180px height = 180px />
-<em>Barrières, clôtures </em>
+<em>
+
+Barrières, clôtures </em>
    </td>
    <td> <img src="static/images/image37.png" alt="img" width = 180px height = 180px />
 <em>Simple toit ouvert </em>
@@ -173,7 +175,9 @@ Cette liste, non exhaustive, permet aux utilisateurs du RNB de classifier certai
      <em>Ruine</em>
    </td>
    <td> <img src="static/images/image36.png" alt="img" width = 180px height = 180px />
-<em>Cabine de plage de moins de 5 m2 </em>
+<em>
+
+Cabine de plage de moins de 5 m2 </em>
    </td>
    <td> <img src="static/images/image34.png" alt="img" width = 180px height = 180px />
 <em>Abri de jardin de moins de 5 m2
