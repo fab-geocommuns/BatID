@@ -303,3 +303,9 @@ Les réservoirs & silos agricoles</em>
   </tr>
 </table>
 
+#### Objet autre, qui est une annexe contiguë d’un bâtiment
+
+![](./static/images/image26.png)
+
+Une annexe contiguë est saisie avec le bâtiment principal si l’on peut circuler de l’un à l’autre et n’existe pas de délimitation non franchissable.
+
