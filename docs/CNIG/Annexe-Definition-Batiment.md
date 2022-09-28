@@ -368,6 +368,23 @@ Les maisons en rangée sont bien à saisir séparément tant qu’on ne peut cir
 
 Une annexe est saisie comme un bâtiment autonome s’il possède son propre accès depuis l’extérieur et qu’on ne peut pas circuler entre les deux bâtiments depuis l’intérieur.
 
+#### Bâtiments reliés par une construction souterraine
 
+![](./static/images/image15.png)
+
+Dans le cas de bâtiments reliés par une construction souterraine (par exemple un garage ou une cave communes):
+
+- Concernant les bâtiments extérieurs, il y a autant de bâtiments à considérer que s’il n’y avait pas eu de garage souterrain. (Dans le cas de l’exemple ci dessus, nous avons 3 maisons individuelles reliées par un garage souterrain, et donc 3 bâtiments distincts);
+- Concernant la partie du garage en sous-sol, une documentation supplémentaire sera dédiée à ce sujet.	
+
+
+<table>
+  <tr>
+<td> <img src="static/images/hlm.png" alt="img" width = 360px height = 360px/>   
+</td>
+  </tr>
+</table>
+
+Idem, dans le cas d’une barre d’immeuble avec plusieurs cages d’escalier non communicantes en dehors des cages et garages souterrains, on a bien autant de bâtiments que de cages d’escaliers (accès distinct depuis l’extérieur). Cet aspect est notamment primordial pour les interventions des services d’urgences qui doivent pouvoir identifier rapidement le point d’accès à un lieu d’intervention dans l’immeuble.
 
 
