@@ -1,16 +1,43 @@
 # Appel à Commentaires: Élaboration d’un standard CNIG pour une définition du terme “Bâtiment” 
 
-Version 0.1
+_Version 0.1_
 
-Rédaction : Elisabeth Talbourdet Ville & Félix Veith, entrepreneurs d'intérêt général au sein de l’ADEME et du CSTB, pour le Groupe de Travail Bâti du Conseil National de l’Information Géolocalisée (CNIG).
+_Rédaction : Elisabeth Talbourdet Ville & Félix Veith, entrepreneurs d'intérêt général au sein de l’ADEME et du CSTB, pour le Groupe de Travail Bâti du Conseil National de l’Information Géolocalisée (CNIG)._
 
-Sept. 2022
-
+_Sept. 2022_
 
 ##  Table des Matières
 
-(A faire en dernier)
-
+<!-- TOC -->
+* [Appel à Commentaires: Élaboration d’un standard CNIG pour une définition du terme “Bâtiment”](#appel--commentaires--laboration-dun-standard-cnig-pour-une-dfinition-du-terme-btiment)
+  * [Table des Matières](#table-des-matires)
+  * [1. Introduction](#1-introduction)
+  * [2. Le besoin d’adopter une définition unique et partagée](#2-le-besoin-dadopter-une-dfinition-unique-et-partage)
+  * [3. La définition et commentaires sur les termes](#3-la-dfinition-et-commentaires-sur-les-termes)
+  * [4. Descriptif complémentaire des bâtiments dans le Référentiel National des Bâtiments](#4-descriptif-complmentaire-des-btiments-dans-le-rfrentiel-national-des-btiments)
+    * [A. Objectif du descriptif complémentaire](#a-objectif-du-descriptif-complmentaire)
+    * [B. Critère d’exclusion](#b-critre-dexclusion)
+    * [C. Distinction entre un bâtiment et un local](#c-distinction-entre-un-btiment-et-un-local)
+    * [D. Distinction entre les bâtiments et d’autres types de constructions](#d-distinction-entre-les-btiments-et-dautres-types-de-constructions)
+      * [Les cas particuliers d’ouvrage d’art](#les-cas-particuliers-douvrage-dart)
+      * [Comment traiter les bâtiments provisoires ?](#comment-traiter-les-btiments-provisoires-)
+    * [E. Distinction entre un bâtiment unique et plusieurs bâtiments](#e-distinction-entre-un-btiment-unique-et-plusieurs-btiments)
+      * [Bâtiment individualisé](#btiment-individualis)
+        * [Maison individuelle](#maison-individuelle)
+      * [Bâtiment administratif, commercial, entrepôt, industriel](#btiment-administratif-commercial-entrept-industriel)
+      * [Bâtiment abritant des activités humaines uniquement (sans abriter des humains)](#btiment-abritant-des-activits-humaines-uniquement--sans-abriter-des-humains-)
+      * [Objet autre, qui est une annexe contiguë d’un bâtiment](#objet-autre-qui-est-une-annexe-contigu-dun-btiment)
+      * [Bâtiments dont une partie (ex. une extension) n’a pas d’accès depuis l’extérieur](#btiments-dont-une-partie--ex-une-extension--na-pas-daccs-depuis-lextrieur)
+      * [Bâtiment/ Immeuble ayant plusieurs logements (et parfois plusieurs entrées )](#btiment-immeuble-ayant-plusieurs-logements--et-parfois-plusieurs-entres-)
+      * [Bâtiment léger (Bungalow, cabine en bois, kiosk)](#btiment-lger--bungalow-cabine-en-bois-kiosk-)
+    * [Bâtiments distincts](#btiments-distincts)
+      * [Maisons jumelées (mitoyenne)](#maisons-jumeles--mitoyenne-)
+      * [Maisons en rangée](#maisons-en-range)
+      * [Bâtiment annexe contigu/autonome](#btiment-annexe-contiguautonome)
+      * [Bâtiments reliés par une construction souterraine](#btiments-relis-par-une-construction-souterraine)
+      * [Bâtiments découpés par des limites géographiques (Communes, cadastre, etc)](#btiments-dcoups-par-des-limites-gographiques--communes-cadastre-etc-)
+  * [Ressources](#ressources)
+<!-- TOC -->
 
 ## 1. Introduction
 
@@ -53,16 +80,17 @@ Afin que ce référentiel soit le plus utilisé possible, la définition du bât
 
 La définition proposée par le groupe de travail “Bâti” au fil des trois premières sessions et des commentaires des membres du groupe en [asynchrone](https://github.com/entrepreneur-interet-general/BatID/issues/12) est la suivante :
 
-> Construction souterraine ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines et ayant une surface minimum de 5 m2. 
-> 
-> Un bâtiment possède a minima un accès depuis l’extérieur et peut être distingué d’un autre par une séparation non-franchissable du sol au toit, qui ne permet pas la circulation entre les bâtiments. 
-> 
-> Un bâtiment peut rassembler un ou plusieurs locaux.
+**Construction souterraine ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines et ayant une surface minimum de 5 m2.** 
+ 
+**Un bâtiment possède a minima un accès depuis l’extérieur et peut être distingué d’un autre par une séparation non-franchissable du sol au toit, qui ne permet pas la circulation entre les bâtiments.** 
+ 
+**Un bâtiment peut rassembler un ou plusieurs locaux**
 
 Suite au groupe de travail n°4, une nouvelle définition est proposée : 
-> Construction souterraine et/ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines. 
-> 
-> Un bâtiment possède a minima un accès depuis l’extérieur et dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.
+
+**Construction souterraine et/ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines.** 
+
+**Un bâtiment possède a minima un accès depuis l’extérieur et dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.**
  
 
 Plusieurs aspects de cette définition doivent être éclaircis et font appel à commentaires :
