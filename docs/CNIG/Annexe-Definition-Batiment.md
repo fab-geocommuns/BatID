@@ -1,6 +1,4 @@
-# Appel à Commentaires:
-
-# Élaboration d’un standard CNIG pour une définition du terme “Bâtiment” 
+# Appel à Commentaires: Élaboration d’un standard CNIG pour une définition du terme “Bâtiment” 
 
 Version 0.1
 
@@ -9,7 +7,7 @@ Rédaction : Elisabeth Talbourdet Ville & Félix Veith, entrepreneurs d'intérê
 Sept. 2022
 
 
-# Table des Matières
+##  Table des Matières
 
 (A faire en dernier)
 
