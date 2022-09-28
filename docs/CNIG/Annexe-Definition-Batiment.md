@@ -306,7 +306,9 @@ Les bâtiments industriels de stockage (entrepôt, hangar, parking couvert) </em
 Les musées ou bibliothèques </em>
    </td>
    <td> <img src="static/images/image35.png" alt="img" width = 180px height = 180px />
-<em>Les écoles, universités ou bâtiments dédiés à la recherche </em>
+<em>
+
+Les écoles, universités ou bâtiments dédiés à la recherche </em>
    </td>
    <td> <img src="static/images/image23.png" alt="img" width = 180px height = 180px />
 <em>Les hôpitaux et établissements de santé
