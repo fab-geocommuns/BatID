@@ -225,13 +225,19 @@ Liste non exhaustive de constructions n’étant pas un bâtiment à intégrer a
 <table>
   <tr>
        <td> <img src="static/images/pont.png" alt="img" width = 180px height = 180px/>   
-     <em> Ponts </em>
+     <em> 
+
+Ponts </em>
    </td>
    <td> <img src="static/images/route.png" alt="img" width = 180px height = 180px />
-<em>Routes </em>
+<em>
+
+Routes </em>
    </td>
    <td> <img src="static/images/barrage.png" alt="img" width = 180px height = 180px />
-<em>Barrages </em>
+<em>
+
+Barrages </em>
    </td>
    <td> <img src="static/images/tunnel.png" alt="img" width = 180px height = 180px />
 <em>
