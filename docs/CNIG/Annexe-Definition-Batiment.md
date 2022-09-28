@@ -362,4 +362,12 @@ Les maisons jumelées sont définies comme deux bâtiments lorsqu’on ne peut p
 
 Les maisons en rangée sont bien à saisir séparément tant qu’on ne peut circuler de l’une à l’autre. 
 
+#### Bâtiment annexe contigu/autonome
+
+![](./static/images/image39.png)
+
+Une annexe est saisie comme un bâtiment autonome s’il possède son propre accès depuis l’extérieur et qu’on ne peut pas circuler entre les deux bâtiments depuis l’intérieur.
+
+
+
 
