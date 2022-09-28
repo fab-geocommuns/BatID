@@ -217,3 +217,18 @@ Chaque contributeur au référentiel peut évaluer le caractère permanent ou no
 A l’inverse, une yourte ou un mobil-home qui est installée pour une durée saisonnière (ex. l’été) n’est pas considérée comme un bâtiment devant être inclus dans le référentiel.
 
 Les règles de distinction à appliquer sont les mêmes que pour les bâtiments individualisés. 
+
+### E. Distinction entre un bâtiment unique et plusieurs bâtiments
+
+L’objectif de cette section est de faciliter l’identification et le découpage d’un ou plusieurs bâtiments pour les utilisateurs du référentiel. La représentation des cas cités ci-dessous au sein du référentiel est accompagnée d’une explication succincte permettant de détromper certains cas complexes. 
+
+Cette liste n’est pas exhaustive et à vocation à être complétée au fil de la construction du référentiel. 
+
+#### Bâtiment individualisé 
+
+##### Maison individuelle
+
+![](/Users/felixveith/Repo/BatID/docs/CNIG/static/images/image14.png)
+
+Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
+
