@@ -334,16 +334,25 @@ Cela implique donc de considérer comme bâtiments, sous réserve d’un objecti
 
 <table>
   <tr>
-<td> <img src="static/images/image29.png" alt="img" width = 180px height = 180px/>   
+<td> <img src="static/images/image29.png" alt="img" width = 180px height = 180px longdesc="https://commons.wikimedia.org/wiki/File:Tiny_house_in_yard,_Portland.jpg"/>   
 </td>
-   <td> <img src="static/images/image9.png" alt="img" width = 180px height = 180px />
+   <td> <img src="static/images/image9.png" alt="img" width = 180px height = 180px longdesc="https://commons.wikimedia.org/wiki/File:Bungalow_UK_100.jpg
+"/>
    </td>
-   <td> <img src="static/images/image12.png" alt="img" width = 180px height = 180px />
-
+   <td> <img src="static/images/image12.png" alt="img" width = 180px height = 180px longdesc="https://commons.wikimedia.org/wiki/File:Kiosque_%C3%A0_journaux,_avenue_Marceau_%28Paris%29_en_janvier_2020.jpg"
+ />
    </td>
 
   </tr>
 </table>
 
 Dans les cas ci-dessus, dès lors que la construction même légère a vocation à être utilisée de manière permanente alors elle doit être considérée comme un bâtiment.
+
+### Bâtiments distincts
+
+#### Maison jumelées (mitoyenne)
+
+![](./static/images/image2.png)
+
+Les maisons jumelées sont définies comme deux bâtiments lorsqu’on ne peut pas circuler de l’une à l’autre depuis l’intérieur.
 
