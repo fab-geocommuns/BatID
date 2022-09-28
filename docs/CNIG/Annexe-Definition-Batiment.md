@@ -172,7 +172,8 @@ Barrières, clôtures </em>
   </tr>
     <tr>
        <td> <img src="static/images/image13.png" alt="img" width = 180px height = 180px  />   
-     <em>Ruine</em>
+     <em>
+Ruine</em>
    </td>
    <td> <img src="static/images/image36.png" alt="img" width = 180px height = 180px />
 <em>
@@ -191,7 +192,9 @@ Cabine de plage de moins de 5 m2 </em>
      <em> Conteneur de chantier</em>
    </td>
    <td> <img src="static/images/image3.png" alt="img" width = 180px height = 180px />
-<em>Tente </em>
+<em>
+
+Tente </em>
    </td>
    <td> <img src="static/images/image10.png" alt="img" width = 180px height = 180px />
 <em>Arrêt de transport public </em>
@@ -201,10 +204,14 @@ Cabine de plage de moins de 5 m2 </em>
   </tr>
   <tr>
        <td> <img src="static/images/image31.png" alt="img" width = 180px height = 180px  />   
-     <em>Abri pour deux roues </em>
+     <em>
+
+Abri pour deux roues </em>
    </td>
    <td> <img src="static/images/image18.png" alt="img" width = 180px height = 180px />
-<em>Boîtiers de distribution électrique & transformateurs </em>
+<em>
+
+Boîtiers de distribution électrique & transformateurs </em>
    </td>
 
   </tr>
@@ -227,7 +234,9 @@ Liste non exhaustive de constructions n’étant pas un bâtiment à intégrer a
 <em>Barrages </em>
    </td>
    <td> <img src="static/images/tunnel.png" alt="img" width = 180px height = 180px />
-<em>Tunnels, galeries </em>
+<em>
+
+Tunnels, galeries </em>
   </tr>
   </table>
 
@@ -276,10 +285,13 @@ Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
   <tr>
        <td> <img src="static/images/image33.png" alt="img" width = 180px height = 180px/>   
      <em>
+
 Les bâtiments industriels accueillant du public (ex. centre commercial, commerces, supermarchés) </em>
    </td>
    <td> <img src="static/images/image24.png" alt="img" width = 180px height = 180px />
-<em>Les bâtiments industriels de stockage (entrepôt, hangar, parking couvert) </em>
+<em>
+
+Les bâtiments industriels de stockage (entrepôt, hangar, parking couvert) </em>
    </td>
    <td> <img src="static/images/image6.png" alt="img" width = 180px height = 180px />
 <em>Les bâtiments de bureaux</em>
@@ -289,7 +301,9 @@ Les bâtiments industriels accueillant du public (ex. centre commercial, commerc
   </tr>
   <tr>
        <td> <img src="static/images/image40.png" alt="img" width = 180px height = 180px/>   
-     <em> Les musées ou bibliothèques </em>
+     <em> 
+
+Les musées ou bibliothèques </em>
    </td>
    <td> <img src="static/images/image35.png" alt="img" width = 180px height = 180px />
 <em>Les écoles, universités ou bâtiments dédiés à la recherche </em>
@@ -304,9 +318,13 @@ Les bâtiments industriels accueillant du public (ex. centre commercial, commerc
   </tr>
  </td>
    <td> <img src="static/images/image21.png" alt="img" width = 180px height = 180px />
-<em> Les édifices culturels et religieux (ex. église, cathédrale, synagogue, mosquée, chapelle)</em>
+<em> 
+
+Les édifices culturels et religieux (ex. église, cathédrale, synagogue, mosquée, chapelle)</em>
        <td> <img src="static/images/image38.png" alt="img" width = 180px height = 180px/>   
-     <em> Les bâtiments d’exploitation des terrains de camping</em>
+     <em> 
+
+Les bâtiments d’exploitation des terrains de camping</em>
    </td>
 
   </table>
@@ -319,7 +337,9 @@ Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
 <td> <img src="static/images/image28.png" alt="img" width = 180px height = 180px/>   
      <em>
 
-Les bâtiments d’exploitation agricole (ex. étable, serre, grange, écurie, ferme…) </em>
+Les bâtiments d’exploitation agricole 
+
+(ex. étable, serre, grange, écurie, ferme…) </em>
    </td>
    <td> <img src="static/images/eolienne.png" alt="img" width = 180px height = 180px />
 <em>
