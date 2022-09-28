@@ -350,9 +350,16 @@ Dans les cas ci-dessus, dès lors que la construction même légère a vocation 
 
 ### Bâtiments distincts
 
-#### Maison jumelées (mitoyenne)
+#### Maisons jumelées (mitoyenne)
 
 ![](./static/images/image2.png)
 
 Les maisons jumelées sont définies comme deux bâtiments lorsqu’on ne peut pas circuler de l’une à l’autre depuis l’intérieur.
+
+#### Maisons en rangée
+
+![](./static/images/image32.png)
+
+Les maisons en rangée sont bien à saisir séparément tant qu’on ne peut circuler de l’une à l’autre. 
+
 
