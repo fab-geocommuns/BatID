@@ -309,3 +309,8 @@ Les réservoirs & silos agricoles</em>
 
 Une annexe contiguë est saisie avec le bâtiment principal si l’on peut circuler de l’un à l’autre et n’existe pas de délimitation non franchissable.
 
+#### Bâtiments dont une partie (ex. une extension) n’a pas d’accès depuis l’extérieur
+
+![](./static/images/image8.png)
+
+Si la partie A ne possède pas d’accès depuis l'extérieur et est accessible depuis la partie B, cet ensemble forme bien un unique bâtiment. Par exemple, une extension ou aménagement d’un bâtiment existant (ex. véranda), qui n’implique pas la création d’un nouveau bâtiment.
