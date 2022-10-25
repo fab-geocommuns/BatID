@@ -213,6 +213,11 @@ Abri pour deux roues </em>
 
 Boîtiers de distribution électrique & transformateurs </em>
    </td>
+   <td> <img src="static/images/640px-SolarPowerPlantSerpa.png" alt="img" width = 180px height = 180px />
+<em>
+
+Parcs photovoltaïques </em>
+   </td>
 
   </tr>
 
