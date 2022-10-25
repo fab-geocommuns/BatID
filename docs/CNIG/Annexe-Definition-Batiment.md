@@ -284,6 +284,19 @@ Cette liste n’est pas exhaustive et à vocation à être complétée au fil de
 
 Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
 
+<table>
+  <tr>
+
+
+<td> <img src="static/images/353px-Phare_de_lile_Vierge_(lighthouse)_(14868828151).png" alt="img" width = 180px height = 180px/>   
+     <em> 
+
+Les phares </em>
+   </td>
+
+  </tr>
+</table>
+
 #### Bâtiment administratif, commercial, entrepôt, industriel
 
 ![](./static/images/image25.png)
@@ -339,11 +352,7 @@ Les édifices culturels et religieux (ex. église, cathédrale, synagogue, mosqu
 
 Les bâtiments d’exploitation des terrains de camping</em>
    </td>
-<td> <img src="static/images/353px-Phare_de_lile_Vierge_(lighthouse)_(14868828151).png" alt="img" width = 180px height = 180px/>   
-     <em> 
 
-Les phares </em>
-   </td>
   </table>
 
 #### Bâtiment abritant des activités humaines uniquement (sans abriter des humains)
