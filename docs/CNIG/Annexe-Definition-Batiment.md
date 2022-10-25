@@ -287,11 +287,15 @@ Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu�
 <table>
   <tr>
 
-
 <td> <img src="static/images/353px-Phare_de_lile_Vierge_(lighthouse)_(14868828151).png" alt="img" width = 180px height = 180px/>   
      <em> 
 
 Les phares </em>
+   </td>
+<td> <img src="static/images/640px-14_turquant_(21)_(13014598753).png" alt="img" width = 180px height = 180px/>   
+     <em> 
+
+Les maisons troglodytiques </em>
    </td>
 
   </tr>
