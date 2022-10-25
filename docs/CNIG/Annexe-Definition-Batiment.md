@@ -369,6 +369,12 @@ Les grandes éoliennes </em>
 Les réservoirs & silos agricoles</em>
    </td>
 
+   <td> <img src="static/images/Transformateur_électrique_Guillerval.png" alt="img" width = 180px height = 180px />
+<em>
+
+Les postes de transformation électrique suffisamment grands </em>
+   </td>
+
   </tr>
 </table>
 
