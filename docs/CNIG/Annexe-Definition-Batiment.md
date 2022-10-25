@@ -211,7 +211,7 @@ Abri pour deux roues </em>
    <td> <img src="static/images/image18.png" alt="img" width = 180px height = 180px />
 <em>
 
-Boîtiers de distribution électrique & transformateurs </em>
+Petits boîtiers de distribution électrique </em>
    </td>
    <td> <img src="static/images/640px-SolarPowerPlantSerpa.png" alt="img" width = 180px height = 180px />
 <em>
