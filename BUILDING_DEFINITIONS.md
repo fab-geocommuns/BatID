@@ -64,6 +64,13 @@ Un bâtiment est un édifice destiné à isoler et à protéger un espace afin d
 
 Source : Delaunay B., "𝐐𝐮'𝐞𝐬𝐭-𝐜𝐞 𝐪𝐮'𝐮𝐧 𝐛â𝐭𝐢𝐦𝐞𝐧𝐭 ?", RD imm. 2013, p. 285, AJDA 2013, p. 658
 
+- Interprétation Droit de l'urbanisme 
+
+> « Selon les professeurs Henri Jacquot et François Priet, un bâtiment est généralement défini comme un édifice présentant un espace intérieur utilisable, et cela quelle que soit son affectation ».
+>
+> Commentaires : « Au regard de cette définition, un bâtiment doit donc s’entendre d’une construction d’un certain volume, nécessairement délimité par des éléments de construction, en d’autres termes doit correspondre à un volume clos circonscrit par des surfaces pleines.»
+
+source : Jacquot H. et Priet F., Droit de l’urbanisme, Précis Dalloz, 2004, p. 604 
 #### Quelques exemples issus de PLU (Plan Local d'Urbanisme)
 
 - [PLU de l'Eurométropole de Strasbourg](https://www.strasbourg.eu/documents/976405/1570260/0/d0e8fe92-94a2-610f-5e82-1425bcd10f6c)
