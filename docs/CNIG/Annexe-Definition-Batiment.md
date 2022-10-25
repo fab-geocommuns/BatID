@@ -297,7 +297,11 @@ Les phares </em>
 
 Les maisons troglodytiques </em>
    </td>
+<td> <img src="static/images/cabane_arbre.png" alt="img" width = 180px height = 180px/>   
+     <em> 
 
+Les cabanes dans les arbres habitées </em>
+   </td>
   </tr>
 </table>
 
