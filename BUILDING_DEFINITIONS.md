@@ -58,6 +58,12 @@ Un bâtiment est un édifice destiné à isoler et à protéger un espace afin d
 - [Registre Autrichien des batiments et logements](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003223)
 > Construction dotée d'un toit et d'au moins deux murs, dans laquelle des personnes peuvent pénétrer et qui est destinée à protéger les personnes, les animaux ou les biens, et qui est séparée d'autres constructions de ce type par une construction indépendante et, dans le cas d'une construction fermée, par un mur coupe-feu allant du toit au sous-sol. Lorsque de telles constructions sont séparées par leurs propres systèmes de desserte (accès et cage d'escalier distincts) et d'alimentation et d'évacuation, chacune de ces parties constitue un bâtiment (immeubles d'habitation, maisons jumelées, groupées ou mitoyennes).
 
+- Comité pour l’application de la loi Spinetta (La loi nᵒ 78-12 du 4 janvier 1978 relative à la responsabilité et à l’assurance dans le domaine de la construction) 
+
+>  Le bâtiment se distingue en principe de l’ouvrage de génie civil. Il est un édifice creux et constitue un espace clos et couvert permettant une protection au moins partielle contre les agressions des éléments naturels extérieurs. Il est un abri à l’intérieur duquel l’homme est appelé à se mouvoir de façon habituelle et qui protège son habitation, son travail ou son loisir ; la notion de bâtiment comprenant tout bâtiment quelle que soit sa destination (habitation, commerce, industrie, agricole, destiné à recevoir du public…). Il doit connaître une certaine permanence. Il ne s’agit pas d’un édifice léger et éphémère. Il a une assise fixe sur le sol naturel ou artificiel (au contraire des ouvrage flottants ou aériens) et n’est pas mobile. Il doit avoir des fondations ou un lien organique avec des réseaux de distribution. Mais deux éléments sont indifférents à la notion de bâtiment. D’une part, il peut être un édifice souterrain et n’est pas obligatoirement élevé au-dessus du sol. D’autre part, la matière avec laquelle il est construit n’importe pas : une structure gonflable peut-être un bâtiment 
+
+Source : Delaunay B., "𝐐𝐮'𝐞𝐬𝐭-𝐜𝐞 𝐪𝐮'𝐮𝐧 𝐛â𝐭𝐢𝐦𝐞𝐧𝐭 ?", RD imm. 2013, p. 285, AJDA 2013, p. 658
+
 #### Quelques exemples issus de PLU (Plan Local d'Urbanisme)
 
 - [PLU de l'Eurométropole de Strasbourg](https://www.strasbourg.eu/documents/976405/1570260/0/d0e8fe92-94a2-610f-5e82-1425bcd10f6c)
