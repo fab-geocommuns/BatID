@@ -284,6 +284,8 @@ Cette liste n’est pas exhaustive et à vocation à être complétée au fil de
 
 Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
 
+Les exemples, moins communs, de ce type de bâtiment sont notamment (liste non-exhaustive) :
+
 <table>
   <tr>
 
