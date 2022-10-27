@@ -181,10 +181,10 @@ Ruine</em>
    <td> <img src="static/images/image36.png" alt="img" width = 180px height = 180px />
 <em>
 
-Cabine de plage de moins de 5 m2 </em>
+Cabine de plage de moins de petite dimension </em>
    </td>
    <td> <img src="static/images/image34.png" alt="img" width = 180px height = 180px />
-<em>Abri de jardin de moins de 5 m2
+<em>Abri de jardin de moins de petite dimension
  </em>
    </td>
    <td> <img src="static/images/image27.png" alt="img" width = 180px height = 180px />
