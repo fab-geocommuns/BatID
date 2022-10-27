@@ -485,7 +485,7 @@ Dans le cas de bâtiments reliés par une construction souterraine (par exemple 
 
 Idem, dans le cas d’une barre d’immeuble avec plusieurs cages d’escalier non communicantes en dehors des cages et garages souterrains, on a bien autant de bâtiments que de cages d’escaliers (accès distinct depuis l’extérieur). Cet aspect est notamment primordial pour les interventions des services d’urgences qui doivent pouvoir identifier rapidement le point d’accès à un lieu d’intervention dans l’immeuble.
 
-#### Bâtiments découpés par des limites géographiques (Communes, cadastre, etc) 
+#### Bâtiments découpés par des limites géographiques (Communes, parcelles cadastre, etc) 
 
 ![](./static/images/frontiere.png)
 
