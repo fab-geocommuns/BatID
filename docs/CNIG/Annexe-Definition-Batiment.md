@@ -99,7 +99,7 @@ Suite au groupe de travail n°4, une nouvelle définition est proposée :
 Plusieurs aspects de cette définition doivent être éclaircis et font appel à commentaires :
 
 * **Souterraine et/ou au-dessus du sol**
-  * La directive INSPIRE propose d’inclure la représentation des bâtiments souterrains;
+  * La directive INSPIRE prévoit la possibilité de décrire les bâtiments souterrains;
   * Ces bâtiments sont néanmoins plus difficiles à identifier en pratique;
   * Pour cette raison, les bâtiments souterrains sont compris dans la définition et le modèle de données mais leur recensement au sein du référentiel aura lieu dans un second temps, après avoir traité la question des bâtiments hors-sols dans un premier temps.
 
