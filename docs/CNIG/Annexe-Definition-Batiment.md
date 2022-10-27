@@ -228,7 +228,7 @@ Parcs photovoltaïques </em>
 
 #### Les cas particuliers d’ouvrage d’art
 
-Liste non exhaustive de constructions n’étant pas un bâtiment à intégrer au sein du référentiel mais un simple ouvrage d’art.
+Liste non exhaustive de constructions n’étant pas un bâtiment mais un simple ouvrage d’art.
 
 <table>
   <tr>
