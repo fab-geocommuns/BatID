@@ -100,8 +100,8 @@ Plusieurs aspects de cette définition doivent être éclaircis et font appel à
 
 * **Souterraine et/ou au-dessus du sol**
   * La directive INSPIRE prévoit la possibilité de décrire les bâtiments souterrains;
-  * Ces bâtiments sont néanmoins plus difficiles à identifier en pratique;
-  * Pour cette raison, les bâtiments souterrains sont compris dans la définition et le modèle de données mais leur recensement au sein du référentiel aura lieu dans un second temps, après avoir traité la question des bâtiments hors-sols dans un premier temps.
+  * A la vue des bases existantes, ces bâtiments sont néanmoins plus difficiles à identifier en pratique;
+  * Pour cette raison, les bâtiments exclusivement souterrains sont compris dans la définition et le modèle de données mais leur recensement au sein du référentiel aura lieu dans un second temps.
 
 * **Objectif de permanence**
     * La définition du bâtiment doit exclure les constructions temporaires qui n’ont pas vocation à être implémentées dans la durée pour assurer le maintien d’une base de données fiables et représentative de la réalité terrain.
