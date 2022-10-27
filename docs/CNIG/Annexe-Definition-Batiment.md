@@ -117,7 +117,7 @@ Plusieurs aspects de cette définition doivent être éclaircis et font appel à
     * Il a été évoqué la possibilité de remplacer ce terme par les termes "_clos & couvert_" mais qui ont été jugés trop limitatifs et difficiles à implémenter dans le référentiel car il semble complexe de vérifier qu’un bâtiment est bien clos sans intervention humaine. \
 
 * **A minima un accès depuis l’extérieur**
-    * Il a été évoqué l’idée d’avoir une notion “d’entrée principale” - néanmoins le terme “entrée” implique potentiellement plusieurs types d’usages différent (accès pour le facteur, pour le particulier, pour les services d’urgences) et il a été privilégié l’idée de recenser toutes les entrées plutôt qu’en désigner une comme étant “principale”.
+    * Un bâtiment possède 1 ou plusieurs entrées depuis l'extérieur. Pour un bâtiment, il n'est pas défini d'entrée par défaut ni d'entrée principale car ces notions sont liées aux usages du bâtiment (ex: entrée du centre commerciale au rdc distincte de l'entrée des logements aux étages d'un immeuble)
     * Cette notion d’entrée permet de faire le lien avec la notion d’adresse et notamment la Base d’Adresse Nationale. \
 
 * **Différencier un bâtiment d'un autre** : dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux **
