@@ -135,14 +135,14 @@ Dans une démarche itérative, le RNB sera construit dans un premier temps avec 
 L’expérience montre que les différents utilisateurs de la donnée bâtimentaire n’ont pas la même manière d’envisager l’entité “bâtiment” ce qui peut compliquer l’échange d’information. C’est pourquoi nous avons créé ce descriptif, afin d’apporter de la clarté dans l’appréhension de la définition des bâtiments dans le RNB.
 
 ### B. Critère d’exclusion
-
+#### Guide concernant les petites constructions
 Chaque usager du référentiel peut librement décider d’inclure un bâtiment sans limite de surface dès lors qu’il juge son référencement pertinent (ex. il est important de connaître l’existence d’un garage de 5 m2 en zone dense). 
 
 Cependant afin de guider au mieux les utilisateurs du référentiel, un seuil de 5m2 peut être retenu comme une surface minimale pour prendre en considération la construction. En effet, ce seuil correspond à la surface à partir de laquelle une [Déclaration Préalable](https://www.service-public.fr/particuliers/vosdroits/F17578) est à faire auprès des services de l'urbanisme de la collectivité. 
 
 En deçà, il serait notamment difficile de mettre en place des flux d'alimentation pour des bâtiments plus petits, car non sujet à des règles administratives
 
-### C. Distinction entre un bâtiment et un local (au sens fiscal)
+#### Distinction entre un bâtiment et un local (au sens fiscal)
 
 Un bâtiment peut rassembler un ou plusieurs locaux. Cette précision a pour objectif d’éviter toutes potentielles ambiguïtés entre les objets “bâtiment” et “local” au sein de la définition sémantique retenue. 
 
@@ -151,7 +151,7 @@ Ce lien local-bâtiment sera notamment précisé dans le modèle de données.
 Un local s’entend ici au sens retenu des processus administratifs de la direction générale des finances publiques tel que désigné par son invariant fiscal.
 
 
-### D. Distinction entre les bâtiments et d’autres types de constructions
+#### Distinction entre les bâtiments et d’autres types de constructions
 
 Cette section vise à déterminer les types de constructions et autres objets ne correspondant pas formellement à la définition des bâtiments proposée par le groupe de travail du CNIG.
 
@@ -273,7 +273,7 @@ A l’inverse, une yourte ou un mobil-home qui est installée pour une durée sa
 
 Les règles de distinction à appliquer sont les mêmes que pour les bâtiments individualisés. 
 
-### E. Distinction entre un bâtiment unique et plusieurs bâtiments
+### C. Distinction entre un bâtiment unique et plusieurs bâtiments
 
 L’objectif de cette section est de faciliter l’identification et le découpage d’un ou plusieurs bâtiments pour les utilisateurs du référentiel. La représentation des cas cités ci-dessous au sein du référentiel est accompagnée d’une explication succincte permettant de détromper certains cas complexes. 
 
@@ -281,7 +281,7 @@ Cette liste n’est pas exhaustive et à vocation à être complétée au fil de
 
 #### Bâtiment individualisé 
 
-##### Maison individuelle
+- Maison individuelle
 
 ![](./static/images/image14.png)
 
@@ -310,7 +310,7 @@ Les cabanes dans les arbres habitées </em>
   </tr>
 </table>
 
-#### Bâtiment administratif, commercial, entrepôt, industriel
+- Bâtiment administratif, commercial, entrepôt, industriel
 
 ![](./static/images/image25.png)
 
