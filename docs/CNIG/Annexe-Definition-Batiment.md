@@ -142,7 +142,7 @@ Cependant afin de guider au mieux les utilisateurs du référentiel, un seuil de
 
 En deçà, il serait notamment difficile de mettre en place des flux d'alimentation pour des bâtiments plus petits, car non sujet à des règles administratives
 
-### C. Distinction entre un bâtiment et un local
+### C. Distinction entre un bâtiment et un local (au sens fiscal)
 
 Un bâtiment peut rassembler un ou plusieurs locaux. Cette précision a pour objectif d’éviter toutes potentielles ambiguïtés entre les objets “bâtiment” et “local” au sein de la définition sémantique retenue. 
 
