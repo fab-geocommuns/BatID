@@ -283,9 +283,10 @@ Cette liste n’est pas exhaustive et à vocation à être complétée au fil de
 
 - Maison individuelle
 
-![](./static/images/image14.png)
+<img src="static/images/640px-Bretagne_Finistere_BauernhausaufCrozon_19064.png" alt="img" width = 400px height = 400px/>
 
-Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
+
+Elle doit être définie comme un bâtiment unique lorsqu’elle forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
 
 Les exemples, moins communs, de ce type de bâtiment sont notamment (liste non-exhaustive) :
 
