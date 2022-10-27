@@ -79,6 +79,7 @@ Afin que ce référentiel soit le plus utilisé possible, la définition du bât
 
 ## 3. La définition et commentaires sur les termes
 
+### Échanges et réflexions du groupe de travail
 La définition proposée par le groupe de travail “Bâti” au fil des trois premières sessions et des commentaires des membres du groupe en [asynchrone](https://github.com/entrepreneur-interet-general/BatID/issues/12) est la suivante :
 
 **Construction souterraine ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines et ayant une surface minimum de 5 m2.** 
@@ -87,13 +88,14 @@ La définition proposée par le groupe de travail “Bâti” au fil des trois p
  
 **Un bâtiment peut rassembler un ou plusieurs locaux**
 
+### Définition proposée
 Suite au groupe de travail n°4, une nouvelle définition est proposée : 
 
 **Construction souterraine et/ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines.** 
 
 **Un bâtiment possède a minima un accès depuis l’extérieur et dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.**
  
-
+### Commentaires sur les termes de la définition
 Plusieurs aspects de cette définition doivent être éclaircis et font appel à commentaires :
 
 * **Souterraine et/ou au-dessus du sol**
