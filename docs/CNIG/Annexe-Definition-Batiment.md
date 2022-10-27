@@ -423,6 +423,11 @@ Dans l’illustration ci-dessus, il s’agit d’une immeuble donnant accès à 
 
 Dans le cas de l’immeuble ci-dessus, il est à considérer comme un seul bâtiment si les espaces communs permettent de passer d’une entrée à l’autre (il n’existe ainsi donc pas de séparation non franchissable de l’un à l’autre, c’est bien un unique bâtiment).
 
+#### Bâtiment/immeuble avec un parking sous-terrain/cave  
+
+Si le bâtiment hors sol possède des parties en sous-sol tel qu'un garage ou une cave, alors cet ensemble constitue bien un seul bâtiment.
+
+
 #### Bâtiment léger (Bungalow, cabine en bois, kiosk)
 
 Ce cas d’usage représente finalement le cas des objets n’ayant pas de fondation.
