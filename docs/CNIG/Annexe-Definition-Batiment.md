@@ -14,28 +14,31 @@ _Sept. 2022_
   * [1. Introduction](#1-introduction)
   * [2. Le besoin d’adopter une définition unique et partagée](#2-le-besoin-dadopter-une-dfinition-unique-et-partage)
   * [3. La définition et commentaires sur les termes](#3-la-dfinition-et-commentaires-sur-les-termes)
+    * [Échanges et réflexions du groupe de travail](#changes-et-rflexions-du-groupe-de-travail)
+    * [Définition proposée](#dfinition-propose)
+    * [Commentaires sur les termes de la définition](#commentaires-sur-les-termes-de-la-dfinition)
   * [4. Descriptif complémentaire des bâtiments dans le Référentiel National des Bâtiments](#4-descriptif-complmentaire-des-btiments-dans-le-rfrentiel-national-des-btiments)
     * [A. Objectif du descriptif complémentaire](#a-objectif-du-descriptif-complmentaire)
     * [B. Critère d’exclusion](#b-critre-dexclusion)
-    * [C. Distinction entre un bâtiment et un local](#c-distinction-entre-un-btiment-et-un-local)
-    * [D. Distinction entre les bâtiments et d’autres types de constructions](#d-distinction-entre-les-btiments-et-dautres-types-de-constructions)
+      * [Guide concernant les petites constructions](#guide-concernant-les-petites-constructions)
+      * [Distinction entre un bâtiment et un local (au sens fiscal)](#distinction-entre-un-btiment-et-un-local--au-sens-fiscal-)
+      * [Distinction entre les bâtiments et d’autres types de constructions](#distinction-entre-les-btiments-et-dautres-types-de-constructions)
       * [Les cas particuliers d’ouvrage d’art](#les-cas-particuliers-douvrage-dart)
       * [Comment traiter les bâtiments provisoires ?](#comment-traiter-les-btiments-provisoires-)
-    * [E. Distinction entre un bâtiment unique et plusieurs bâtiments](#e-distinction-entre-un-btiment-unique-et-plusieurs-btiments)
+    * [C. Distinction entre un bâtiment unique et plusieurs bâtiments](#c-distinction-entre-un-btiment-unique-et-plusieurs-btiments)
       * [Bâtiment individualisé](#btiment-individualis)
-        * [Maison individuelle](#maison-individuelle)
-      * [Bâtiment administratif, commercial, entrepôt, industriel](#btiment-administratif-commercial-entrept-industriel)
       * [Bâtiment abritant des activités humaines uniquement (sans abriter des humains)](#btiment-abritant-des-activits-humaines-uniquement--sans-abriter-des-humains-)
       * [Objet autre, qui est une annexe contiguë d’un bâtiment](#objet-autre-qui-est-une-annexe-contigu-dun-btiment)
       * [Bâtiments dont une partie (ex. une extension) n’a pas d’accès depuis l’extérieur](#btiments-dont-une-partie--ex-une-extension--na-pas-daccs-depuis-lextrieur)
       * [Bâtiment/ Immeuble ayant plusieurs logements (et parfois plusieurs entrées )](#btiment-immeuble-ayant-plusieurs-logements--et-parfois-plusieurs-entres-)
+      * [Bâtiment/immeuble avec un parking sous-terrain/cave](#btimentimmeuble-avec-un-parking-sous-terraincave)
       * [Bâtiment léger (Bungalow, cabine en bois, kiosk)](#btiment-lger--bungalow-cabine-en-bois-kiosk-)
     * [Bâtiments distincts](#btiments-distincts)
       * [Maisons jumelées (mitoyenne)](#maisons-jumeles--mitoyenne-)
       * [Maisons en rangée](#maisons-en-range)
       * [Bâtiment annexe contigu/autonome](#btiment-annexe-contiguautonome)
       * [Bâtiments reliés par une construction souterraine](#btiments-relis-par-une-construction-souterraine)
-      * [Bâtiments découpés par des limites géographiques (Communes, cadastre, etc)](#btiments-dcoups-par-des-limites-gographiques--communes-cadastre-etc-)
+      * [Bâtiments découpés par des limites géographiques (Communes, parcelles cadastre, etc)](#btiments-dcoups-par-des-limites-gographiques--communes-parcelles-cadastre-etc-)
   * [Ressources](#ressources)
 <!-- TOC -->
 
@@ -122,7 +125,7 @@ Plusieurs aspects de cette définition doivent être éclaircis et font appel à
 
 * **Différencier un bâtiment d'un autre** : dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux **
     * L’objectif de cette distinction est de permettre aux contributeurs du référentiel de différencier les bâtiments des uns des autres dans le cas général, donc la circulation entre bâtiments mitoyens qui ne pourraient pas être distingués les uns des autres par vues aériennes par exemple. 
-    * Se référer à la section permettant de guider la distinguer les bâtiments. TODO add link
+    * Se référer à [la section](#4-descriptif-complmentaire-des-btiments-dans-le-rfrentiel-national-des-btiments) permettant de guider la distinguer les bâtiments.
 
 ## 4. Descriptif complémentaire des bâtiments dans le Référentiel National des Bâtiments
 
