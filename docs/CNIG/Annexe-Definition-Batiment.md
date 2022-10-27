@@ -405,7 +405,7 @@ Les postes de transformation électrique suffisamment grands </em>
 
 ![](./static/images/image26.png)
 
-Une annexe contiguë est saisie avec le bâtiment principal si l’on peut circuler de l’un à l’autre et n’existe pas de délimitation non franchissable.
+Une annexe contiguë et son bâtiment principal sont un seul et même bâtiment si l’on peut circuler de l’un à l’autre et n’existe pas de délimitation non franchissable.
 
 #### Bâtiments dont une partie (ex. une extension) n’a pas d’accès depuis l’extérieur
 
@@ -426,7 +426,7 @@ Dans le cas de l’immeuble ci-dessus, il est à considérer comme un seul bâti
 #### Bâtiment léger (Bungalow, cabine en bois, kiosk)
 
 Ce cas d’usage représente finalement le cas des objets n’ayant pas de fondation.
-A priori, si ceux-ci répondent aux exigences de la définition, ils doivent être considérés comme des bâtiments.
+Cependant, si ces constructions répondent au critère de la définition "d'objectif de permanence", alors ils peuvent être inclus au sein du référentiel.
 
 Cela implique donc de considérer comme bâtiments, sous réserve d’un objectif de permanence, les objets suivants 
 
