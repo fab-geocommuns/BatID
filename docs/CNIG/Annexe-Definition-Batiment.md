@@ -122,7 +122,7 @@ Plusieurs aspects de cette définition doivent être éclaircis et font appel à
 
 * **Différencier un bâtiment d'un autre** : dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux **
     * L’objectif de cette distinction est de permettre aux contributeurs du référentiel de différencier les bâtiments des uns des autres dans le cas général, donc la circulation entre bâtiments mitoyens qui ne pourraient pas être distingués les uns des autres par vues aériennes par exemple. 
-    * Pour autant, il est clair que ce découpage devra être adapté par chaque utilisateur selon le niveau d’information dont il dispose.
+    * Se référer à la section permettant de guider la distinguer les bâtiments. TODO add link
 
 ## 4. Descriptif complémentaire des bâtiments dans le Référentiel National des Bâtiments
 
