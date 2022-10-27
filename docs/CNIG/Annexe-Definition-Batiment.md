@@ -259,7 +259,7 @@ Tunnels, galeries </em>
 
 ![](./static/images/image4.png)
 
-Chaque contributeur au référentiel peut évaluer le caractère permanent ou non d’une construction. Par exemple, une construction provisoire érigée pour une durée excédant une durée réglementaire (qui peut varier selon les cas) et qui est solidement fixés au sol, est considérée comme un bâtiment.
+Au vu des critères donnés par la définition, le caractère permanent pourra être évalué par chaque contributeur. Par exemple, une construction provisoire érigée pour une durée excédant une durée réglementaire (qui peut varier selon les cas) et qui est solidement fixés au sol, est considérée comme un bâtiment.
 <table>
 <tr>
    <td> <img src="static/images/yourte.png" alt="img" width = 300px height = 300px />
