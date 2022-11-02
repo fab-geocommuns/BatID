@@ -382,7 +382,7 @@ Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
 
 Les bâtiments d’exploitation agricole 
 
-(ex. étable, serre, grange, écurie, ferme…) </em>
+ex. étable, serre(si objectif d'être permanente), grange, écurie, ferme </em>
    </td>
    <td> <img src="static/images/eolienne.png" alt="img" width = 180px height = 180px />
 <em>
