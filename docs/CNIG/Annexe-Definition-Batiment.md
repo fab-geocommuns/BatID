@@ -497,6 +497,19 @@ Dans le cas de bâtiments reliés par une construction souterraine (par exemple 
 
 Idem, dans le cas d’une barre d’immeuble avec plusieurs cages d’escalier non communicantes en dehors des cages et garages souterrains, on a bien autant de bâtiments que de cages d’escaliers (accès distinct depuis l’extérieur). Cet aspect est notamment primordial pour les interventions des services d’urgences qui doivent pouvoir identifier rapidement le point d’accès à un lieu d’intervention dans l’immeuble.
 
+#### Bâtiments reliés par une passerelle 
+
+<p align = "center">
+<img src = "./static/images/passerelle-stephane-muratet-1380x898.png">
+</p>
+<p align = "center">
+&#169; Le bon marché, LVMH
+</p>
+
+Dans le cas de deux bâtiments reliés par une passerelle, même si celle-ci rend la circulation possible entre les deux bâtiments, a priori, on décompte bien deux bâtiments distincts. 
+Il suffit alors de rattacher la passerelle à un des deux bâtiments. 
+
+
 #### Bâtiments découpés par des limites géographiques (Communes, parcelles cadastre, etc) 
 
 ![](./static/images/frontiere.png)
