@@ -96,8 +96,10 @@ Suite au groupe de travail n°4, une nouvelle définition est proposée :
 
 **Construction souterraine et/ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines.** 
 
-**Un bâtiment possède a minima un accès depuis l’extérieur et dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.**
+**Un bâtiment possède a minima un accès depuis l’extérieur. Dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.**
  
+**Cette définition est complétée par une annexe, qui vise à l’étayer et apporter un éclairage aux cas particuliers rencontrés.**
+
 ### Commentaires sur les termes de la définition
 Plusieurs aspects de cette définition doivent être éclaircis et font appel à commentaires :
 
