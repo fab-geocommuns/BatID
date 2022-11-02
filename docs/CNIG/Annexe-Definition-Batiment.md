@@ -235,6 +235,8 @@ Parcs photovoltaïques </em>
 
 Liste non exhaustive de constructions n’étant pas un bâtiment mais un simple ouvrage d’art.
 
+Il est effectivement possible que des bâtiments soient rattachés à un ouvrage d’art (par ex les bâtiments des locaux d’un barrage) mais l’objet de l’ouvrage d’art lui même n’est pas à considérer comme un bâtiment.
+
 <table>
   <tr>
        <td> <img src="static/images/pont.png" alt="img" width = 180px height = 180px/>   
