@@ -488,19 +488,16 @@ Dans le cas de bâtiments reliés par une construction souterraine (par exemple 
 - Concernant la partie du garage en sous-sol, une documentation supplémentaire sera dédiée à ce sujet.	
 
 
-<table>
-  <tr>
-<td> <img src="static/images/hlm.png" alt="img" width = 360px height = 360px/>   
-</td>
-  </tr>
-</table>
+<p align = "center">
+<img src = "./static/images/hlm.png" alt="img" width = 360px height = 360px>
+</p>
 
 Idem, dans le cas d’une barre d’immeuble avec plusieurs cages d’escalier non communicantes en dehors des cages et garages souterrains, on a bien autant de bâtiments que de cages d’escaliers (accès distinct depuis l’extérieur). Cet aspect est notamment primordial pour les interventions des services d’urgences qui doivent pouvoir identifier rapidement le point d’accès à un lieu d’intervention dans l’immeuble.
 
 #### Bâtiments reliés par une passerelle 
 
 <p align = "center">
-<img src = "./static/images/passerelle-stephane-muratet-1380x898.png">
+<img src = "./static/images/passerelle-stephane-muratet-1380x898.png" alt="img" width = 360px height = 360px>
 </p>
 <p align = "center">
 &#169; Le bon marché, LVMH
