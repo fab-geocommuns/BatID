@@ -109,7 +109,7 @@ Plusieurs aspects de cette définition doivent être éclaircis et font appel à
   * Pour cette raison, les bâtiments exclusivement souterrains sont compris dans la définition et le modèle de données mais leur recensement au sein du référentiel aura lieu dans un second temps.
 
 * **Objectif de permanence**
-    * La définition du bâtiment doit exclure les constructions temporaires qui n’ont pas vocation à être implémentées dans la durée pour assurer le maintien d’une base de données fiables et représentative de la réalité terrain.
+    * La définition du bâtiment doit exclure les constructions temporaires qui n’ont pas vocation à être implémentées dans la durée pour assurer le maintien d’une base de données fiable et représentative de la réalité terrain.
     * Le choix des termes “objectif de permanence” est délibérément large, pour laisser la possibilité de refléter les différentes manières de définir un bâtiment temporaire qui existent aujourd’hui. 
     * Le bâtiment temporaire peut en effet être défini : 
         * _Soit par un critère de durée_ : Une installation temporaire pourrait être définie au sens “construction provisoire" de l**’article R.421-5 du code de l’urbanisme**, c’est à dire d’une durée de moins de **3 mois**. 
