@@ -282,7 +282,7 @@ Les règles de distinction à appliquer sont les mêmes que pour les bâtiments 
 
 ### C. Distinction entre un bâtiment unique et plusieurs bâtiments
 
-L’objectif de cette section est de est de clarifier le dénombrement des bâtiments, notamment le fait qu'une construction soit considéré comme un ou plusieurs bâtiments. La représentation des cas cités ci-dessous au sein du référentiel est accompagnée d’une explication succincte permettant de détromper certains cas complexes. 
+L’objectif de cette section est de est de clarifier le dénombrement des bâtiments, notamment le fait qu'une construction soit considérée comme un ou plusieurs bâtiments. La représentation des cas cités ci-dessous au sein du référentiel est accompagnée d’une explication succincte permettant de détromper certains cas complexes. 
 
 Cette liste n’est pas exhaustive et à vocation à être complétée au fil de la construction du référentiel. 
 
