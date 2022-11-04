@@ -64,7 +64,7 @@ Les travaux de celui-ci doivent permettre aux parties prenantes institutionnelle
 * [https://github.com/entrepreneur-interet-general/BatID/issues/12](https://github.com/entrepreneur-interet-general/BatID/issues/12) 
 
 Les travaux relatifs à la définition sont désormais ouverts à l’appel aux commentaires de l’ensemble des membres du CNIG.
-Les enjeux au-delà de la définition seront traités par ailleurs, notamment le cycle de vie du bâtiment, le modèle de donnée du référentiel ainsi que sa gouvernance. Ce document ne traite que de la définition.
+Les enjeux au-delà de la définition seront traités par ailleurs, notamment le cycle de vie du bâtiment, le modèle de données du référentiel ainsi que sa gouvernance. Ce document ne traite que de la définition.
 
 
 
