@@ -76,7 +76,7 @@ Dans le cadre de la création du référentiel national du bâtiment (RNB), il c
 * La latence et la fiabilité dans la représentation du parc,
 * Le manque d’information sur l’historique du bâtiment. 
 
-Bien qu’elle se veuille la plus générique possible, surtout vis-à-vis des définitions existantes qui ne se concentrent que sur un cas d’usage spécifique, la définition du bâtiment **dans le cadre de ce référentiel** a pour but de répondre à ces besoins (voir besoin au sein de la Recherche utilisateur [disponible ici](https://github.com/entrepreneur-interet-general/BatID/blob/main/docs/Rapport-Phase-1-Bat-ID.pdf)). 
+Bien qu’elle se veuille la plus générique possible, surtout vis-à-vis des définitions existantes qui ne se concentrent que sur un cas d’usage spécifique, la définition du bâtiment **dans le cadre de ce référentiel** a pour but de répondre à ces besoins (voir la description de ces besoins au sein de la Recherche utilisateurs [disponible ici](https://github.com/entrepreneur-interet-general/BatID/blob/main/docs/Rapport-Phase-1-Bat-ID.pdf)). 
 
 Afin que ce référentiel soit le plus utilisé possible, la définition du bâtiment doit être concise, appréhendable selon le sens commun et permettre d'identifier facilement d’identifier ce qu’est un bâtiment et discriminer les bâtiments entre eux. 
 
