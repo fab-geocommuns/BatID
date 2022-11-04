@@ -73,7 +73,7 @@ Les enjeux au-delà de la définition seront traités par ailleurs, notamment le
 Dans le cadre de la création du référentiel national du bâtiment (RNB), il convient d’approcher la définition du bâtiment en tant **qu’objet fonctionnel**. En effet, l’objectif est de répondre aux principaux problèmes que rencontrent les utilisateurs des données bâtimentaires aujourd’hui, à savoir: 
 
 * La complexité du croisement de l’information et ses conséquences, 
-* La latence et la fiabilité dans la représentation du parc
+* La latence et la fiabilité dans la représentation du parc,
 * Le manque d’information sur l’historique du bâtiment. 
 
 Bien qu’elle se veuille la plus générique possible, surtout vis-à-vis des définitions existantes qui ne se concentrent que sur un cas d’usage spécifique, la définition du bâtiment **dans le cadre de ce référentiel** a pour but de répondre à ces besoins (voir besoin au sein de la Recherche utilisateur [disponible ici](https://github.com/entrepreneur-interet-general/BatID/blob/main/docs/Rapport-Phase-1-Bat-ID.pdf)). 
