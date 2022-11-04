@@ -14,28 +14,31 @@ _Sept. 2022_
   * [1. Introduction](#1-introduction)
   * [2. Le besoin d’adopter une définition unique et partagée](#2-le-besoin-dadopter-une-dfinition-unique-et-partage)
   * [3. La définition et commentaires sur les termes](#3-la-dfinition-et-commentaires-sur-les-termes)
+    * [Échanges et réflexions du groupe de travail](#changes-et-rflexions-du-groupe-de-travail)
+    * [Définition proposée](#dfinition-propose)
+    * [Commentaires sur les termes de la définition](#commentaires-sur-les-termes-de-la-dfinition)
   * [4. Descriptif complémentaire des bâtiments dans le Référentiel National des Bâtiments](#4-descriptif-complmentaire-des-btiments-dans-le-rfrentiel-national-des-btiments)
     * [A. Objectif du descriptif complémentaire](#a-objectif-du-descriptif-complmentaire)
     * [B. Critère d’exclusion](#b-critre-dexclusion)
-    * [C. Distinction entre un bâtiment et un local](#c-distinction-entre-un-btiment-et-un-local)
-    * [D. Distinction entre les bâtiments et d’autres types de constructions](#d-distinction-entre-les-btiments-et-dautres-types-de-constructions)
+      * [Guide concernant les petites constructions](#guide-concernant-les-petites-constructions)
+      * [Distinction entre un bâtiment et un local (au sens fiscal)](#distinction-entre-un-btiment-et-un-local--au-sens-fiscal-)
+      * [Distinction entre les bâtiments et d’autres types de constructions](#distinction-entre-les-btiments-et-dautres-types-de-constructions)
       * [Les cas particuliers d’ouvrage d’art](#les-cas-particuliers-douvrage-dart)
       * [Comment traiter les bâtiments provisoires ?](#comment-traiter-les-btiments-provisoires-)
-    * [E. Distinction entre un bâtiment unique et plusieurs bâtiments](#e-distinction-entre-un-btiment-unique-et-plusieurs-btiments)
+    * [C. Distinction entre un bâtiment unique et plusieurs bâtiments](#c-distinction-entre-un-btiment-unique-et-plusieurs-btiments)
       * [Bâtiment individualisé](#btiment-individualis)
-        * [Maison individuelle](#maison-individuelle)
-      * [Bâtiment administratif, commercial, entrepôt, industriel](#btiment-administratif-commercial-entrept-industriel)
       * [Bâtiment abritant des activités humaines uniquement (sans abriter des humains)](#btiment-abritant-des-activits-humaines-uniquement--sans-abriter-des-humains-)
       * [Objet autre, qui est une annexe contiguë d’un bâtiment](#objet-autre-qui-est-une-annexe-contigu-dun-btiment)
       * [Bâtiments dont une partie (ex. une extension) n’a pas d’accès depuis l’extérieur](#btiments-dont-une-partie--ex-une-extension--na-pas-daccs-depuis-lextrieur)
       * [Bâtiment/ Immeuble ayant plusieurs logements (et parfois plusieurs entrées )](#btiment-immeuble-ayant-plusieurs-logements--et-parfois-plusieurs-entres-)
+      * [Bâtiment/immeuble avec un parking sous-terrain/cave](#btimentimmeuble-avec-un-parking-sous-terraincave)
       * [Bâtiment léger (Bungalow, cabine en bois, kiosk)](#btiment-lger--bungalow-cabine-en-bois-kiosk-)
     * [Bâtiments distincts](#btiments-distincts)
       * [Maisons jumelées (mitoyenne)](#maisons-jumeles--mitoyenne-)
       * [Maisons en rangée](#maisons-en-range)
       * [Bâtiment annexe contigu/autonome](#btiment-annexe-contiguautonome)
       * [Bâtiments reliés par une construction souterraine](#btiments-relis-par-une-construction-souterraine)
-      * [Bâtiments découpés par des limites géographiques (Communes, cadastre, etc)](#btiments-dcoups-par-des-limites-gographiques--communes-cadastre-etc-)
+      * [Bâtiments découpés par des limites géographiques (Communes, parcelles cadastre, etc)](#btiments-dcoups-par-des-limites-gographiques--communes-parcelles-cadastre-etc-)
   * [Ressources](#ressources)
 <!-- TOC -->
 
@@ -52,7 +55,7 @@ Dans le cadre de cette mission, des travaux de recherches utilisateurs ont été
 Afin d’atteindre cet objectif, et pour permettre de fédérer l’ensemble des acteurs intéressés par la problématique autour de ces premières analyses, l’équipe du projet Bat-ID a été chargée par le Conseil National de l’Information Géolocalisée (CNIG) d’animer le Groupe de Travail du Bâtiment en s’appuyant sur les travaux de définition menés précédemment par le projet Bat-ID (dont la synthèse est disponible [ici](https://github.com/entrepreneur-interet-general/BatID/blob/main/docs/Synthe%CC%80se-Ateliers-de-De%CC%81finition-Bat-ID.pdf)).  \
 
 
-Les travaux de celui-ci doivent permettre aux parties prenantes institutionnelles d’aboutir à une définition socle de l’objet “bâtiment” pour la création du référentiel. Ce travail est complété par l’apport plus large de la communauté s’intéressant au sujet des données bâtimentaire via les forums de collaboration en ligne: 
+Les travaux de celui-ci doivent permettre aux parties prenantes institutionnelles d’aboutir à une définition partagée de l’objet “bâtiment” pour la création du référentiel. Ce travail est complété par l’apport plus large de la communauté s’intéressant au sujet des données bâtimentaires via les forums de collaboration en ligne: 
 
 
 
@@ -60,7 +63,8 @@ Les travaux de celui-ci doivent permettre aux parties prenantes institutionnelle
 * [https://teamopendata.org/t/identifiant-unique-batiment/2899/29](https://teamopendata.org/t/identifiant-unique-batiment/2899/29) 
 * [https://github.com/entrepreneur-interet-general/BatID/issues/12](https://github.com/entrepreneur-interet-general/BatID/issues/12) 
 
-Ces travaux sont désormais ouverts à l’appel aux commentaires de l’ensemble des membres du CNIG.
+Les travaux relatifs à la définition sont désormais ouverts à l’appel aux commentaires de l’ensemble des membres du CNIG.
+Les enjeux au-delà de la définition seront traités par ailleurs, notamment le cycle de vie du bâtiment, le modèle de données du référentiel ainsi que sa gouvernance. Ce document ne traite que de la définition.
 
 
 
@@ -69,15 +73,16 @@ Ces travaux sont désormais ouverts à l’appel aux commentaires de l’ensembl
 Dans le cadre de la création du référentiel national du bâtiment (RNB), il convient d’approcher la définition du bâtiment en tant **qu’objet fonctionnel**. En effet, l’objectif est de répondre aux principaux problèmes que rencontrent les utilisateurs des données bâtimentaires aujourd’hui, à savoir: 
 
 * La complexité du croisement de l’information et ses conséquences, 
-* La latence et la fiabilité dans la représentation du parc
+* La latence et la fiabilité dans la représentation du parc,
 * Le manque d’information sur l’historique du bâtiment. 
 
-Bien qu’elle se veuille la plus générique possible, surtout vis à vis des définitions existantes qui ne se concentrent que sur un cas d’usage spécifique, la définition du bâtiment **dans le cadre de ce référentiel** a pour but de répondre à ces besoins. 
+Bien qu’elle se veuille la plus générique possible, surtout vis-à-vis des définitions existantes qui ne se concentrent que sur un cas d’usage spécifique, la définition du bâtiment **dans le cadre de ce référentiel** a pour but de répondre à ces besoins (voir la description de ces besoins au sein de la Recherche utilisateurs [disponible ici](https://github.com/entrepreneur-interet-general/BatID/blob/main/docs/Rapport-Phase-1-Bat-ID.pdf)). 
 
-Afin que ce référentiel soit le plus utilisé possible, la définition du bâtiment doit être concise, appréhendable selon le sens commun et permettent facilement d’identifier ce qu’est un bâtiment et discriminer les bâtiments entre eux. 
+Afin que ce référentiel soit le plus utilisé possible, la définition du bâtiment doit être concise, appréhendable selon le sens commun et permettre d'identifier facilement d’identifier ce qu’est un bâtiment et discriminer les bâtiments entre eux. 
 
 ## 3. La définition et commentaires sur les termes
 
+### Échanges et réflexions du groupe de travail
 La définition proposée par le groupe de travail “Bâti” au fil des trois premières sessions et des commentaires des membres du groupe en [asynchrone](https://github.com/entrepreneur-interet-general/BatID/issues/12) est la suivante :
 
 **Construction souterraine ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines et ayant une surface minimum de 5 m2.** 
@@ -86,22 +91,25 @@ La définition proposée par le groupe de travail “Bâti” au fil des trois p
  
 **Un bâtiment peut rassembler un ou plusieurs locaux**
 
+### Définition proposée
 Suite au groupe de travail n°4, une nouvelle définition est proposée : 
 
 **Construction souterraine et/ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines.** 
 
-**Un bâtiment possède a minima un accès depuis l’extérieur et dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.**
+**Un bâtiment possède a minima un accès depuis l’extérieur. Dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux.**
  
+**Cette définition est complétée par une annexe, qui vise à l’étayer et apporter un éclairage aux cas particuliers rencontrés.**
 
+### Commentaires sur les termes de la définition
 Plusieurs aspects de cette définition doivent être éclaircis et font appel à commentaires :
 
 * **Souterraine et/ou au-dessus du sol**
-  * La directive INSPIRE propose d’inclure la représentation des bâtiments souterrains;
-  * Ces bâtiments sont néanmoins plus difficiles à identifier en pratique;
-  * Pour cette raison, les bâtiments souterrains sont compris dans la définition et le modèle de données mais leur recensement au sein du référentiel aura lieu dans un second temps, après avoir traité la question des bâtiments hors-sols dans un premier temps.
+  * La directive INSPIRE prévoit la possibilité de décrire les bâtiments souterrains;
+  * A la vue des bases existantes, ces bâtiments sont néanmoins plus difficiles à identifier en pratique;
+  * Pour cette raison, les bâtiments exclusivement souterrains sont compris dans la définition et le modèle de données mais leur recensement au sein du référentiel aura lieu dans un second temps.
 
 * **Objectif de permanence**
-    * La définition du bâtiment doit exclure les constructions temporaires qui n’ont pas vocation à être implémentées dans la durée pour assurer le maintien d’une base de données fiables et représentative de la réalité terrain.
+    * La définition du bâtiment doit exclure les constructions temporaires qui n’ont pas vocation à être implémentées dans la durée pour assurer le maintien d’une base de données fiable et représentative de la réalité terrain.
     * Le choix des termes “objectif de permanence” est délibérément large, pour laisser la possibilité de refléter les différentes manières de définir un bâtiment temporaire qui existent aujourd’hui. 
     * Le bâtiment temporaire peut en effet être défini : 
         * _Soit par un critère de durée_ : Une installation temporaire pourrait être définie au sens “construction provisoire" de l**’article R.421-5 du code de l’urbanisme**, c’est à dire d’une durée de moins de **3 mois**. 
@@ -114,32 +122,32 @@ Plusieurs aspects de cette définition doivent être éclaircis et font appel à
     * Il a été évoqué la possibilité de remplacer ce terme par les termes "_clos & couvert_" mais qui ont été jugés trop limitatifs et difficiles à implémenter dans le référentiel car il semble complexe de vérifier qu’un bâtiment est bien clos sans intervention humaine. \
 
 * **A minima un accès depuis l’extérieur**
-    * Il a été évoqué l’idée d’avoir une notion “d’entrée principale” - néanmoins le terme “entrée” implique potentiellement plusieurs types d’usages différent (accès pour le facteur, pour le particulier, pour les services d’urgences) et il a été privilégié l’idée de recenser toutes les entrées plutôt qu’en désigner une comme étant “principale”.
+    * Un bâtiment possède 1 ou plusieurs entrées depuis l'extérieur. Pour un bâtiment, il n'est pas défini d'entrée par défaut ni d'entrée principale car ces notions sont liées aux usages du bâtiment (ex: entrée du centre commerciale au rdc distincte de l'entrée des logements aux étages d'un immeuble)
     * Cette notion d’entrée permet de faire le lien avec la notion d’adresse et notamment la Base d’Adresse Nationale. \
 
 * **Différencier un bâtiment d'un autre** : dans la mesure du possible, un bâtiment est distinct d’un autre dès lors qu’il est impossible de circuler entre eux **
     * L’objectif de cette distinction est de permettre aux contributeurs du référentiel de différencier les bâtiments des uns des autres dans le cas général, donc la circulation entre bâtiments mitoyens qui ne pourraient pas être distingués les uns des autres par vues aériennes par exemple. 
-    * Pour autant, il est clair que ce découpage devra être adapté par chaque utilisateur selon le niveau d’information dont il dispose.
+    * Se référer à [la section](#4-descriptif-complmentaire-des-btiments-dans-le-rfrentiel-national-des-btiments) permettant de guider la distinguer les bâtiments.
 
 ## 4. Descriptif complémentaire des bâtiments dans le Référentiel National des Bâtiments
 
 ### A. Objectif du descriptif complémentaire
 
-Ce descriptif complémentaire est à destination des utilisateurs et contributeurs du Référentiel National des Bâtiments (RNB) chargés de saisir et mettre à jour les données sur les bâtiments. Ce document sert de guide et n’est pas une liste exhaustive de l’ensemble des cas spécifiques qui pourraient se présenter.
+Ce descriptif complémentaire est à destination des utilisateurs et contributeurs du Référentiel National des Bâtiments (RNB) chargés de saisir et mettre à jour les données sur les bâtiments.
 
-Dans une démarche itérative, le RNB sera construit dans un premier temps avec les bâtiments au-dessus du sol, et ce document a pour objectif de préciser certains cas d’application dans lesquels la détermination d’un ou plusieurs bâtiments est sujet à débat. Ce document sert de guide et n’est pas une liste exhaustive de l’ensemble des cas spécifiques qui pourraient se présenter.
+Dans une démarche itérative, le RNB sera construit dans un premier temps avec les bâtiments au-dessus du sol, et ce document a pour objectif de préciser certains cas d’application dans lesquels la détermination d’un ou plusieurs bâtiments est sujet à débat. Il ne traitera donc pas des cas de bâtiments exclusivement sous-terrains. Ce document sert de guide et n’est pas une liste exhaustive de l’ensemble des cas spécifiques qui pourraient se présenter, et sera étoffé au cours de la mise en place du référentiel. 
 
-L’expérience montre que les différents utilisateurs de la donnée bâtimentaire n’ont pas la même manière d’envisager l’entité “bâtiment” ce qui peut compliquer l’échange d’information. C’est pourquoi nous avons créé ce descriptif, afin d’apporter de la clarté dans l’appréhension de la définition des bâtiments dans le RNB.
+L’expérience montre que les différents utilisateurs de la donnée bâtimentaire n’ont pas la même manière d’envisager l’entité “bâtiment” ce qui peut compliquer l’échange d’informations. C’est pourquoi nous avons créé ce descriptif, afin d’apporter de la clarté dans l’appréhension de la définition des bâtiments dans le RNB.
 
 ### B. Critère d’exclusion
-
+#### Guide concernant les petites constructions
 Chaque usager du référentiel peut librement décider d’inclure un bâtiment sans limite de surface dès lors qu’il juge son référencement pertinent (ex. il est important de connaître l’existence d’un garage de 5 m2 en zone dense). 
 
 Cependant afin de guider au mieux les utilisateurs du référentiel, un seuil de 5m2 peut être retenu comme une surface minimale pour prendre en considération la construction. En effet, ce seuil correspond à la surface à partir de laquelle une [Déclaration Préalable](https://www.service-public.fr/particuliers/vosdroits/F17578) est à faire auprès des services de l'urbanisme de la collectivité. 
 
 En deçà, il serait notamment difficile de mettre en place des flux d'alimentation pour des bâtiments plus petits, car non sujet à des règles administratives
 
-### C. Distinction entre un bâtiment et un local
+#### Distinction entre un bâtiment et un local (au sens fiscal)
 
 Un bâtiment peut rassembler un ou plusieurs locaux. Cette précision a pour objectif d’éviter toutes potentielles ambiguïtés entre les objets “bâtiment” et “local” au sein de la définition sémantique retenue. 
 
@@ -148,7 +156,7 @@ Ce lien local-bâtiment sera notamment précisé dans le modèle de données.
 Un local s’entend ici au sens retenu des processus administratifs de la direction générale des finances publiques tel que désigné par son invariant fiscal.
 
 
-### D. Distinction entre les bâtiments et d’autres types de constructions
+#### Distinction entre les bâtiments et d’autres types de constructions
 
 Cette section vise à déterminer les types de constructions et autres objets ne correspondant pas formellement à la définition des bâtiments proposée par le groupe de travail du CNIG.
 
@@ -178,10 +186,10 @@ Ruine</em>
    <td> <img src="static/images/image36.png" alt="img" width = 180px height = 180px />
 <em>
 
-Cabine de plage de moins de 5 m2 </em>
+Cabine de plage de moins de petite dimension </em>
    </td>
    <td> <img src="static/images/image34.png" alt="img" width = 180px height = 180px />
-<em>Abri de jardin de moins de 5 m2
+<em>Abri de jardin de moins de petite dimension
  </em>
    </td>
    <td> <img src="static/images/image27.png" alt="img" width = 180px height = 180px />
@@ -211,7 +219,12 @@ Abri pour deux roues </em>
    <td> <img src="static/images/image18.png" alt="img" width = 180px height = 180px />
 <em>
 
-Boîtiers de distribution électrique & transformateurs </em>
+Petits boîtiers de distribution électrique </em>
+   </td>
+   <td> <img src="static/images/640px-SolarPowerPlantSerpa.png" alt="img" width = 180px height = 180px />
+<em>
+
+Parcs photovoltaïques </em>
    </td>
 
   </tr>
@@ -220,7 +233,9 @@ Boîtiers de distribution électrique & transformateurs </em>
 
 #### Les cas particuliers d’ouvrage d’art
 
-Liste non exhaustive de constructions n’étant pas un bâtiment à intégrer au sein du référentiel mais un simple ouvrage d’art.
+Liste non exhaustive de constructions n’étant pas un bâtiment mais un simple ouvrage d’art.
+
+Il est effectivement possible que des bâtiments soient rattachés à un ouvrage d’art (par ex les bâtiments des locaux d’un barrage) mais l’objet de l’ouvrage d’art lui même n’est pas à considérer comme un bâtiment.
 
 <table>
   <tr>
@@ -251,7 +266,7 @@ Tunnels, galeries </em>
 
 ![](./static/images/image4.png)
 
-Chaque contributeur au référentiel peut évaluer le caractère permanent ou non d’une construction. Par exemple, une construction provisoire érigée pour une durée excédant une durée réglementaire (qui peut varier selon les cas) et qui est solidement fixés au sol, est considérée comme un bâtiment.
+Au vu des critères donnés par la définition, le caractère permanent pourra être évalué par chaque contributeur. Par exemple, une construction provisoire érigée pour une durée excédant une durée réglementaire (qui peut varier selon les cas) et qui est solidement fixés au sol, est considérée comme un bâtiment.
 <table>
 <tr>
    <td> <img src="static/images/yourte.png" alt="img" width = 300px height = 300px />
@@ -265,21 +280,45 @@ A l’inverse, une yourte ou un mobil-home qui est installée pour une durée sa
 
 Les règles de distinction à appliquer sont les mêmes que pour les bâtiments individualisés. 
 
-### E. Distinction entre un bâtiment unique et plusieurs bâtiments
+### C. Distinction entre un bâtiment unique et plusieurs bâtiments
 
-L’objectif de cette section est de faciliter l’identification et le découpage d’un ou plusieurs bâtiments pour les utilisateurs du référentiel. La représentation des cas cités ci-dessous au sein du référentiel est accompagnée d’une explication succincte permettant de détromper certains cas complexes. 
+L’objectif de cette section est de est de clarifier le dénombrement des bâtiments, notamment le fait qu'une construction soit considérée comme un ou plusieurs bâtiments. La représentation des cas cités ci-dessous au sein du référentiel est accompagnée d’une explication succincte permettant de détromper certains cas complexes. 
 
 Cette liste n’est pas exhaustive et à vocation à être complétée au fil de la construction du référentiel. 
 
 #### Bâtiment individualisé 
 
-##### Maison individuelle
+- Maison individuelle
 
-![](./static/images/image14.png)
+<img src="static/images/640px-Bretagne_Finistere_BauernhausaufCrozon_19064.png" alt="img" width = 400px height = 400px/>
 
-Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
 
-#### Bâtiment administratif, commercial, entrepôt, industriel
+Elle doit être définie comme un bâtiment unique lorsqu’elle forme un tout et qu’il ne comporte pas de locaux (comme un garage) qui possèdent un accès depuis l’extérieur sans être accessible depuis l’intérieur. 
+
+Les exemples, moins communs, de ce type de bâtiment sont notamment (liste non-exhaustive) :
+
+<table>
+  <tr>
+
+<td> <img src="static/images/353px-Phare_de_lile_Vierge_(lighthouse)_(14868828151).png" alt="img" width = 180px height = 180px/>   
+     <em> 
+
+Les phares </em>
+   </td>
+<td> <img src="static/images/640px-14_turquant_(21)_(13014598753).png" alt="img" width = 180px height = 180px/>   
+     <em> 
+
+Les maisons troglodytiques </em>
+   </td>
+<td> <img src="static/images/cabane_arbre.png" alt="img" width = 180px height = 180px/>   
+     <em> 
+
+Les cabanes dans les arbres habitées </em>
+   </td>
+  </tr>
+</table>
+
+- Bâtiment administratif, commercial, entrepôt, industriel
 
 ![](./static/images/image25.png)
 
@@ -347,7 +386,7 @@ Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
 
 Les bâtiments d’exploitation agricole 
 
-(ex. étable, serre, grange, écurie, ferme…) </em>
+ex. étable, serre(si objectif d'être permanente), grange, écurie, ferme </em>
    </td>
    <td> <img src="static/images/eolienne.png" alt="img" width = 180px height = 180px />
 <em>
@@ -360,6 +399,12 @@ Les grandes éoliennes </em>
 Les réservoirs & silos agricoles</em>
    </td>
 
+   <td> <img src="static/images/Transformateur_électrique_Guillerval.png" alt="img" width = 180px height = 180px />
+<em>
+
+Les postes de transformation électrique suffisamment grands </em>
+   </td>
+
   </tr>
 </table>
 
@@ -367,7 +412,7 @@ Les réservoirs & silos agricoles</em>
 
 ![](./static/images/image26.png)
 
-Une annexe contiguë est saisie avec le bâtiment principal si l’on peut circuler de l’un à l’autre et n’existe pas de délimitation non franchissable.
+Une annexe contiguë et son bâtiment principal sont un seul et même bâtiment si l’on peut circuler de l’un à l’autre et n’existe pas de délimitation non franchissable.
 
 #### Bâtiments dont une partie (ex. une extension) n’a pas d’accès depuis l’extérieur
 
@@ -385,10 +430,15 @@ Dans l’illustration ci-dessus, il s’agit d’une immeuble donnant accès à 
 
 Dans le cas de l’immeuble ci-dessus, il est à considérer comme un seul bâtiment si les espaces communs permettent de passer d’une entrée à l’autre (il n’existe ainsi donc pas de séparation non franchissable de l’un à l’autre, c’est bien un unique bâtiment).
 
+#### Bâtiment/immeuble avec un parking sous-terrain/cave  
+
+Si le bâtiment hors sol possède des parties en sous-sol tel qu'un garage ou une cave, alors cet ensemble constitue bien un seul bâtiment.
+
+
 #### Bâtiment léger (Bungalow, cabine en bois, kiosk)
 
 Ce cas d’usage représente finalement le cas des objets n’ayant pas de fondation.
-A priori, si ceux-ci répondent aux exigences de la définition, ils doivent être considérés comme des bâtiments.
+Cependant, si ces constructions répondent au critère de la définition "d'objectif de permanence", alors ils peuvent être inclus au sein du référentiel.
 
 Cela implique donc de considérer comme bâtiments, sous réserve d’un objectif de permanence, les objets suivants 
 
@@ -438,16 +488,26 @@ Dans le cas de bâtiments reliés par une construction souterraine (par exemple 
 - Concernant la partie du garage en sous-sol, une documentation supplémentaire sera dédiée à ce sujet.	
 
 
-<table>
-  <tr>
-<td> <img src="static/images/hlm.png" alt="img" width = 360px height = 360px/>   
-</td>
-  </tr>
-</table>
+<p align = "center">
+<img src = "./static/images/hlm.png" alt="img" width = 360px height = 360px>
+</p>
 
 Idem, dans le cas d’une barre d’immeuble avec plusieurs cages d’escalier non communicantes en dehors des cages et garages souterrains, on a bien autant de bâtiments que de cages d’escaliers (accès distinct depuis l’extérieur). Cet aspect est notamment primordial pour les interventions des services d’urgences qui doivent pouvoir identifier rapidement le point d’accès à un lieu d’intervention dans l’immeuble.
 
-#### Bâtiments découpés par des limites géographiques (Communes, cadastre, etc) 
+#### Bâtiments reliés par une passerelle 
+
+<p align = "center">
+<img src = "./static/images/passerelle-stephane-muratet-1380x898.png" alt="img" width = 360px height = 360px>
+</p>
+<p align = "center">
+&#169; Le bon marché, LVMH
+</p>
+
+Dans le cas de deux bâtiments reliés par une passerelle, même si celle-ci rend la circulation possible entre les deux bâtiments, a priori, on décompte bien deux bâtiments distincts. 
+Il suffit alors de rattacher la passerelle à un des deux bâtiments. 
+
+
+#### Bâtiments découpés par des limites géographiques (Communes, parcelles cadastre, etc) 
 
 ![](./static/images/frontiere.png)
 
