@@ -72,11 +72,12 @@ Dans le cadre de l’expérimentation avec Toulouse Métropole, nous proposerons
 
 L'idée générale étant de ne pas ajouter un énième processus pour faire vivre le référentiel, nous tentons d'explorer les pistes d'intégration à des processus existants. 
 
-Les premières éventuelles pistes de réflexions sont :
-- les permis d'urbanisme par les collectivités
+Les premières pistes de réflexions sont :
+- les Autorisations du Droit des Sols (ADS) par les collectivités
 - les mutations de biens par les notaires
+- l'établissement des valeurs locatives cadastrales par la DGFiP
 - le recensement de la population par l'INSEE
-- le recensement des ERP par les SDIS
+- le recensement des ERP et points d'accès par les SDIS
 - toute autre piste pertinente …
 
 
