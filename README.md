@@ -3,22 +3,20 @@
 Ce projet a pour but d'être un support permettant d'alimenter la reflexion et les échanges concernant 
 la mise en place du référentiel national des batiments en France. 
 
-Il s'inscrit dans le cadre du programme d'état, [Entrepreneur d'Intérêt Général](https://eig.etalab.gouv.fr/) (EIG), 
-et en particulier le défi [BatID](https://eig.etalab.gouv.fr/defis/batid/) de la cinquième promotion du programme EIG. 
+Initié dans le cadre de la cinquième promotion du programme d'état [Entrepreneur d'Intérêt Général](https://eig.etalab.gouv.fr/defis/batid/), (EIG), le projet batID prend aujourd'hui la forme d'une start d'état, incubée à [la fabrique des géocommuns](https://www.ign.fr/institut/la-fabrique-des-geocommuns-incubateur-de-communs-lign), cofinancée apr l'[ADEME](https://www.ademe.fr/), le [CSTB](http://www.cstb.fr/fr/) et l'[IGN](https://www.ign.fr/institut/la-fabrique-des-geocommuns-incubateur-de-communs-lign), dans le but de co-construire le Référentiel National des bâtiments. 
 
-Vous pouvez aussi retrouver les deux premières newsletter de nos avancées,
- [ici](docs/Newsletter-1-Bat-ID.pdf) et [la](docs/Newsletter-2-Bat-ID.pdf) !
 
 ## Sommaire
-- [Contexte](#Contexte)
-    - [Recherche Utilisateurs](#Recherche-Utilisateurs)
-    - [Démarche - Etat d'esprit](#démarche---etat-desprit) 
-    - [Démarche - Comment procéder ? ](#démarche---comment-procéder-)
-- [Vers une Definition du bâtiment](#Vers-une-Definition-du-bâtiment)
-- [Vers une intégration dans les processus - À venir](#Vers-une-intégration-dans-les-processus---À-venir)
-- [Vers un modèle de données - À venir](#Vers-un-modèle-de-données---À-venir)
-- [Vers un découpage du parc - À venir](#Vers-un-découpage-du-parc---À-venir)
-- [Contributions](#Contributions)
+* [Sommaire](#sommaire)
+* [Contexte](#contexte)
+    - [Recherche Utilisateurs](#recherche-utilisateurs)
+    - [Démarche - Etat d'esprit](#d-marche---etat-d-esprit)
+    - [Démarche - Comment procéder ?](#d-marche---comment-proc-der--)
+* [Vers une Definition du bâtiment :white_check_mark:](#vers-une-definition-du-b-timent--white-check-mark-)
+* [Vers une intégration dans les processus - À venir](#vers-une-int-gration-dans-les-processus-----venir)
+* [Vers un modèle de données](#vers-un-mod-le-de-donn-es)
+* [Vers un découpage du parc - À venir](#vers-un-d-coupage-du-parc-----venir)
+* [Contributions](#contributions)
 
 ## Contexte
 
@@ -53,33 +51,35 @@ Commençons par le début, il s'agit de
 - Définir le bâtiment 
 - Établir un stock : Initialiser la découpe du parc existant au regard de la définition retenue.
 - Identifier les flux : les bâtiments étant composés des bâtiments d'aujourd'hui et ceux qui sont à construire.
-- Ensuite, gérer le flux et le stock, en intégrant ce référentiel dans les processus administratifs.
+- Ensuite, gérer les flux, en intégrant ce référentiel dans les processus administratifs afin de créer les boucles de rétroactions permettant de faire vivre le référentiel.
 
 Prise de position à ce jour, un référentiel pertinent, c'est un référentiel vivant, alimenté par le terrain. 
 
 Pour les acteurs de terrains, ce référentiel doit être une opportunité plutôt qu'une contrainte, charge à sa construction et sa mise en œuvre de s'intégrer au maximum aux processus existants, pour accompagner ces producteurs de la donnée.
 
-## Vers une Definition du bâtiment 
+## Vers une Definition du bâtiment :white_check_mark:
 
-Afin d'aboutir à une définition du bâtiment satisfaisante, il est nécessaire de concerter largement. Pour cela, nous menons des approches multiples que l’équipe Bat-ID est chargée de coordonner pour en assurer le lien entre elles.
-- Sur la définition du bâtiment : Une approche multi-acteurs est engagée: l’équipe Bat-ID mènent des ateliers de co-création de définitions auprès de plusieurs organisations productrices de données, dont les résultats sont disponibles [ici](docs/Synthèse-Ateliers-de-Définition-Bat-ID.pdf).
-- Un [groupe de travail](http://cnig.gouv.fr/?page_id=26261) sous l'égide du Conseil National de l'information géolocalisée [CNIG](http://cnig.gouv.fr/) qui vise à faire remonter toutes ces réflexions au niveau institutionnel et à aboutir à un standard commun.
-- Une expérimentation terrain avec la métropole de Toulouse permettant de confronter ces réflexions à la réalité d’un territoire.
+Afin d'aboutir à une définition du bâtiment satisfaisante, il est nécessaire de concerter largement. 
 
-Notre démarche se veut ouverte et contributive, ici et sur les forums des [géocommuns](https://forum.geocommuns.fr/) et de [team open data](https://teamopendata.org/t/identifiant-unique-batiment/2899).
+Diverses initiatives ont été menées par l'équipe Bat-ID :
+- des ateliers de co-création de définitions auprès de plusieurs organisations productrices de données, dont les résultats sont disponibles [ici](docs/Synthèse-Ateliers-de-Définition-Bat-ID.pdf).
+- une concertation élargie auprès de nombreux acteurs, entre autre via les forums des [géocommuns](https://forum.geocommuns.fr/) et de [team open data](https://teamopendata.org/t/identifiant-unique-batiment/2899).
+- l'animation du [groupe de travail bati](http://cnig.gouv.fr/gt-bati-a25939.html) sous l'égide du Conseil National de l'information géolocalisée [CNIG](http://cnig.gouv.fr/) qui vise à faire remonter toutes ces réflexions au niveau institutionnel et à aboutir à un standard commun.
+
+A l'issue de ces initiatives phases, une première définition du bâtiment a été enterrinée lors de la commission des standards du CNIG de Novembre 2022. Vous retrouverez [ici](https://github.com/fab-geocommuns/BatID/tree/main/docs/CNIG) les éléments relatifs à la définition et son annexe.
 
 Suivez ce [`lien`](BUILDING_DEFINITIONS.md) pour vous embarquer dans la lecture des nombreuses définitions du bâtiment proposées et discutées lors des ateliers.
-Dans le cadre de l’expérimentation avec Toulouse Métropole, nous proposerons des premiers éléments de définition que nous aurons testé, afin que cela puisse alimenter la réflexion. Celle-ci n’est qu’un début et pourra évoluer dans le temps bien sûr !
 
 ## Vers une intégration dans les processus - À venir
 
 L'idée générale étant de ne pas ajouter un énième processus pour faire vivre le référentiel, nous tentons d'explorer les pistes d'intégration à des processus existants. 
 
-Les premières éventuelles pistes de réflexions sont :
-- les permis d'urbanisme par les collectivités
+Les premières pistes de réflexions sont :
+- les Autorisations du Droit des Sols (ADS) par les collectivités
 - les mutations de biens par les notaires
+- l'établissement des valeurs locatives cadastrales par la DGFiP
 - le recensement de la population par l'INSEE
-- le recensement des ERP par les SDIS
+- le recensement des ERP et points d'accès par les SDIS
 - toute autre piste pertinente …
 
 
