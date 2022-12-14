@@ -7,15 +7,16 @@ Initié dans le cadre de la cinquième promotion du programme d'état [Entrepren
 
 
 ## Sommaire
-- [Contexte](#Contexte)
-    - [Recherche Utilisateurs](#Recherche-Utilisateurs)
-    - [Démarche - Etat d'esprit](#démarche---etat-desprit) 
-    - [Démarche - Comment procéder ? ](#démarche---comment-procéder-)
-- [Vers une Definition du bâtiment](#Vers-une-Definition-du-bâtiment)
-- [Vers une intégration dans les processus - À venir](#Vers-une-intégration-dans-les-processus---À-venir)
-- [Vers un modèle de données - À venir](#Vers-un-modèle-de-données---À-venir)
-- [Vers un découpage du parc - À venir](#Vers-un-découpage-du-parc---À-venir)
-- [Contributions](#Contributions)
+* [Sommaire](#sommaire)
+* [Contexte](#contexte)
+    - [Recherche Utilisateurs](#recherche-utilisateurs)
+    - [Démarche - Etat d'esprit](#d-marche---etat-d-esprit)
+    - [Démarche - Comment procéder ?](#d-marche---comment-proc-der--)
+* [Vers une Definition du bâtiment :white_check_mark:](#vers-une-definition-du-b-timent--white-check-mark-)
+* [Vers une intégration dans les processus - À venir](#vers-une-int-gration-dans-les-processus-----venir)
+* [Vers un modèle de données](#vers-un-mod-le-de-donn-es)
+* [Vers un découpage du parc - À venir](#vers-un-d-coupage-du-parc-----venir)
+* [Contributions](#contributions)
 
 ## Contexte
 
