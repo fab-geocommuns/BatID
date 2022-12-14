@@ -50,7 +50,7 @@ Commençons par le début, il s'agit de
 - Définir le bâtiment 
 - Établir un stock : Initialiser la découpe du parc existant au regard de la définition retenue.
 - Identifier les flux : les bâtiments étant composés des bâtiments d'aujourd'hui et ceux qui sont à construire.
-- Ensuite, gérer le flux et le stock, en intégrant ce référentiel dans les processus administratifs.
+- Ensuite, gérer les flux, en intégrant ce référentiel dans les processus administratifs afin de créer les boucles de rétroactions permettant de faire vivre le référentiel.
 
 Prise de position à ce jour, un référentiel pertinent, c'est un référentiel vivant, alimenté par le terrain. 
 
