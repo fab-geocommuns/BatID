@@ -167,3 +167,52 @@ Yélise Akol IGN
 **Résumé par un participant** : Un bâtiment, défini comme (cf. définition) est identifié de façon unique et pérenne par un ID non signifiant de type UUID. Il est positionné ponctuellement dans l'espace, en projection légale Lambert 93 et/ou en coordonnées géographiques WSG84. Il dispose de plusieurs accès (en relation avec la BAN) et d'une ou plusieurs emprises en 2D et /ou 3D issues d'autres bases de données (ex : BDTopo), dont l'origine est renseignée. La vie du bâtiment (construction, fusion, séparation, démolition, etc.) est historisée.
 
 
+
+### Echange autour d’un modèle V0 du modèle de donnée
+
+**Remarque générale:** certaines relations vont constituer des boucles et pourraient amener à des incohérences (créer une relation direct peut potentiellement créer une incohérence avec autre relation) → peut être plutôt partir sur un schéma en étoile (surtout que pour le reste, peut être que ça ne correspondra pas aux cas d’usages)
+
+
+
+<img src="./static/content-CR-GT-6/image3.png" alt="screenshot mural ads" style="zoom:70%;" />
+
+
+
+#### Table ADS (Autorisation Droits des Sols)
+
+- Si les ID des ADS sont déjà normalisés et donc unique, inutile d’avoir un ID ADS spécifique à la base et un champ métier, autant utiliser ces derniers ?
+
+  - **Attention**, peut être pas normalisé (différence selon les éditeurs de logiciels)
+
+  - Seule normalisation existante, extract SITADEL (mais quelques mois de décalage d’ici la réédition)
+
+- Bien distinguer : dématérialisation des documents d’urbanisme vs. dématérialisation des procédures (via logiciel etc...)
+
+- Est ce qu’on ajoute l’ID SITADEL? Pourquoi pas (sera nécessairement facultatif car SITADEL contient une partie des constructions mais pas toutes).
+
+#### Table Adresses
+
+- ID adresse / ID BAN → Doublons ?
+  - Quid des adresses qui ne sont pas encore dans la BAN ? → A terme, uniquement un ID BAN.
+  - ID BAN permette le pivot entre les référentiels
+  - Dans un premier temps, l’ID adresse va être uniquement créé là où il y a des BALs
+- Quid des adresses directement rattachées au bâtiment si point d’entrée non connu ? adresse souvent localisées au bâtiment → donc directement rattachée au bâtiment → par défaut, peut être mettre un ID entrée (mais pas encore avoir de localisant) → permettrait de le préciser par la suite.
+  - **Ce point reste à creuser**
+
+#### Table Enveloppe
+
+- Découpage au parcellaire ? Via la BD Topo le thème bâti est découpé par les parcelles car seul moyen de découper les murs infranchissables.
+- Est ce que qu'avec le batID, on va identifier plusieurs ID bâtis à un bloc ?
+  -  On peut se dire que l’ID enveloppe a un impact sur l’identifiant bâtiment
+  - **-  Ce point reste à creuser**
+
+#### Table Filiation batiment
+
+- Relation parent enfant → **À expliciter** : ex : deux bâtiments distincts, on décide lors de travaux de les réunir → filiation, les deux bâtiments en deviennent un seul, on souhaite historiser ces liens de transformation pour ne pas perdre l’historique.
+
+- S'inspirer de ce qui se fait déjà :
+  -  la base de filiation de l’artificialisation des sols
+  -  idem pour les parcelles cadastrales
+  - évolution des communes par l’INSEE
+  - Proposition : mettre en place un référencement sur un tout petitterritoire afin d’itérer dessus en mode agile → permettant de valider/invalider hypothèse (ex: relation entre le bâtiment et son emprise) → Idée de le faire dans les cadres d'expérimentations avec les communes → donc trouver un moyen d’avoir des petits territoires (et faire des retour des différentes versions du modèle ) → permettra de donner à voir sur l’implémentation et son évolution.
+
