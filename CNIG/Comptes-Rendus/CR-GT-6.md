@@ -59,3 +59,11 @@ Vincent Masson (IGN)
 
 Yélise Akol IGN
 
+## Récapitulatif des évènements du mois de Novembre 2022
+
+
+- Validation de la définition par la Commission des Standards le 11 novembre 2022
+    - L’annexe quant à elle peut encore être sujet à évolution
+- Le projet Bat-ID continu en 2023 au sein de la Fabrique des Géo-communs de l’IGN
+    - Avec pour projet de faire des liens renforcés avec la BAN
+
