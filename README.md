@@ -5,6 +5,7 @@ la mise en place du référentiel national des batiments en France.
 
 Initié dans le cadre de la cinquième promotion du programme d'état [Entrepreneur d'Intérêt Général](https://eig.etalab.gouv.fr/defis/batid/), (EIG), le projet batID prend aujourd'hui la forme d'une start d'état, incubée à [la fabrique des géocommuns](https://www.ign.fr/institut/la-fabrique-des-geocommuns-incubateur-de-communs-lign), cofinancée apr l'[ADEME](https://www.ademe.fr/), le [CSTB](http://www.cstb.fr/fr/) et l'[IGN](https://www.ign.fr/institut/la-fabrique-des-geocommuns-incubateur-de-communs-lign), dans le but de co-construire le Référentiel National des bâtiments. 
 
+Retrouvez les éléments relatifs aux groupe de travail bati du CNIG dans [le dossier dédié](https://github.com/fab-geocommuns/BatID/tree/reorg-repo/CNIG)
 
 ## Sommaire
 * [Sommaire](#sommaire)
