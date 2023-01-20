@@ -136,3 +136,34 @@ Yélise Akol IGN
   - Compromis à trouver pour faciliter l’usage/ l’adoption du référentiel.
   - Prochaine session : prendre un temps pour évoquer quelques cas d’usages afin que chacun puisse comprendre les problématiques des uns et autres.
 
+#### 4. Sur la notion d’entrée / point d’accès
+
+<img src="./static/content-CR-GT-6/image5.png" alt="screenshot mural entrée" style="zoom:50%;" />
+
+- Notion de point d’accès ‘entrée principale’ → notion reliée à l’usage → Conclusion, avoir a minima un point d’entrée, mais pas nécessairement utile d’introduire le concept d’entrée principale (les Suisses ne le font pas). La notion principale émerge selon les usages.
+- En lien avec le RIL ? Si possible, serait super intéressant de mettre en place ces synergies
+- Les participants soulignent l'importance de faire le lien avec la BAN.
+
+#### 5. Sur la notion d’opération de construction / transformation
+
+<img src="./static/content-CR-GT-6/image7.png" alt="screenshot mural ads" style="zoom:50%;" />
+
+- Lier le référentiel du bâtiment à ces concepts permet une historisation accessible.
+- Eléments clefs de la vie d’un bâtiment.
+- Est ce que l’on souhaite avoir l’ID du bâtiment rattachés au DPE? Oui, sujet en discussion à l’ADEME, pour intégrer l’ID du bâtiment et des locaux.
+- Fiabilité de l’information ? Question plus générique que les opérations de construction transformation.
+  - Droits de modification et création de la donnée à mettre en œuvre, contribution ouverte avec historique? Preneur d'idées → sujet de réflexion et proposition à venir.
+  - Importance de la notion de la certification (permettre la création et certains usages/acteurs certifiant)
+  - Importance de la qualité de l'agrégation de données si différentes sources.
+
+- Données d’historisation attendue : définir les critères sur lesquels on souhaite apporter une qualification.
+- Bien introduire le concept de filiation : historisation des modifications, et permettre les liens au gré des évolutions du bâtiment.
+- Comment traiter la date de construction ? de la mise en vente ?
+  - qu’est ce qu’on souhaite rattacher au bâtiment (directement table bâtiment, qu’est ce qu’on rattache à d’autres concepts)
+  - A partir de quand un bâtiment est “vraiment” un bâtiment ? A partir du moment où il est capable d’abriter des humains (au regard de la définition)
+
+
+
+**Résumé par un participant** : Un bâtiment, défini comme (cf. définition) est identifié de façon unique et pérenne par un ID non signifiant de type UUID. Il est positionné ponctuellement dans l'espace, en projection légale Lambert 93 et/ou en coordonnées géographiques WSG84. Il dispose de plusieurs accès (en relation avec la BAN) et d'une ou plusieurs emprises en 2D et /ou 3D issues d'autres bases de données (ex : BDTopo), dont l'origine est renseignée. La vie du bâtiment (construction, fusion, séparation, démolition, etc.) est historisée.
+
+
