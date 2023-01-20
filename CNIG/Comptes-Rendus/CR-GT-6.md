@@ -67,3 +67,23 @@ Yélise Akol IGN
 - Le projet Bat-ID continu en 2023 au sein de la Fabrique des Géo-communs de l’IGN
     - Avec pour projet de faire des liens renforcés avec la BAN
 
+## Phase 2 - Conception du Modèle de Données - Cadrage
+
+### Planning prévisionnel
+![planning slide](./static/content-CR-GT-6/image1.png)
+
+### Modes de travail 
+- Proposition de travail en asynchrone sur GitHub entre les différentes sessions de
+  travail du GT
+    - Validé par les membres du GT, sous réserve d’une animation forte pour une bonne participation
+- Quelle compétence sera mobilisée dans la rédaction du standard ? IGN conseil ?
+    - IGN normalisation
+    - Point d’action Bat-ID
+- Quel rythme de travail ?
+    - Si on objective un standard complet en fin 2023, il faut que le GT soit d’accord sur le standard en Sept. 2023
+    - Sondage : 12 participants souhaitent une réunion tous les 2 mois, 8 participants souhaitent une réunion tous les mois
+        - A compléter avec le travail en asynchrone
+        - A compléter avec le résultat des expérimentations menées à Grenoble & Toulouse
+    - Possibilité d’avoir des réunions plénières et des ateliers intermédiaires sur des points spécifiques.
+
+
