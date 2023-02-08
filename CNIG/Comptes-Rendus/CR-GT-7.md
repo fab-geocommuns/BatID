@@ -1,6 +1,12 @@
-# GT Bati CNIG 7 2023-02-01 
+# Compte Rendu Groupe de Travail Bâti n°7
 
-[Lien vers le support Mural pdf](CR-GT-7-support-Mural.pdf)
+**Date:** 01.02.2023
+
+- [Lien vers le support Mural pdf](CR-GT-7-support-Mural.pdf)
+
+- [Lien vers l'enregistrement vidéo](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/4cb07e3a14bfe099ecb01d601bb57d18477690f3-1675256325403)
+
+- [Rappel - Lien vers la définition & annexe](https://github.com/fab-geocommuns/BatID/blob/eea3555c0de8fb178a85379306fbe85c358ea9ce/docs/CNIG/Annexe-Definition-Batiment.md)
 
 Participants : 
 - DARTOIS_Gaëlle 
