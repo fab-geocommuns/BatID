@@ -46,7 +46,7 @@
     
 # Calendrier
 - Session 7 du GT CNIG sur le modèle de donnée
-- Pas de discussion sur l'ID unique mais prévu pour la prochaine session.
+- Pas de discussion sur le format de l'ID unique mais prévu pour la prochaine session.
 
 # Focus réglementaire
 
