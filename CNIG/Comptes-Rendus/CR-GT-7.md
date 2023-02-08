@@ -8,7 +8,7 @@
 
 - [Rappel - Lien vers la définition & annexe](https://github.com/fab-geocommuns/BatID/blob/eea3555c0de8fb178a85379306fbe85c358ea9ce/docs/CNIG/Annexe-Definition-Batiment.md)
 
-Participants : 
+**Participants :**
 - DARTOIS_Gaëlle 
 - Arnauld GALLAIS (Cerema)
 - François ROLLO (DGFiP)
@@ -37,11 +37,12 @@ Participants :
 
 # Actu bat ID 
 - Passage de projet EIG en start up d'état 
-- Équipe incubée Fabrique des géocommuns de l'IGN
+- Équipe incubée [Fabrique des géocommuns de l'IGN](https://www.ign.fr/institut/la-fabrique-des-geocommuns-incubateur-de-communs-lign)
 - Recrutement de trois nouveaux profils : un développeur, un chargé de déploiement et une coach
 - Communes partenaires du projet Bat-ID : 
     - Grenoble & Toulouse métropoles en cours d'expérimentation 
     - Rennes métropole, atelier recueil de besoins 
+- Avancées sur le volet règlementaire
     
 # Calendrier
 - Session 7 du GT CNIG sur le modèle de donnée
