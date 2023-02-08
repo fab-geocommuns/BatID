@@ -2,7 +2,7 @@
 
 **Date:** 01.02.2023
 
-- [Lien vers le support Mural pdf](CR-GT-7-support-Mural.pdf)
+- [Lien vers le support Mural pdf](https://github.com/fab-geocommuns/BatID/blob/29787b77babc6aa9b083ce5135b43975ebc9fc5d/CNIG/Comptes-Rendus/CR-GT-7-support-Mural.pdf)
 
 - [Lien vers l'enregistrement vidéo](https://bbb-dinum-scalelite.visio.education.fr/playback/presentation/2.3/4cb07e3a14bfe099ecb01d601bb57d18477690f3-1675256325403)
 
