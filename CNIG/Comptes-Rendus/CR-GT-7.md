@@ -42,7 +42,7 @@
 - Communes partenaires du projet Bat-ID : 
     - Grenoble & Toulouse métropoles en cours d'expérimentation 
     - Rennes métropole, atelier recueil de besoins 
-- Avancées sur le volet règlementaire
+- Avancées sur le volet réglementaire
     
 # Calendrier
 - Session 7 du GT CNIG sur le modèle de donnée
@@ -50,7 +50,7 @@
 
 # Focus réglementaire
 
--Présentation du volet réglementaire applicable : 
+- Présentation du volet réglementaire applicable : 
 - 2017 : Directive Inspire européenne, établie une infrastructure d'information géographique au niveau européen. Transposée en droit français qui donne lieu à : 
     - 2010: Désignation du plan cadastral comme donnée de référence pour la représentation du bâti (Art. L.127-10 Code de l'Environnement)
     - Mais versement de la BD Topo sur le Géoportail Inspire
@@ -83,7 +83,7 @@ Questions :
 
 ## Suisse
 1. pas de géometrie du batiment ou de l'immeuble dans ce modèle, soit des coordonnées ou un rattachement par la géom du point d'entrée. 
-    - Tout à fait, chaque bâtiment a bien une coordonnée propre qui est au centre de l'enveloppe du bâtiment. Donc c'est une gestion du référentiel à l'aide d'un point dans l'espace- qui est un élément pivot. Cela permets  quand il y a une instruction de permis de a minima de géolocaliser par un point et ne pas rentrer la géométrie. Cela permets de co-exister avec le cadastre (mensuration officielle). 
+    - Tout à fait, chaque bâtiment a bien une coordonnée propre qui est au centre de l'enveloppe du bâtiment. Donc c'est une gestion du référentiel à l'aide d'un point dans l'espace- qui est un élément pivot. Cela permet quand il y a une instruction de permis de a minima de géolocaliser par un point et ne pas rentrer la géométrie. Cela permets de co-exister avec le cadastre (mensuration officielle). 
         - oui ils déléguent les représentations géométriques hors du référentiel --> côté pragmatique car c'est une vraie question cornelienne de choisir la représentation géométrique du bâtiment, il y en a plusieurs et ils ont décidé d'avancer sur l'identifiant d'abord, plutôt que d'essayer de trancher le débât
         - Mais il est relevé que le croisement automatisé des deux peut être ardue : le référentiel annexe de géométrie et le référentiel avec le point mais parfois on a des éléments qui ne sont pas assez discriminant pour relier un point et la géométrie associée.
         
