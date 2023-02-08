@@ -67,16 +67,16 @@ Questions :
     - La spécification de l'emprise au sol est-elle une suggestion ou contrainte ? Discussions préliminaires avec la DINUM, si on prend le terme géométrie en générale, alors on se réfère a INSPIRE et c'est une notion large (cf.https://inspire.ec.europa.eu/codelist/HorizontalGeometryReferenceValue)
     - Ça ressemble aux définitions INSPIRE : le footprint c'est ce qui permet d'avoir l'emprise maximale du bâtiment projeté au sol et qui prend le plus de place sur le terrain. Et donc c'est la valeur par défaut quand on parle du bâtiment. Ce n'est pas très grave car personne ne contrôle sur le terrain l'emprise mais plutot des gens qui vont réutiliser de manière fine une emprise de bâtiment qui vont pouvoir se plaindre. Il n'y a rien de bloquant. 
     - C'est cohérent avec la définition précédente du cadastre.
-    - +1 Je pense qu'on ne doit pas sur-intérpréter par rapport au champ culturel urba français : attendons un peu des éléments d'implémentation , c'est très tôt. Je ne serais pas étonné que la directive renvoie à INSPIRE la responsabilité de faire un modèle de données détaillé. Le texte de loi donne une intention mais le but d'INSPIRE n'est pas de rentrer dans des modèles de données détaillés et communs ? Trouver des interlocuteurs pour ce sujet au niveau EU
+    - +1 Je pense qu'on ne doit pas sur-intérpréter par rapport au champ culturel urba français : attendons un peu des éléments d'implémentation , c'est très tôt. Je ne serais pas étonné que la directive renvoie à INSPIRE la responsabilité de faire un modèle de données détaillé. Le texte de loi donne une intention mais le but d'INSPIRE n'est pas de rentrer dans des modèles de données détaillés et communs ? Trouver des interlocuteurs pour ce sujet au niveau EU 
 
-par rapport au nombre d'étage, il n'est pas forcément unique, doit-on comprendre le nombre maximal d'étages?
+- Par rapport au nombre d'étage, il n'est pas forcément unique, doit-on comprendre le nombre maximal d'étages?
 
 - Est ce que dans Inspire il donne le nombre d'étage ? La façon de le compter est très importante donc il faudra bien normaliser la manière dont on compte ce type d'étage. 
 - Est ce uniformisé côté Fichiers Fonciers ? Côté FF comme on gère la notion de local, on sait à quel étage se situe le local. Donc par déduction on connait le nombre d'étages du bâtiment sur la base du déclaratif. --> Quid de la limite sur les maisons individuelles ?  
 - (Rennes) On utilise la même source pour (tenter) de déterminer un nb d'étages dans notre BD bâti. Et au final : on transforme ça en même au doigt mouillé pour faire une 3D boîte à chaussure.*en mètres
 - le RIL prévoit un nombre d'étage maximum en démarrant à 1 au rdc mais l'information n'est pas forcément robuste.
 
-par contre : "granularité jusqu'au 1/5000" : ça veut dire quoi ?(on va pê pas faire tout un débat…)
+- par contre : "granularité jusqu'au 1/5000" : ça veut dire quoi ?(on va pê pas faire tout un débat…)
 
 
 # Focus MDD étranger
