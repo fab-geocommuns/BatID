@@ -71,16 +71,16 @@ Source : Delaunay B., "𝐐𝐮'𝐞𝐬𝐭-𝐜𝐞 𝐪𝐮'𝐮𝐧 𝐛â�
 > Commentaires : « Au regard de cette définition, un bâtiment doit donc s’entendre d’une construction d’un certain volume, nécessairement délimité par des éléments de construction, en d’autres termes doit correspondre à un volume clos circonscrit par des surfaces pleines.»
 
 source : Jacquot H. et Priet F., Droit de l’urbanisme, Précis Dalloz, 2004, p. 604 
-#### Quelques exemples issus de PLU (Plan Local d'Urbanisme)
 
-- [PLU de l'Eurométropole de Strasbourg](https://www.strasbourg.eu/documents/976405/1570260/0/d0e8fe92-94a2-610f-5e82-1425bcd10f6c)
-> Désigne toute construction durable, couverte et/ou close, qui sert d’abri aux hommes, aux animaux
-ou aux objets.
+- Quelques exemples issus de PLU (Plan Local d'Urbanisme)
 
-- [PLU Marseille](https://www.ampmetropole.fr/sites/default/files/plu/PLUi_CT1_L_Reglement.pdf)
-> Un bâtiment est une construction couverte et close.
+  - [PLU de l'Eurométropole de Strasbourg](https://www.strasbourg.eu/documents/976405/1570260/0/d0e8fe92-94a2-610f-5e82-1425bcd10f6c)
+  > Désigne toute construction durable, couverte et/ou close, qui sert d’abri aux hommes, aux animaux ou aux objets.
 
-#### [Lexique National de l'Urbanisme](http://outil2amenagement.cerema.fr/IMG/pdf/fiche_technique_lexique_national_de_l_urba_-27_juin_2017_cle17f2cd.pdf)
+  - [PLU Marseille](https://www.ampmetropole.fr/sites/default/files/plu/PLUi_CT1_L_Reglement.pdf)
+  > Un bâtiment est une construction couverte et close.
+
+- [Lexique National de l'Urbanisme](http://outil2amenagement.cerema.fr/IMG/pdf/fiche_technique_lexique_national_de_l_urba_-27_juin_2017_cle17f2cd.pdf)
 
 > Un bâtiment est une construction couverte et close.
 
