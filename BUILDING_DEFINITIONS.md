@@ -79,3 +79,5 @@ ou aux objets.
 
 - [PLU Marseille](https://www.ampmetropole.fr/sites/default/files/plu/PLUi_CT1_L_Reglement.pdf)
 > Un bâtiment est une construction couverte et close.
+
+- [Lexique National de l'Urbanisme](http://outil2amenagement.cerema.fr/IMG/pdf/fiche_technique_lexique_national_de_l_urba_-27_juin_2017_cle17f2cd.pdf)
