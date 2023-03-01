@@ -84,3 +84,11 @@ ou aux objets.
 
 > Un bâtiment est une construction couverte et close.
 
+Précision sur cette définition issue de l'annexe : 
+> Un bâtiment constitue un sous-ensemble de la notion de construction. Il est réalisé en élévation et peut comprendre un sous-sol. Il est impérativement couvert par une toiture et doté de systèmes de fermeture en permettant une clôture totale.
+Ne peuvent donc être considérées comme relevant de la définition du bâtiment les constructions
+qui ne sont pas closes en raison : 
+> - soit de l’absence totale ou partielle de façades closes;
+> - soit de l’absence de toiture;
+>  - soit de l’absence d’une porte de nature à empêcher le passage ou la circulation (de type galerie), et n’ayant pas pour seul but de faire artificiellement considérer une pièce comme non close.
+
