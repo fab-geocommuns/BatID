@@ -7,6 +7,23 @@
 
 - [Rappel - Lien vers la définition & annexe](https://github.com/fab-geocommuns/BatID/blob/eea3555c0de8fb178a85379306fbe85c358ea9ce/docs/CNIG/Annexe-Definition-Batiment.md)
 
+**Participants:** 
+
+* Pierre PAGES (Toulouse Métropole)
+* Stéphanie Alibert (Toulouse Métropole)
+* Sébastien Wehrlé (Eurométropole de Strasbourg)
+* Régis Haubourg CSTB
+* François ROLLO (DGFiP)  Bureau du cadastre
+* Sébastien LEGER (DGFIP)  Bureau du cadastre.
+* Loïc REBOURS (Enedis)
+* Benoît Génot (U.R.B.S)
+* Mylène Ritter (SDIS 38)
+* Olivier Lefebvre (INSEE)
+* Julieta Barado ( DGALN)
+* Filipe Afonso (Stonal)
+* Thibaud Le DOrze GéoVendée
+* Benoit David (MTECT/Ecolab)
+
 ## Actus projet Bat-ID
 
 - Volet réglementaire : 
