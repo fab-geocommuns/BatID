@@ -63,7 +63,7 @@ Les travaux de celui-ci doivent permettre aux parties prenantes institutionnelle
 * [https://teamopendata.org/t/identifiant-unique-batiment/2899/29](https://teamopendata.org/t/identifiant-unique-batiment/2899/29) 
 * [https://github.com/entrepreneur-interet-general/BatID/issues/12](https://github.com/entrepreneur-interet-general/BatID/issues/12) 
 
-Les travaux relatifs à la définition sont le résultat issu de appel aux commentaires de l’ensemble des membres du CNIG, présenté en commission des standards de novembre 2022
+Les travaux relatifs à la définition sont le résultat issu de l'appel aux commentaires de l’ensemble des membres du CNIG, présenté et validé en commission des standards de novembre 2022
 Les enjeux au-delà de la définition seront traités par ailleurs, notamment le cycle de vie du bâtiment, le modèle de données du référentiel ainsi que sa gouvernance. Ce document ne traite que de la définition.
 
 
