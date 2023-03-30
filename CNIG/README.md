@@ -2,7 +2,7 @@
 
 Vous retrouverez ici les éléments collaboratifs du groupe de travail batî du CNIG. 
 
-Ci-dessous la définition du batîment en actuelle discussion et ici [son annexe](https://github.com/entrepreneur-interet-general/BatID/blob/eea3555c0de8fb178a85379306fbe85c358ea9ce/docs/CNIG/Annexe-Definition-Batiment.md) soumise à l'appel à commentaire. 
+Ci-dessous la définition du batîment et [son annexe](https://github.com/entrepreneur-interet-general/BatID/blob/eea3555c0de8fb178a85379306fbe85c358ea9ce/docs/CNIG/Annexe-Definition-Batiment.md), validées suite à l'appel à commentaires et la commission des standards de novembre 2023. 
 
 >Construction souterraine et/ou au-dessus du sol, ayant pour objectif d'être permanente, pour abriter des humains ou des activités humaines.
 >

@@ -4,7 +4,7 @@ _Version 0.1_
 
 _Rédaction : Elisabeth Talbourdet Ville & Félix Veith, entrepreneurs d'intérêt général au sein de l’ADEME et du CSTB, pour le Groupe de Travail Bâti du Conseil National de l’Information Géolocalisée (CNIG)._
 
-_Sept. 2022_
+_Setp - Nov 2022_
 
 ##  Table des Matières
 
@@ -63,7 +63,7 @@ Les travaux de celui-ci doivent permettre aux parties prenantes institutionnelle
 * [https://teamopendata.org/t/identifiant-unique-batiment/2899/29](https://teamopendata.org/t/identifiant-unique-batiment/2899/29) 
 * [https://github.com/entrepreneur-interet-general/BatID/issues/12](https://github.com/entrepreneur-interet-general/BatID/issues/12) 
 
-Les travaux relatifs à la définition sont désormais ouverts à l’appel aux commentaires de l’ensemble des membres du CNIG.
+Les travaux relatifs à la définition sont le résultat issu de l'appel aux commentaires de l’ensemble des membres du CNIG, présenté et validé en commission des standards de novembre 2022
 Les enjeux au-delà de la définition seront traités par ailleurs, notamment le cycle de vie du bâtiment, le modèle de données du référentiel ainsi que sa gouvernance. Ce document ne traite que de la définition.
 
 
