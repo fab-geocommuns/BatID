@@ -1,0 +1,20 @@
+name: Markdown lint
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches-ignore:
+      - markdown-lint
+
+jobs: 
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          config_file: .github/markdownlint-rules
+          dot: false
+          ignore_files: LICENSE.md
