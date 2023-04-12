@@ -3,14 +3,13 @@ name: Markdown lint
 on:
   pull_request:
     branches: [main]
-  push:
-    branches-ignore:
-      - markdown-lint
 
 jobs: 
   lint:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
       - name: markdownlint-cli
         uses: nosborn/github-action-markdown-cli@v3.3.0
         with:
