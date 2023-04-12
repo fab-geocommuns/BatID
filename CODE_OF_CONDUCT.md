@@ -5,14 +5,14 @@
 
 En tant que membres, contributeur·trice·s et dirigeant·e·s, nous nous
 engageons à faire de la participation à notre communauté
-une expérience sans harcèlement, quel que soit l'âge, 
+une expérience sans harcèlement, quel que soit l'âge,
 la taille corporelle, le handicap visible ou invisible, l'appartenance ethnique,
-les caractéristiques sexuelles, l'identité et l'expression de genre, 
-le niveau d'expérience, l'éducation, le statut socio-économique, 
-la nationalité, l'apparence personnelle, la race, la religion, 
+les caractéristiques sexuelles, l'identité et l'expression de genre,
+le niveau d'expérience, l'éducation, le statut socio-économique,
+la nationalité, l'apparence personnelle, la race, la religion,
 ou l'identité et l'orientation sexuelle.
 
-Nous nous engageons à agir et interagir de manière à contribuer à une communauté 
+Nous nous engageons à agir et interagir de manière à contribuer à une communauté
 ouverte, accueillante, diversifiée, inclusive et saine.
 
 ## Nos critères
@@ -60,7 +60,7 @@ lors d'un événement en ligne ou hors-ligne.
 
 Les cas de comportements abusifs, harcelants ou tout autre comportement
 inacceptables peuvent être signalés aux dirigeant·e·s de la communauté responsables de l'application du code de conduite à
-felix.veith.ext@ademe.fr. 
+felix.veith.ext@ademe.fr.
 Toutes les plaintes seront examinées et feront l'objet d'une enquête rapide et équitable.
 
 Tou·te·s les dirigeant·e·s de la communauté sont tenu·e·s de respecter la vie privée et la sécurité des
@@ -86,7 +86,7 @@ le comportement était inapproprié. Des excuses publiques peuvent être demand�
 
 **Conséquence** : un avertissement avec des conséquences dû à la poursuite du comportement.
 Aucune interaction avec les personnes concernées, y compris l'interaction non sollicitée avec
-celles et ceux qui sont chargé·e·s de l'application de ce code de conduite, pendant une période déterminée. 
+celles et ceux qui sont chargé·e·s de l'application de ce code de conduite, pendant une période déterminée.
 Cela comprend le fait d'éviter les interactions dans les espaces communautaires ainsi que sur les canaux externes
 comme les médias sociaux. Le non-respect de ces conditions peut entraîner
 un bannissement temporaire ou permanent.
@@ -104,7 +104,7 @@ Le non-respect de ces conditions peut entraîner un bannissement permanent.
 
 ### 4. Bannissement permanent
 
-**Impact communautaire** : démontrer un schéma récurrent de non-respect des normes de la 
+**Impact communautaire** : démontrer un schéma récurrent de non-respect des normes de la
 communauté y compris un comportement inapproprié soutenu, le harcèlement d'un individu
 ainsi que l'agression ou le dénigrement de catégories d'individus.
 
@@ -125,7 +125,6 @@ Pour obtenir des réponses aux questions courantes sur ce code de conduite, cons
 [https://www.contributor-covenant.org/faq][FAQ]. Les traductions sont disponibles
 sur [https://www.contributor-covenant.org/translations][translations].
 
-[homepage]: https://www.contributor-covenant.org
 [v2.0]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
