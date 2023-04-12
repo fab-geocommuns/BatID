@@ -309,7 +309,7 @@ Les cabanes dans les arbres habitées </em>
 
 ![](./static/images/image25.png)
 
-Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et n’est pas divisé par une séparation infranchissable, ou ne possède pas plusieurs accès depuis l’extérieur. 
+Il doit être défini comme un bâtiment unique lorsqu’il forme un tout et n’est pas divisé par une séparation infranchissable, ou ne possède pas plusieurs accès depuis l’extérieur.
 
 Les exemples de ce type de bâtiment sont notamment (liste non-exhaustive) :
 
@@ -471,7 +471,7 @@ Une annexe est saisie comme un bâtiment autonome s’il possède son propre acc
 Dans le cas de bâtiments reliés par une construction souterraine (par exemple un garage ou une cave communes):
 
 * Concernant les bâtiments extérieurs, il y a autant de bâtiments à considérer que s’il n’y avait pas eu de garage souterrain. (Dans le cas de l’exemple ci dessus, nous avons 3 maisons individuelles reliées par un garage souterrain, et donc 3 bâtiments distincts);
-* Concernant la partie du garage en sous-sol, une documentation supplémentaire sera dédiée à ce sujet. 
+* Concernant la partie du garage en sous-sol, une documentation supplémentaire sera dédiée à ce sujet.
 
 <p align = "center">
 <img src = "./static/images/hlm.png" alt="img" width = 360px height = 360px>
