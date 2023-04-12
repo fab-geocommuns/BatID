@@ -3,9 +3,6 @@ name: Markdown lint
 on:
   pull_request:
     branches: [main]
-  push:
-    branches-ignore:
-      - markdown-lint
 
 jobs: 
   lint:
