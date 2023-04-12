@@ -22,7 +22,7 @@ Retrouvez les éléments relatifs aux groupe de travail bati du CNIG dans [le do
 
 ## Contexte
 
-#### Recherche Utilisateurs
+### Recherche Utilisateurs
 
 La première phase de ce projet, à l'initiative de l'[ADEME](https://www.ademe.fr/) et du [CSTB](http://www.cstb.fr/fr/),
 a été de mener une recherche utilisateurs étendue, pour saisir les enjeux autour d'un référentiel du bâtiment.
@@ -40,13 +40,13 @@ Et surtout, il y a une perte d'information et peu d'historique disponible sur le
 
 Ainsi donc un référentiel du bâtiment sera satisfaisant, s'il est exhaustif, conçu de façon transparente, pour durer et dont la gouvernance claire assure sa pérennisation.
 
-#### Démarche - Etat d'esprit
+### Démarche - Etat d'esprit
 
 Ici, ouverture, coopération et bienveillance sont maîtres mots avec comme objectif de construire ensemble une démarche utile pour l'intérêt général. Le service public n'ayant pas le monopole de l'intérêt général, ce référentiel se veut accessible et utile à tous les acteurs qui souhaitent s’y investir.
 
 Les éléments partagés ont pour vocation à susciter la réaction, être un support afin de progresser ensemble sur ce sujet. Nous faisons de la coopération un critère clef de réussite. Et à ce titre, nous vous demandons de respecter notre [`code de conduite`](CODE_OF_CONDUCT.md).
 
-#### Démarche - Comment procéder ?
+### Démarche - Comment procéder ?
 
 Commençons par le début, il s'agit de
 
