@@ -66,7 +66,7 @@ Afin d'aboutir à une définition du bâtiment satisfaisante, il est nécessaire
 Diverses initiatives ont été menées par l'équipe Bat-ID :
 
 * des ateliers de co-création de définitions auprès de plusieurs organisations productrices de données, dont les résultats sont disponibles [ici](docs/Synthèse-Ateliers-de-Définition-Bat-ID.pdf).
-* une concertation élargie auprès de nombreux acteurs, entre autre via les forums des [géocommuns]() et de [team open data](https://teamopendata.org/t/identifiant-unique-batiment/2899).
+* une concertation élargie auprès de nombreux acteurs, entre autre via les forums des [géocommuns](https://forum.geocommuns.fr/) et de [team open data](https://teamopendata.org/t/identifiant-unique-batiment/2899).
 * l'animation du [groupe de travail bati](http://cnig.gouv.fr/gt-bati-a25939.html) sous l'égide du Conseil National de l'information géolocalisée [CNIG](http://cnig.gouv.fr/) qui vise à faire remonter toutes ces réflexions au niveau institutionnel et à aboutir à un standard commun.
 
 A l'issue de ces initiatives phases, une première définition du bâtiment a été enterrinée lors de la commission des standards du CNIG de Novembre 2022. Vous retrouverez [ici](https://github.com/fab-geocommuns/BatID/tree/main/CNIG) les éléments relatifs à la définition et son annexe.
