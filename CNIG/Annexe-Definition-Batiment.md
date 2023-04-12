@@ -1,6 +1,6 @@
-# Appel à Commentaires: Élaboration d’un standard CNIG pour une définition du terme “Bâtiment” 
+# Annexe Définition Bâtiment
 
-_Version 0.1_
+_Version 0.1_ Suite à l'apel à Commentaires: Élaboration d’un standard CNIG pour une définition du terme “Bâtiment” 
 
 _Rédaction : Elisabeth Talbourdet Ville & Félix Veith, entrepreneurs d'intérêt général au sein de l’ADEME et du CSTB, pour le Groupe de Travail Bâti du Conseil National de l’Information Géolocalisée (CNIG)._
 
