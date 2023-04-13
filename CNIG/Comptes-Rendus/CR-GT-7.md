@@ -10,19 +10,21 @@
 
 **Participants :**
 
+
 - DARTOIS_Gaëlle
 - Arnauld GALLAIS (Cerema)
 - François ROLLO (DGFiP)
 - Vincent Masson (IGN)
-- Jean-Roc Morreale (MEL)
+- Yélise Akol (IGN)
+- Jean-Roc Morreale (Métropole Européenne de Lille (MEL))
+- DARTOIS Gaëlle (Métropole Européenne de Lille (MEL))
 - Amelie MAITREPIERRE ANSC (SIG)
 - Yann Kacenelen (SDIS 91)
-- Félix V - BatID
-- Emmanuelle Martin EPT 12 Grabd Orly Seine Bièvre
+- Emmanuelle Martin EPT 12 Grad Orly Seine Bièvre
 - Régis Haubourg CSTB
-- Géo Vendée - Thibaud Le Dorze Géomaticien
-- Yélise Akol IGN
-- Laura Léchine
+- Thibaud Le Dorze Géomaticien (Géo Vendée )
+- Rémi Beaurain (chef projet data Géo Vendée)
+- Laura Léchine (Ministère de la Transition écologique)
 - Sébastien LRG
 - Georges Monnot - Toulouse Métropole
 - Stéphanie ALIBERT - Toulouse Métropole
@@ -32,9 +34,9 @@
 - Filipe - Stonal
 - Valentin HAGENMULLER -Eurométropole Strasbourg
 - Sébastien Wehrlé (Eurométropole de Strasbourg)
-- Elisabeth Talbourdet-ville
 - Marc Grossouvre, U.R.B.S.
-- Rémi Beaurain (chef projet data Géo Vendée)
+- Félix Veith - BatID
+- Elisabeth Talbourdet-ville (BatID)
 
 # Actu bat ID
 
@@ -215,6 +217,7 @@ Sur le concept d'adresse / entrée
 
 # A faire pour prochaine session
 
-- Discussion sur l'expression de l'ID unique (1h27 + modèle suisse) à communiquer en amont du GT
-- Interlocuteurs niveau EU sur le contenu du règlement d'application
-- s'accorder sur les différents statuts du bâtiment - est ce qu'on veut 3 états ou est ce qu'on en veut 8 ? Puis réfléchir à qu'est ce qu'on pense qui déclenche cet évènement ? Proposition : en projet, en construction/en travaux, achevé et démoli (historisé)
+- [ ] - Discussion sur l'expression de l'ID unique (1h27 + modèle suisse) à communiquer en amont du GT
+- [ ] - Interlocuteurs niveau EU sur le contenu du règlement d'application
+- [ ] - s'accorder sur les différents statuts du bâtiment - est ce qu'on veut 3 états ou est ce qu'on en veut 8 ? Puis réfléchir à qu'est ce qu'on pense qui déclenche cet évènement ? Proposition : en projet, en construction/en travaux, achevé et démoli (historisé)
+
