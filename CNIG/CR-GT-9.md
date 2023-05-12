@@ -107,3 +107,49 @@ Options du sondage
 1: Format plaque d'immatriculation
 2: Format NanoID
 3: Ne se prononce pas 
+
+## Sur les modes de contribution
+
+#### Restitution des ateliers de co-contribution sur les contributions au RNB 
+    - Vue d'ensemble : 10h d'atelier en 2 SEMAINES avec 20+ participants
+    - Participants : ADEME, IGN, CSTB, DGFIP, SDES, INSEE, Grenoble, Fabrique Géoco.
+    - À venir : Toulouse, Opérateurs de Réseaux, Dinum
+    - Synthèse diffusée le 5 mai au GT CNIG n°10
+
+#### Différents modes de contribution
+
+![](https://s3.hedgedoc.org/demo/uploads/b2d6b6d8-e41e-4e38-8ebb-0f109303e914.png)
+![](https://s3.hedgedoc.org/demo/uploads/9891c6f7-524e-47c6-b69c-2e65d34923c0.png)
+![](https://s3.hedgedoc.org/demo/uploads/fc31738a-b6d9-4991-951c-cb7efc6603e1.png)
+![](https://s3.hedgedoc.org/demo/uploads/3eb48fb6-26b3-44bc-b81a-12a30cd2331b.png)
+![](https://s3.hedgedoc.org/demo/uploads/d473931d-35b6-4632-973c-2fa8dc751f02.png)
+![](https://s3.hedgedoc.org/demo/uploads/f3dca615-0276-4b8b-b37c-3af5c1db0c46.png)
+
+#### Commentaires : 
+
+- Sur le signalement : 
+    - Pour les utilisateurs utilisant les données d'un référentiel, les fonctions de signalement sont étroitement liées aux fonction de (re)synchronisation. Il faut que vous abordiez les fonctions envisagées je pense.
+
+- Besoin de venir préciser les informations qui peuvent être modifiés dans le cadre des signalements :
+    - Arrêter d'utiliser "enveloppe" pour dire "géométrie"
+    - Statuts : En projet, en construction, construit, démoli
+
+- Commentaires généraux:
+    - Difficulté dans la réfléxion : Chaque contributeur / signaleur se place dans sa propre logique au regard de ses propres missions, compétences. Donc cela veut dire qu'on a besoin d'une analyse des contributions pour vérifier leur pertinence. La représentation d'un bâtiment par un diagnostiqueur ne sera pas forcément la même que celle d'un gestionnaire par ex. Donc cela entraine des ressources, consacrées à la vérification et donc des moyens significatifs. 
+        - Contre exemple d'OSM qui fonctionne en auto-régulation même si ce n'est pas un référentiel
+        - Attention : le référentiel doit avoir cet aspect certifié (fondamental) - ce qui impose à un moment un arbitrage qui est indispensable du fait que les gens ne respectent pas forcément toutes les consignes et/ou qui se trompent.
+        - Si on a plusieurs contributeurs / on intègre des signalements - il faut dédier des moyens à l'arbitrage. Si on décide d'une gestion totalement centralisée, de toute façon il y aurait des moyens spécifiques à dédier, et il faut caractériser ces moyens dans l'une et l'autre option.
+
+    - Une collectivité, maître d’œuvre de la base en local, garante de sa fiabilité/certification, voudra conserver le rôle de modérateur sur le signalement et assurer elle-même les corrections.
+        - Différence par rapport aux adresses (BAN) : cadre réglementaire et législatif on est plus dans le flou et ça ne facilite pas la détermination.
+        - Donc peut être que certains contributeurs seront certifiés sur certains aspects : communes pourrait se voir attribuer la compétence de validation des attributs liés au cycle de vie du bâtiment.
+
+    - Il faut faire un RNB partagé avec les bonnes règles, de ne pas s'appuyer du tout sur les signalements ça serait dommage. 
+        - Approche contributive intéressante - il faudrait moduler le discours pour dire que la priorité est sur l'initialisation (étape 1) et les fluxs administratifs (étape 2) ce qui permettrait un bon premier niveau d'information. Mettre la priorité sur la constitution initiale, suivie de la mise en place de flux dministratifs, avant de s'intéresser aux modes collaboratifs (cf OSM) et aux signalement (cf IGN)
+        - Convaincu que c'est ce qu'on ne sait pas faire en France c'est de signaler des anomalies dans des référentiels (sauf portail de l'IGN). Le point de convergence est de convenir de ressources humaines disponibles pour arriver à une qualité et une certitude de prise en charge des signalements.
+        - Comment collaborer correctement : communes (gardent la main sur le début du cycle), couperet taxe foncière (DGFIP garde la main). Il faut un système décentralisé, notamment en s'intéressant au modèle OSM pour permettre d'offrir quelque chose d'extrêmement souple et on pourrait ensuite y mettre des règles d'organisation et les adapter régulièrement. Toute autre règles rigide sera très cher à faire évoluer et c'est souvent notre limite française. 
+        - La priorité est de matérialiser un bâtiment existant sur le terrain. Donc déjà (à un palier à fixer) : nettoyer les bâtis détruits et créer les bâtis récents que méconnaissent toutes les BD.
+        - Ou alors modèle suisse : équipe minimale de 15 personnes avec une centralisation des trois référentiel : adresse, bâtiment, local --> on divise par 3 le nombre d'ETP pour gérer ces trois référentiels. Attention cela demande quand même pas mal de ressources sur les communes pour en faire l'entretien au niveau Suisse.
+
+    - Un référentiel n'est utile que si il est utilisé ! Il faut donc aussi travailler sur les modalité de publication (ne pas faire comme la BAN :))
+    - Côté Etat il n'y pas non plus la pérennité. La non maj des bâtis sur le PCI est rédhibitoire. Dans tous les projets DINUM la pérennité des équipes n'est pas acquise non plus. La centralisation n'est pas / plus une garantie d'efficacité.
