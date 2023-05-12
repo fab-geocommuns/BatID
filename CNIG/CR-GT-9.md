@@ -108,6 +108,58 @@ Options du sondage
 2: Format NanoID
 3: Ne se prononce pas 
 
+
+## Modèle de données
+
+![](https://s3.hedgedoc.org/demo/uploads/d82fa595-42f8-4eb0-9005-89e8be568481.png)
+
+- Il faut qu'on travaille sur l'adresse : au sens large ou adresse BAN ? 
+- Un local ou une parcelle : il faut qu'il y ai un littéral qui le qualifie ? Type escalier, étage etc...Il y a des informations à associer au local qui font être important de faire figurer. Pour être sûrs de savoir de quoi on parle ? 
+- Les locaux sont les locaux au sens DGFIP 
+- En effet, l'organisation générale et sa généricité à l'ensemble des typologies de "structures" et des moyens disponibles sur les territoires sera cruciale
+- Sébastien : je comprends - il existe des relations entre le référentiel des bâtiments avec d'autres concepts - avec l'ID bâtiment qui permettra de faire le rôle de pivot entre les concepts. Il s'agit de décrire le fait qu'il existe bien des relations entre les concepts. 
+- Peut être décrire pour que ça soit plus clair : mettre les tables des concepts extérieurs et les désigner comme tel, en mettant (ect...) et donner des couleurs différentes aux référentiels extérieurs.
+- A chaud je dirais que stocker une référence à un objet supra (parcelles) a plus de sens que de stocker une référence à des objets intra (locaux). dit autrement : c'est au référentiel "locaux" de stocker l'id du référentiel bâti.
+- Date de création et d'actualisation à ajouter sur la table bâtiment --> création oui tout à fait, et sur l'actualisation on voudrait versionner au maximum chaque évolution. Date de dernière mise à jour
+- Il faut au mini du mini une "date_maj"
+- Nommer les relations et faire apparaître leur cardinalité
+- Puisqu'on a une classe géométrique, a-t-on besoin d'une localisation ? Oui, pas redondant. C'est important d'avoir le localisant à minima et la géométrie par ailleurs. 
+- Rappelez-nous les cas de n géométries SVP ?Géométrie : 0/N --> à terme l'ID bâtiment doit être diffusé dans les autres référentiel, et ne pas maintenir les Géométries dans le RNB. Intéressant d'avoir une géométrie "par défaut" --> c bien ce que j'avais en mémoire
+- +1 avec une modélisation conceptuelle nommant les relations --> a faire
+- Sur l'entrée bâtiment : parfois il y en a besoin mais parfois la BAN devrait suffire. Donc ne peut être pas rendre obligatoire d'avoir l'entrée de bâtiment (parfois il y a la table en plus et parfois simplement la BAN). Le risque est que l'entrée soit vide ? 
+- L'entrée : type "point localisant" + libellisation du type bâtiment --> GT Standard Adresse à reboucler
+- L'entrée : militerait pour faire hyper simple et une source de dispertion d'énergie dans la MAJ des données. si on prend le cas du pavillon tout simple, le point d'adresse il peut être sur la maison dans la parcelle ou sur la voie. On peut le gérer dans les cas 1-1 (dans ce cas on stocke juste l'ID BAN). Mais si on prend l'habitation type HLM on ne sait PAS comment sont divisés les bâtiments. Pour ces cas là, il faut avoir l'entitée qui s'appelle "entrée de bâtiment" mais au final de ce qu'on voit passer des remontées dans la BAN, la bonne pratique est d'aller adresser les 3 cages d'escaliers. Donc ici dans le bâtiment, il faut pas aller tenter d'aller corriger les faiblesses de la BAN --> donc une simple table entre BAN et ID bâti pourrait fonctionner. Donc est ce qu'il faudrait pas faire un pari pour simplifier la vie. 
+- +1 avec Maël pour se référer à la BAN sans chercher à stocker des adresses
+- Et si on voit que ça ne se passe pas bien on pourra toujours revenir en arrière
+- Et on pourra se concentrer sur les vrais sujets du bâtiment : cycle de vie, géométrie
+- Même avis que Maël ;)
+- Faire le pari de l'intelligence du BAN ID 
+- Sur la question des adresses : on peut faire le pari que la BAN va monter en compétence. Pourrait-être intéressant de venir préciser ce qu'on attend de la BAN en terme de qualité, couverture pour le RNB. 
+- Expérimenter avec une relation simple Bâtiment-Adresse BAN me semble aussi pragmatique
+- Mais à l'issue de cette expérimentation, il faudra que le modèle retenu soit cohérent avec le GT Standard d'adresse.(des points de rencontres sont à monter entre nous)
+- Ce sera même un puissant levier pour faire monter la BAN en compétence
+
+- Quid des informations autres sur les bâtiments ? 
+    - En interne ici ou en relation avec les référentiels externe ? 
+    - Nombre d'étage par ex, il faut établir le lien avec l'information et l'endroit où il se trouve.
+    - **C'est les bases dérivées qui doivent faire référence à Bat-ID**
+    - Quid des données fondamentales (caractéristiques intrinsèques du bâtiment) : Nombre d'étage, date de construction
+    - Base de données dérivées ou externe ? Mais n'apporte pas grand chose au schéma ? Mais répond à l'interrogation des acteurs. 
+    - RENNES : pour info on a eu une réunion interne et on s'est arrêté sur ces éléments mini pour notre référentiel bâti :id_rm et/ou bat_id : id national (si on peut le gérer directement : on supprime id_rm) code_commune : code INSEE de la commune à laquelle on rattache le bâtiment date_debut : date de "construction" connue du bâtiment. Dans un cas simple correspond à sa date de construction. date_fin : date de fin connue du cycle de vie du bâtiment. Dans un cas simple correspond à sa date de démolition. zmin : altitude en IGN 69 du point le plus bas du bâtiment nb_niveaux : nombre de niveaux connu ou estimés maj_date : horodatage de la dernière mise à jour de la donnée maj_auteur : nom de la personne qui a effectué la dernière mise à jour de la donnée
+    - si on enlève les attributs zmin et nb_niveaux il reste la gestion du cycle de vie
+    - et toutes les autres données descriptives seront ventilées dans des tables thématiques dans une logique de jumeau numérique
+
+- Autres Réactions : 
+    - Les urbanistes SI parlent de référentiels coeur/pétales : référentiel coeur et des informations gérées dans d'autres SI (pétales)=> important de se donner un périmètre coeur +1
+    - +1 sur la 3D, peut être à terme avec l'altimétrie issue du lidar HD pour les zmin zmax ?
+    - Je suis d'accord, il ne faut intégrer les tables thématiques, c'est pléthorique, lesquelles mettre ? Laissons la possibilités aux services et aux producteurs de table thématique de faire le lien avec le RNB
+    - A Grenoble, la base BATI est alimenté à minima : ID, TYPE, VALID (pour édition), DATECRE, DATESUPP. Ensuite, nombreux liens relationnels sur l'ID. +1 pour cette approche
+    - Je partage pour la 3D. Zmin et Zmax également, ces infos servent à pleins d'usages
+        - A rajouter dans Géométrie
+
+--> Venir avec une proposition sur le cycle de vie 
+
+
 ## Sur les modes de contribution
 
 #### Restitution des ateliers de co-contribution sur les contributions au RNB 
