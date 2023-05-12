@@ -29,6 +29,35 @@
 - Vincent Gomand (DGFiP)
 - Vincent Masson (IGN)
 
+## Points clés :
+
+- Validation du format NanoID de 12 caractères (et alphabet spécfique) pour l’ID bâtiment à tester dans les différentes expérimentations du RNB (sondage live: 67% approbation)
+    - Important de tester l’accessibilité pour les utilisateurs (est ce que ce format est trop long)
+    - Important de tester la nécessité ou non d’avoir un mode de génération de l’ID décentralisé (risque de collision réel ou non? quel besoin de contrôle la décentralisation implique-t-elle?)
+    - Comment générer un ID s’il n’y a pas de connexion internet sur le terrain ?
+
+- Sur le besoin de comprendre les usages : [document disponible sur GitHub ici](https://github.com/fab-geocommuns/BatID/blob/9365b5ad1976395f99311d678ab7c941c59aad93/docs/RNB%20-%20Cas%20d%20usages.pdf)
+
+- Sur le modèle de données :
+    - Mieux distinguer les concepts (locaux, adresses) qui sont **en relation** avec le RNB en tant que concepts extérieurs mais qui ne sont pas intégré au MDD de Bat-ID. Donner le périmètre coeur et les pétales ensuite.
+    - Ajouter dans la table bâtiment :
+        - Date_début : Date de construction connue du bâtiment
+        - Date_fin : date de démolition connue du bâtiment
+        - code_commune : code INSEE de la commune à laquelle on rattache le bâtiment date_debut
+        - zmin : altitude en IGN 69 du point le plus bas du bâtiment —> à ajouter dans la géométrie?
+        - nb_niveaux : nombre de niveaux connu ou estimés
+        - maj_date : horodatage de la dernière mise à jour de la donnée
+        - maj_auteur : nom de la personne qui a effectué la dernière mise à jour de la donnée
+    - Nommer les relations et faire apparaitre clairement leur cardinalité
+    - Supprimer la table “entrée de bâtiment” qui doit être maintenue par la BAN
+
+- Sur les modes de contributions :
+    - Approche contributive intéressante - il faudrait moduler le discours pour dire que la priorité est sur l'initialisation (étape 1) et les fluxs administratifs (étape 2) ce qui permettrait un bon premier niveau d'information.
+    - Différence par rapport aux adresses (BAN): cadre réglementaire et législatif on est plus dans le flou et ça ne facilite pas la détermination.
+    - Certains contributeurs seront certifiés sur certains aspects : communes & DGFIP pourraient se voir respectivement attribuer la compétence de validation des attributs liés au cycle de vie du bâtiment
+    - Attention aux ressources nécessaires pour venir valider ou non les différents signalements (système décentralisé) ou venir réaliser les contributions (système centralisé)
+
+
 ## ODJ
 - Préparation en vue du conseil plénier du CNIG - 30 mai 2023
 - Format de l'ID
