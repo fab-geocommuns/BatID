@@ -66,7 +66,7 @@
 
 - outil de gestion ADS pour les communes rnb.beta.gouv.fr/ads (prototype pour préfigurer l'intégration aux outils ADS par les éditeurs)
 
-![](https://s3.hedgedoc.org/demo/uploads/a59ab8ca-3fef-46d7-aed7-3a8ef4eee47e.png)
+![CR-GT-10-screen-RNB-ADS-webapp](./static/content-CR-GT-10/CR-GT-10-screen-RNB-ADS-webapp.png)
 
 - Démontrer la faisabilité de l'ajout d'un ID bâtiment dans le flux d'ADS, et préfigurer les évolutions réglementaires associées
 
@@ -76,7 +76,7 @@
 
 ### Standard Adresse-Bâti (Loïc Rebours)
 
-![](https://s3.hedgedoc.org/demo/uploads/0ff0c363-d07e-4991-96bd-795f593ef1fa.jpg)
+![CR-GT-10-standard-adresse-schema](./static/content-CR-GT-10/CR-GT-10-standard-adresse-schema.jpg)
 
 Travail actuel dans le standard adressee est de créer un cadre pour l’adresse en France, en officialisant l’adresse BAN, mais pour les objets bâtiments ça nous permet d’aller au-delà, notamment avec le « complément adresse » :
 
@@ -184,5 +184,5 @@ La partie Violet : Le bâtiment est un contexte d’attribut et d’objet, il y 
 - A vous entendre : c'est un petit standard de dépose d'une ADS qu'il faudrait  ! (avec un outil pour ceux qui veulent faire la déclaration ?) (sur un sujet similaire, on a résolu ces sujets sur DT/DICT depuis qu'on a structuré les collectes)
 - Mael sur retour sur le RNB :
 
-![](https://s3.hedgedoc.org/demo/uploads/b1550376-c2e5-4153-a944-d2cd11a7a69f.png)
-![](https://s3.hedgedoc.org/demo/uploads/9e0fc149-f0ae-4c1b-857b-0d711fa373f9.png)
+![CR-GT-10-screen-QGIS](./static/content-CR-GT-10/CR-GT-10-screen-QGIS.png)
+![CR-GT-10-screen-carto-RNB](./static/content-CR-GT-10/CR-GT-10-screen-carto-RNB.png)
