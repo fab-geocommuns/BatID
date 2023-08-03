@@ -3,7 +3,7 @@
 **Date:** 05.07.2023
 
 - [Lien vers prise de notes collaboratives via HedgeDoc](https://demo.hedgedoc.org/V4BS4EEySseL_AY0ZhGkBA?both)
-
+- [Lien vers le support Mural pdf](CR-GT-10-support-Mural.pdf)
 - [Rappel - Lien vers la définition & annexe](https://github.com/fab-geocommuns/BatID/tree/main/CNIG)
 
 **Participants:**
