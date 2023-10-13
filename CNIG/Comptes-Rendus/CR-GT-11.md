@@ -66,10 +66,12 @@ Vue d'ensemble des attributs modifiables par ces acteurs (qui ne représentent p
 
 Explications :
 - Contributions certifiantes : un flux administratif jugé comme qualifié permet de faire une modification sur une ou plusieurs informations du RNB de manière certifiée. Ce sont des flux qui concernent directement un bâtiment et non juste un flux qui est "relié" aux objets bâtiments (par ex. le flux PCRS qui ne relève pas que des bâtiments)
-- Contribution sur le terrain : une personne se déplace, dans le cadre de ses fonctions, et constate une ou plusieurs modification sur le terrain. Ils peuvent contribuer de manière non-certifié, mais amener leur regard terrain. Il sera nécessaire de tracer les modifications pour pouvoir suivre qui fait quelles modifications.
-- Contributions par les MAJ de Bases de Données Socles : Envisager comment certaines MAJ des bases de données concernant les bâtiments (ex. la BD Topo) fassent évoluer le RNB.
+- Contribution directes
+    - sur le terrain : une personne se déplace, dans le cadre de ses fonctions, et constate une ou plusieurs modification sur le terrain. Ils peuvent contribuer de manière non-certifié, mais amener leur regard terrain. 
+    - par les MAJ de Bases de Données Socles : Envisager comment certaines MAJ des bases de données concernant les bâtiments (ex. la BD Topo) fassent évoluer le RNB.
 - Signalement : Un certain niveau d'information, on ne sait pas si l'information est qualifiée ou autre, et cette information permet d'informer d'une évolution ou d'une erreur dans le RNB.
 
+dans les cas, il sera nécessaire de tracer les modifications pour pouvoir suivre qui fait quelles modifications et quand.
 ![](./static/content-CR-GT-11/d9fd87aa-c09c-4bce-a480-cc42f7984e3d.png)
 
 ## Questions générales :
@@ -87,7 +89,7 @@ Explications :
         - Dans le RIAL, un des agents créé un nouveau local, il faut que le référentiel créé tout de suite un ID pour qu'il circule dans les BDD. Il va donc falloir initialiser tous les locaux avec l'ID du batiment.
         - Quand on a un contribuable qui nous déclare un local et qu'on a pas de bâtiment, il va falloir récupérer l'ID bâtiment et avoir la possibilité d'en créer un.
         - Pas une énorme difficulté mais du temps technique
-    - Remarque sur la différence entre la contribution certifiante qui provient du géomètre et le foncier innovant :
+    - Remarque sur la différence entre la contribution certifiante qui provient du géomètre et le foncier innovant (FI):
         - le FI c'est un module, il y a tout ce qui est reçu autour de la surveillance de la construction des locaux. Dans le FI un opérateur vérifie que c'est bon et s'il y a une conséquence fiscale, immédiatement il y a une demande de déclaration.
         - Typiquement ce qui est relatif à du certifiant : déclaration fiscale + géomètre. On sait qu'il y a une vérification terrain. Le FI est lui plutot un canal d'indice et il y a moins de ressource pour vérifier l'information.
 
@@ -103,7 +105,7 @@ Explications :
     - Même si ça marche, il reste que c'est un mille feuille de producteurs et de réutilisateurs. Dans tous les cas il y a des zones où il n'y aura pas de ressources disponibles.
     - Donc la question c'est est ce que l'approche OSM qui avec une complexité organisationnelle accepte les remontées d'informations de n'importe qui, avec une volonté ensuite de mettre des indices de confiance.
         - De prime abord, on aurait même pas le volet "contribution" vs. "signalement" mais maximiser la possibilité de contribution direct. OSM : possibilité de modifier un objet, et traité ensuite automatiquement, avec aussi parfois des modérateurs humains. Et parfois on demande à la communauté de donner un avis et trancher. Nos processus administratifs sont complexes, et donc ça fait un effet filtre avant qu'il y ai une chance de signalement qui arrive au bout. Un enjeu de temps et de compétence et de ressources.
-    - Il est porté à la connaissance des  participants l'existence de https://moncomptepro.beta.gouv.fr/ qui pourrait peut-être être le chainon manquant dans l'authentification. AgentConnect est en effet réservé aux agents de l'Etat exclusivement.
+    - Il est porté à la connaissance des participants l'existence de https://moncomptepro.beta.gouv.fr/ qui pourrait peut-être être le chainon manquant dans l'authentification. AgentConnect est en effet réservé aux agents de l'Etat exclusivement (pas les communes etc)
 
 - **Côté DGFIP réaction** : on voit qu'on a des remontées d'usagers sur le plan cadastral et c'est compliqué d'avoir les ressources pour les traiter. Donc intéressant l'idée de prendre toutes les remarques, et ensuite d'essayer de les qualifier en regardant par l'identification. Il faut essayer de trouver une méthode pour identifier les gens, et si on sait que ça provient d'un type d'utilisateur on accepte la contribution de facto. Sinon ça va être très compliqué à traiter au démarrage.
     - Enjeu : accepter beaucoup de contribution, mais voir l'identification du contributeur. Pour voir si un type d'acteur a bcp amélioré le RNB, et on le passe en contribution certifiante. Et à l'inverse d'identifier ceux qui dégradent
@@ -140,10 +142,10 @@ Explications :
     -   distinguer différencier aussi les signalements. Par exemple :  1) du terrain (individuel) 2) par confrontation avec des bases métieurs utilisant le référentiel (score positif pour un batiment si il est bcp utilisé/référencé). Il faudrait peut être une 4e bulle de confrontation avec les utilisateurs du RNB qu'il faudrait mettre en exergue à part.
 
     -   Travailler sur :
-1) contrôle aux flux
-2) synchro au référentiel BAN
-3) signalements sur données RNB
-4) travaux d'évaluation qualité transverse
+        - contrôle aux flux
+        - synchro au référentiel BAN
+        - signalements sur données RNB
+        - travaux d'évaluation qualité transverse
 
     - il faut de la donnée la plus tracé. Ce n'est pas l'objet réel mais aussi la description. Il faut bien suivre l'identification.
         - A préciser : il faut considérer que chaque modification a été faite par qui, quand etc...
