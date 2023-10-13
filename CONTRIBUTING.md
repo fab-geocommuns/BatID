@@ -6,7 +6,7 @@ Dans un souci d'ouverture, de bienveillance et de  coopération, nous sommes don
 
 - Vous pouvez ouvrir une issue pour aborder un sujet ou soulever une problématique
 
-- Nous contacter directement par [mail](batid@beta.gouv.fr)
+- Nous contacter directement par [mail](rnb@beta.gouv.fr)
 
 - Ouvrir une pull request pour apporter une modification à ce projet
 
